@@ -3,7 +3,7 @@ require 'mechanize'
 
 # Scraping from Masterview 2.0
 
-def scrape_page(page, info_url_base, comment_url)
+def scrape_page(page, comment_url)
   page.at("table.rgMasterTable").search("tr.rgRow,tr.rgAltRow").each do |tr|
     tds = tr.search('td').map{|t| t.inner_html.gsub("\r\n", "").strip}
     day, month, year = tds[2].split("/").map{|s| s.to_i}
@@ -12,7 +12,7 @@ def scrape_page(page, info_url_base, comment_url)
       "council_reference" => tds[1],
       "date_received" => Date.new(year, month, day).to_s,
       "description" => tds[3].gsub("&amp;", "&").split("<br>")[1].squeeze.strip,
-      "address" => tds[3].gsub("&amp;", "&").split("<br>")[0].squeeze.strip + ", NSW",
+      "address" => tds[3].gsub("&amp;", "&").split("<br>")[0].gsub("\r", " ").squeeze.strip + ", NSW",
       "date_scraped" => Date.today.to_s,
       "comment_url" => comment_url
     }
@@ -41,10 +41,9 @@ def click(page, doc)
   end
 end
 
-url_base = "http://infomaster.griffith.nsw.gov.au/DATrackingUI/modules/applicationmaster/default.aspx"
-info_url_base = url_base + "?page=wrapper&key="
-url = url_base + "?page=found&1=thismonth&4a=10&6=F"
-comment_url = "mailto:council@griffith.nsw.gov.au"
+url_base = "http://hsconline.hornsby.nsw.gov.au/appenquiry/modules/applicationmaster/default.aspx"
+url = url_base + "?page=found&1=thismonth&4a=437&6=F"
+comment_url = "mailto:devmail@hornsby.nsw.gov.au"
 
 agent = Mechanize.new
 
@@ -52,7 +51,7 @@ agent = Mechanize.new
 page = agent.get(url)
 
 form = page.forms.first
-button = form.button_with(value: "Agree")
+button = form.button_with(value: "I Agree")
 form.submit(button)
 # It doesn't even redirect to the correct place. Ugh
 page = agent.get(url)
@@ -61,7 +60,7 @@ next_page_link = true
 
 while next_page_link
   puts "Scraping page #{current_page_no}..."
-  scrape_page(page, info_url_base, comment_url)
+  scrape_page(page, comment_url)
 
   page_links = page.at(".rgNumPart")
   if page_links
