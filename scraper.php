@@ -9,12 +9,22 @@ date_default_timezone_set('Australia/Sydney');
 $url_base = "http://hscenquiry.hornsby.nsw.gov.au";
 $comment_base = "mailto:devmail@hornsby.nsw.gov.au?subject=Development Application Enquiry: ";
 
-# Default to 'thismonth', use MORPH_PERIOD to change to 'lastmonth'
-if (empty(getenv('MORPH_PERIOD'))) {
-    $da_page = $url_base . "/Pages/XC.Track/SearchApplication.aspx?d=thismonth&k=LodgementDate&t=DA";
-} else {
-    $da_page = $url_base . "/Pages/XC.Track/SearchApplication.aspx?d=" .getenv('MORPH_PERIOD'). "&k=LodgementDate&t=DA";
-}
+    # Default to 'thisweek', use MORPH_PERIOD to change to 'thismonth' or 'lastmonth' for data recovery
+    switch(getenv('MORPH_PERIOD')) {
+        case 'thismonth' :
+            $period = 'thismonth';
+            break;
+        case 'lastmonth' :
+            $period = 'lastmonth';
+            break;
+        case 'thisweek' :
+        default         :
+            $period = 'thisweek';
+            break;
+    }
+
+$da_page = $url_base . "/Pages/XC.Track/SearchApplication.aspx?d=" .$period. "&k=LodgementDate&t=DA";
+
 
 $mainUrl = scraperWiki::scrape("$da_page");
 $dom = new simple_html_dom();
