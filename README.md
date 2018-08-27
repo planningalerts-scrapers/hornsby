@@ -1,10 +1,17 @@
 Hornsby Shire Council Scraper
 -----------------------------
 
-Hornsby Shire Council site is very easy to scrape, only need to scape a single page to get the entire month of DAs. No pagination, yay... Three cheers to  this council !!!
+This site is a typical .NET site involves the followings.
 
-However, the lack of HTML class, id, etc to identify the data, it requires a few 'explode' in PHP to get the right information.
+* Server - XC.Track
+* Cookie - No
+* User-Agent - Maybe
+* RSS - Yes
 
-By default: it will look for 'thisweek' of DAs, for data recovery you can set the MORPH_PERIOD=thismonth or MORPH_PERIOD=lastmonth
+Setup MORPH_PERIOD for data recovery, available options are
 
-Still, not bad...Thanks and Enjoy
+* thisweek (default)
+* thismonth
+* lastmonth
+
+Enjoy
