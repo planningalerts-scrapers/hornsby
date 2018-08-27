@@ -25,6 +25,7 @@ switch(getenv('MORPH_PERIOD')) {
         $period = 'thisweek';
         break;
 }
+print "Getting data for `" .$period. "`, changable via MORPH_PERIOD environment\n";
 
 $rss_feed = $url_base . "/Pages/XC.Track/SearchApplication.aspx?d=" .$period. "&k=LodgementDate&t=DA&o=rss";
 
