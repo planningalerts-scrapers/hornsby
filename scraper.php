@@ -1,68 +1,77 @@
 <?php
 ### Hornsby Shire Council scraper
 
-require 'scraperwiki.php'; 
-require 'simple_html_dom.php';
+require_once 'vendor/autoload.php';
+require_once 'vendor/openaustralia/scraperwiki/scraperwiki.php';
+
+use PGuardiario\PGBrowser;
 
 date_default_timezone_set('Australia/Sydney');
 
 $url_base = "http://hscenquiry.hornsby.nsw.gov.au";
-$comment_base = "mailto:devmail@hornsby.nsw.gov.au?subject=Development Application Enquiry: ";
+$comment_base = "mailto:GIPA@hornsby.nsw.gov.au?subject=Development Application Enquiry: ";
+$date_format = 'Y-m-d';
 
-# Default to 'thismonth', use MORPH_PERIOD to change to 'lastmonth'
-if (empty(getenv('MORPH_PERIOD'))) {
-    $da_page = $url_base . "/Pages/XC.Track/SearchApplication.aspx?d=thismonth&k=LodgementDate&t=DA";
-} else {
-    $da_page = $url_base . "/Pages/XC.Track/SearchApplication.aspx?d=" .getenv('MORPH_PERIOD'). "&k=LodgementDate&t=DA";
+# Default to 'thisweek', use MORPH_PERIOD to change to 'thismonth' or 'lastmonth' for data recovery
+switch(getenv('MORPH_PERIOD')) {
+    case 'thismonth' :
+        $period = 'thismonth';
+        break;
+    case 'lastmonth' :
+        $period = 'lastmonth';
+        break;
+    case 'thisweek' :
+    default         :
+        $period = 'thisweek';
+        break;
 }
+print "Getting data for `" .$period. "`, changable via MORPH_PERIOD environment\n";
 
-$mainUrl = scraperWiki::scrape("$da_page");
-$dom = new simple_html_dom();
-$dom->load($mainUrl);
+$rss_feed = $url_base . "/Pages/XC.Track/SearchApplication.aspx?d=" .$period. "&k=LodgementDate&t=DA&o=rss";
 
-# Just focus on the a section of the web site
-$dataset = $dom->find("div[id=hiddenresult] div[class=result]");
+$browser = new PGBrowser();
+$browser->setUserAgent("Mozilla/5.0 (compatible; PlanningAlerts/0.1; +http://www.planningalerts.org.au/)");
+$rss_response = $browser->get($rss_feed);
+$rss = simplexml_load_string($rss_response->html);
 
-# The usual, look for the data set and if needed, save it
-foreach($dataset as $record) {
-    # Slow way to transform the date but it works
-    $date_received = explode('<br />', trim($record->find("div", 2)->innertext));
-    $date_received = preg_replace('/\s+/', ' ', $date_received[0]);
-    $date_received = explode(' ', $date_received);
-    $date_received = explode('/', trim($date_received[1]));
-    $date_received = "$date_received[2]-$date_received[1]-$date_received[0]";
-    
-    # Prep some data before hand
-    $council_reference = trim($record->find("a",0)->plaintext);
-    if ($council_reference[strlen($council_reference)-1] === "/") {
-        $council_reference = substr($council_reference, 0, -1);
-    }
-    $desc = explode('<br />', $record->find("div",1)->innertext);
-    $desc = explode('-', $desc[1], 2);
-    $desc = html_entity_decode($desc[1]);
-    $desc = trim(preg_replace('/\s+/', ' ', $desc));
-    $desc = ucwords(strtolower($desc));    
 
-    # Put all information in an array
-    $application = array (
+// Iterate through each application
+foreach ($rss->channel->item as $item)
+{
+    // RSS title appears to be the council reference
+    $rss_title = explode(' - ', $item->title);
+    $council_reference = trim($rss_title[0]);
+
+    // RSS description appears to be the address followed by the actual description
+    $rss_description = preg_split('/\./', $item->description, 2);
+    $address = trim($rss_description[0]);
+    $address = trim(preg_replace('/\s+/', ' ', $address));
+
+    $description = trim($rss_description[1]);
+    $description = trim(preg_replace('/\s+/', ' ', $description));
+
+    $date_scraped = date($date_format);
+    $date_received = date($date_format, strtotime($item->pubDate));
+
+    $record = array(
         'council_reference' => $council_reference,
-        'address' => trim(html_entity_decode($record->find("strong",0)->plaintext)) . "  AUSTRALIA",
-        'description' => $desc,
-        'info_url' => $url_base . substr($record->find("a",0)->href, 5),
+        'address' => $address,
+        'description' => $description,
+        'info_url' => $url_base . trim($item->link),
         'comment_url' => $comment_base . $council_reference,
-        'date_scraped' => date('Y-m-d'),
-        'date_received' => date('Y-m-d', strtotime($date_received))
+        'date_scraped' => $date_scraped,
+        'date_received' => $date_received
     );
 
-    # Check if record exist, if not, INSERT, else do nothing
-    $existingRecords = scraperwiki::select("* from data where `council_reference`='" . $application['council_reference'] . "'");
-    if (count($existingRecords) == 0) {
-        print ("Saving record " . $application['council_reference'] . "\n");
-        # print_r ($application);
-        scraperwiki::save(array('council_reference'), $application);
-    } else {
-        print ("Skipping already saved record " . $application['council_reference'] . "\n");
+    $existingRecords = scraperwiki::select("* from data where `council_reference`='" . $record['council_reference'] . "'");
+    if (sizeof($existingRecords) == 0)
+    {
+//         var_dump($record);
+        print ("Saving record " .$record['council_reference']. " - " .$record['address']. "\n");
+        scraperwiki::save(array('council_reference'), $record);
+    }
+    else
+    {
+        print ("Skipping already saved record " . $record['council_reference'] . "\n");
     }
 }
-
-?>
