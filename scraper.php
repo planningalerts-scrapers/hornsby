@@ -47,7 +47,7 @@ foreach ($rss->channel->item as $item)
     $address = trim($rss_description[0]);
     $address = trim(preg_replace('/\s+/', ' ', $address));
 
-    $description = trim($item->category . ' -' . $rss_description[1]);
+    $description = trim($rss_description[1]);
     $description = trim(preg_replace('/\s+/', ' ', $description));
 
     $date_scraped = date($date_format);
