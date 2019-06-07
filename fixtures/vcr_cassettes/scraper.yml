@@ -1,0 +1,1062 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?d=last14days&k=LodgementDate&o=xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - hscenquiry.hornsby.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/xml; charset=utf-8
+      Set-Cookie:
+      - ASP.NET_SessionId=c0eqobuxstc05bfwbmgb4v4o; path=/; HttpOnly
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Fri, 07 Jun 2019 01:45:17 GMT
+      Content-Length:
+      - '90057'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\"?><NewDataSet>\r\n  <Application>\r\n    <ApplicationId>907341</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/339/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>339</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>CONSTRUCTION OF A NEW  DWELLING HOUSE, SWIMMING POOL
+        &amp; SHED AND CHANGE OF USE OF EXISTING DWELLING TO A SECONDARY DWELLING</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-07T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-06-04T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 2 - Major                         </OfficerTitle>\r\n
+        \   <Officer>Development Assessments                           </Officer>\r\n
+        \   <ApplicationIdS>907341</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>907341</ApplicationId>\r\n
+        \     <DeterminationDate>2019-05-16T16:47:56+10:00</DeterminationDate>\r\n
+        \     <EffectiveDate>2019-05-16T00:00:00+10:00</EffectiveDate>\r\n      <DeterminationType>Rejected</DeterminationType>\r\n
+        \     <AuthorityParty>Delegated                                         </AuthorityParty>\r\n
+        \     <ApplicationIdS>907341</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Determination>\r\n      <ApplicationId>907341</ApplicationId>\r\n      <DeterminationDate>2019-06-04T15:05:50+10:00</DeterminationDate>\r\n
+        \     <EffectiveDate>2019-06-04T00:00:00+10:00</EffectiveDate>\r\n      <DeterminationType>Approved</DeterminationType>\r\n
+        \     <AuthorityParty>Delegated                                         </AuthorityParty>\r\n
+        \     <ApplicationIdS>907341</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>331690</PropertyId>\r\n      <ApplicationId>907341</ApplicationId>\r\n
+        \     <Line1>247 New Line Road DURAL  NSW  2158</Line1>\r\n      <Line2 />\r\n
+        \     <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>907341</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>273614</PartyId>\r\n      <ApplicationId>907341</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>ZEAITER</FamilyName>\r\n
+        \     <GivenName>CHARLES STEVEN</GivenName>\r\n      <Initial>CS   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Mr Charles Steven Zeaiter</FullName>\r\n
+        \     <ApplicationIdS>907341</ApplicationIdS>\r\n    </Party>\r\n    <Event>\r\n
+        \     <ApplicationId>907341</ApplicationId>\r\n      <ApplicationIdS>907341</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>910641</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/102/2018/A</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2018</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>102</ReferenceNumberNumber>\r\n
+        \   <Amendment>A</Amendment>\r\n    <ApplicationDetails>SECTION 4.55 (2) -
+        ALTERATIONS &amp; ADDITIONS TO A DWELLING HOUSE</ApplicationDetails>\r\n    <CreatedDate>2019-05-24T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-24T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 1 - Minor                         </OfficerTitle>\r\n    <Officer>Tomasz
+        Mojsiejuk                                  </Officer>\r\n    <ApplicationIdS>910641</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>321574</PropertyId>\r\n      <ApplicationId>910641</ApplicationId>\r\n
+        \     <Line1>104 Quarter Sessions Road WESTLEIGH  NSW  2120</Line1>\r\n      <Line2
+        />\r\n      <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>910641</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>773609</PartyId>\r\n      <ApplicationId>910641</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GODSMARK</FamilyName>\r\n
+        \     <GivenName>PHILIP CHARLES</GivenName>\r\n      <Initial>PC   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Mr Philip Charles Godsmark</FullName>\r\n
+        \     <ApplicationIdS>910641</ApplicationIdS>\r\n    </Party>\r\n    <Event>\r\n
+        \     <ApplicationId>910641</ApplicationId>\r\n      <ApplicationIdS>910641</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>910661</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/396/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>396</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>DEMOLITION OF EXISTING DWELLING</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-24T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-24T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 1 - Minor                         </OfficerTitle>\r\n
+        \   <Officer>Lawrence Huang                                    </Officer>\r\n
+        \   <ApplicationIdS>910661</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>297484</PropertyId>\r\n
+        \     <ApplicationId>910661</ApplicationId>\r\n      <Line1>6 Bancroft Avenue
+        WEST PENNANT HILLS  NSW  2125</Line1>\r\n      <Line2 />\r\n      <Role>Property
+        Applications                             </Role>\r\n      <ApplicationIdS>910661</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>390129</PartyId>\r\n      <ApplicationId>910661</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>LAKSHMANAN</FamilyName>\r\n
+        \     <GivenName>SAJIKUMAR </GivenName>\r\n      <Initial>S    </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Mr Sajikumar Lakshmanan</FullName>\r\n
+        \     <ApplicationIdS>910661</ApplicationIdS>\r\n    </Party>\r\n    <Event>\r\n
+        \     <ApplicationId>910661</ApplicationId>\r\n      <ApplicationIdS>910661</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>910671</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/144/2019/A</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>144</ReferenceNumberNumber>\r\n
+        \   <Amendment>A</Amendment>\r\n    <ApplicationDetails>SECTION 4.55 (1) -
+        DWELLING HOUSE</ApplicationDetails>\r\n    <CreatedDate>2019-05-24T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-24T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 1 - Minor                         </OfficerTitle>\r\n    <Officer>Tim
+        Buwalda                                       </Officer>\r\n    <ApplicationIdS>910671</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>910671</ApplicationId>\r\n      <DeterminationDate>2019-05-29T14:39:37+10:00</DeterminationDate>\r\n
+        \     <EffectiveDate>2019-05-29T00:00:00+10:00</EffectiveDate>\r\n      <DeterminationType>Approved</DeterminationType>\r\n
+        \     <AuthorityParty>Delegated                                         </AuthorityParty>\r\n
+        \     <ApplicationIdS>910671</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>307632</PropertyId>\r\n      <ApplicationId>910671</ApplicationId>\r\n
+        \     <Line1>124 Francis Greenway Drive CHERRYBROOK  NSW  2126</Line1>\r\n
+        \     <Line2 />\r\n      <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>910671</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>457961</PartyId>\r\n      <ApplicationId>910671</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>ECODESIGN</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Ecodesign</FullName>\r\n      <ApplicationIdS>910671</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>910671</ApplicationId>\r\n
+        \     <ApplicationIdS>910671</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>910681</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/397/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>397</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>INCORRECTLY LODGED</ApplicationDetails>\r\n    <CreatedDate>2019-05-24T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-24T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 2 - Major                         </OfficerTitle>\r\n    <Officer>Development
+        Assessments                           </Officer>\r\n    <ApplicationIdS>910681</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>910681</ApplicationId>\r\n      <DeterminationDate>2019-05-30T15:52:21+10:00</DeterminationDate>\r\n
+        \     <EffectiveDate>2019-05-30T00:00:00+10:00</EffectiveDate>\r\n      <DeterminationType>Cancelled</DeterminationType>\r\n
+        \     <AuthorityParty>Council                                           </AuthorityParty>\r\n
+        \     <ApplicationIdS>910681</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>303429</PropertyId>\r\n      <ApplicationId>910681</ApplicationId>\r\n
+        \     <Line1>156 Copeland Road BEECROFT  NSW  2119</Line1>\r\n      <Line2
+        />\r\n      <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>910681</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>381422</PartyId>\r\n      <ApplicationId>910681</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>SPICER</FamilyName>\r\n
+        \     <GivenName>ROSEMARY JOY</GivenName>\r\n      <Initial>RJ   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Mrs Rosemary Joy Spicer</FullName>\r\n
+        \     <ApplicationIdS>910681</ApplicationIdS>\r\n    </Party>\r\n    <Event>\r\n
+        \     <ApplicationId>910681</ApplicationId>\r\n      <ApplicationIdS>910681</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>910721</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/399/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>399</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>CONSTRUCTION OF A NEW DWELLING HOUSE</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-24T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-24T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 1 - Minor                         </OfficerTitle>\r\n
+        \   <Officer>Tim Buwalda                                       </Officer>\r\n
+        \   <ApplicationIdS>910721</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>299955</PropertyId>\r\n
+        \     <ApplicationId>910721</ApplicationId>\r\n      <Line1>3 Bridgeview Crescent
+        THORNLEIGH  NSW  2120</Line1>\r\n      <Line2 />\r\n      <Role>Property Applications
+        \                            </Role>\r\n      <ApplicationIdS>910721</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>499648</PartyId>\r\n      <ApplicationId>910721</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>METRICON HOMES PTY LTD</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Metricon Homes Pty Ltd</FullName>\r\n      <ApplicationIdS>910721</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>910721</ApplicationId>\r\n
+        \     <ApplicationIdS>910721</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>910733</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/400/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>400</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>SHOP FIT OUT</ApplicationDetails>\r\n    <CreatedDate>2019-05-24T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-24T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 2 - Major                         </OfficerTitle>\r\n    <Officer>Tomasz
+        Mojsiejuk                                  </Officer>\r\n    <ApplicationIdS>910733</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>332358</PropertyId>\r\n      <ApplicationId>910733</ApplicationId>\r\n
+        \     <Line1>511 Pacific Highway MOUNT COLAH  NSW  2079</Line1>\r\n      <Line2
+        />\r\n      <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>910733</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>605037</PartyId>\r\n      <ApplicationId>910733</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>PROTECH HOSPITALITY</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Protech Hospitality</FullName>\r\n      <ApplicationIdS>910733</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>910733</ApplicationId>\r\n
+        \     <ApplicationIdS>910733</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>910853</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/402/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>402</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>RESIDENTIAL ALTERATIONS &amp; ADDITIONS</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-24T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-24T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 1 - Minor                         </OfficerTitle>\r\n
+        \   <Officer>Lawrence Huang                                    </Officer>\r\n
+        \   <ApplicationIdS>910853</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>319362</PropertyId>\r\n
+        \     <ApplicationId>910853</ApplicationId>\r\n      <Line1>79 Old Berowra
+        Road HORNSBY  NSW  2077</Line1>\r\n      <Line2 />\r\n      <Role>Property
+        Applications                             </Role>\r\n      <ApplicationIdS>910853</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>108686</PartyId>\r\n      <ApplicationId>910853</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>BALMER</FamilyName>\r\n
+        \     <GivenName>KARIN </GivenName>\r\n      <Initial>K    </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Miss Karin Balmer</FullName>\r\n
+        \     <ApplicationIdS>910853</ApplicationIdS>\r\n    </Party>\r\n    <Event>\r\n
+        \     <ApplicationId>910853</ApplicationId>\r\n      <ApplicationIdS>910853</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>910874</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/403/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>403</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>RESIDENTIAL ALTERATIONS &amp; ADDITIONS - SWIMMING
+        POOL - HERITAGE</ApplicationDetails>\r\n    <CreatedDate>2019-05-24T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-24T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 2 - Major                         </OfficerTitle>\r\n    <Officer>Tim
+        Buwalda                                       </Officer>\r\n    <ApplicationIdS>910874</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>300509</PropertyId>\r\n      <ApplicationId>910874</ApplicationId>\r\n
+        \     <Line1>51 Bundarra Avenue WAHROONGA  NSW  2076</Line1>\r\n      <Line2
+        />\r\n      <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>910874</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>469114</PartyId>\r\n      <ApplicationId>910874</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>BUENA VISTA HOME DESIGNS</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Buena Vista Home Designs</FullName>\r\n      <ApplicationIdS>910874</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>910874</ApplicationId>\r\n
+        \     <ApplicationIdS>910874</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>910897</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/404/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>404</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>CONSTRUCTION OF A SECONDARY DWELLING AND ANCILLARY
+        STRUCTURES</ApplicationDetails>\r\n    <CreatedDate>2019-05-24T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-24T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 2 - Major                         </OfficerTitle>\r\n    <Officer>Madeleine
+        Brown                                   </Officer>\r\n    <ApplicationIdS>910897</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>302252</PropertyId>\r\n      <ApplicationId>910897</ApplicationId>\r\n
+        \     <Line1>83 Cheltenham Road CHELTENHAM  NSW  2119</Line1>\r\n      <Line2
+        />\r\n      <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>910897</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>477528</PartyId>\r\n      <ApplicationId>910897</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GRANNY FLAT SOLUTIONS PTY
+        LTD</FamilyName>\r\n      <GivenName xml:space=\"preserve\"> </GivenName>\r\n
+        \     <NameType>C</NameType>\r\n      <FullName>Granny Flat Solutions Pty
+        Ltd</FullName>\r\n      <ApplicationIdS>910897</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Event>\r\n      <ApplicationId>910897</ApplicationId>\r\n      <ApplicationIdS>910897</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>911037</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/1097/2018/A</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2018</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>1097</ReferenceNumberNumber>\r\n
+        \   <Amendment>A</Amendment>\r\n    <ApplicationDetails>SECTION 4.55 (1A)
+        - CONSTRUCTION OF A DWELLING HOUSE, DETACHED GARAGE AND SECONDARY DWELLING</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-27T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-27T00:00:00+10:00</LodgementDate>\r\n
+        \   <Officer>Stephen Dobbs                                     </Officer>\r\n
+        \   <ApplicationIdS>911037</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>371501</PropertyId>\r\n
+        \     <ApplicationId>911037</ApplicationId>\r\n      <Line1>30 Hall Road HORNSBY
+        \ NSW  2077</Line1>\r\n      <Line2 />\r\n      <Role>Property Applications
+        \                            </Role>\r\n      <ApplicationIdS>911037</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>355733</PartyId>\r\n      <ApplicationId>911037</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>RAWSON HOMES PTY LTD</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Rawson Homes Pty Ltd</FullName>\r\n      <ApplicationIdS>911037</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>911037</ApplicationId>\r\n
+        \     <ApplicationIdS>911037</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>911057</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/406/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>406</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>RESIDENTIAL ALTERATIONS &amp; ADDITIONS - SWIMMING
+        POOL</ApplicationDetails>\r\n    <CreatedDate>2019-05-27T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-27T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 1 - Minor                         </OfficerTitle>\r\n    <Officer>Tim
+        Buwalda                                       </Officer>\r\n    <ApplicationIdS>911057</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>304229</PropertyId>\r\n      <ApplicationId>911057</ApplicationId>\r\n
+        \     <Line1>71 Dartford Road THORNLEIGH  NSW  2120</Line1>\r\n      <Line2
+        />\r\n      <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>911057</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>484654</PartyId>\r\n      <ApplicationId>911057</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>RAY</FamilyName>\r\n      <GivenName>JACQUI
+        </GivenName>\r\n      <Initial>J    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Ms Jacqui Ray</FullName>\r\n      <ApplicationIdS>911057</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>911057</ApplicationId>\r\n
+        \     <ApplicationIdS>911057</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>911143</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/409/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>409</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>CHANGE OF USE OF EXISTING DWELLING TO A GROUP HOME
+        (PERMANENT) CONTAINING 3 BEDROOMS</ApplicationDetails>\r\n    <CreatedDate>2019-05-27T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-27T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 2 - Major                         </OfficerTitle>\r\n    <Officer>Caroline
+        Maeshian                                 </Officer>\r\n    <ApplicationIdS>911143</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>329114</PropertyId>\r\n      <ApplicationId>911143</ApplicationId>\r\n
+        \     <Line1>39 Wisteria Crescent CHERRYBROOK  NSW  2126</Line1>\r\n      <Line2
+        />\r\n      <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>911143</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>202559</PartyId>\r\n      <ApplicationId>911143</ApplicationId>\r\n
+        \     <PartyRole>Principal Certifying Authority                    </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>HORNSBY SHIRE COUNCIL 3</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Hornsby Shire Council - 3.</FullName>\r\n      <ApplicationIdS>911143</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>928140</PartyId>\r\n      <ApplicationId>911143</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>SAHARA SERVICES AUSTRALIA
+        PTY LTD</FamilyName>\r\n      <GivenName xml:space=\"preserve\"> </GivenName>\r\n
+        \     <NameType>C</NameType>\r\n      <FullName>Sahara Services Australia
+        Pty Ltd</FullName>\r\n      <ApplicationIdS>911143</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Event>\r\n      <ApplicationId>911143</ApplicationId>\r\n      <ApplicationIdS>911143</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>911173</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/1567/2014/A</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2014</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>1567</ReferenceNumberNumber>\r\n
+        \   <Amendment>A</Amendment>\r\n    <ApplicationDetails>SECTION 4.55 (2) -
+        ERECTION OF A NEW PRINCIPAL AND SECONDARY DWELLING</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-27T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-27T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 2 - Major                         </OfficerTitle>\r\n
+        \   <Officer>Thomas Dales                                      </Officer>\r\n
+        \   <ApplicationIdS>911173</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>366173</PropertyId>\r\n
+        \     <ApplicationId>911173</ApplicationId>\r\n      <Line1>1B Pine Valley
+        Road GALSTON  NSW  2159</Line1>\r\n      <Line2 />\r\n      <Role>Property
+        Applications                             </Role>\r\n      <ApplicationIdS>911173</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>493920</PartyId>\r\n      <ApplicationId>911173</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>SCHUTTE</FamilyName>\r\n
+        \     <GivenName>CORNELIUS JANSEN</GivenName>\r\n      <Initial>CJ   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Mr Cornelius Jansen Schutte</FullName>\r\n
+        \     <ApplicationIdS>911173</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <PartyId>493921</PartyId>\r\n      <ApplicationId>911173</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>SCHUTTE</FamilyName>\r\n
+        \     <GivenName>ALETTA JOHANNA</GivenName>\r\n      <Initial>AJM  </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Mrs Aletta Johanna Magdalena
+        Schutte</FullName>\r\n      <ApplicationIdS>911173</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Event>\r\n      <ApplicationId>911173</ApplicationId>\r\n      <ApplicationIdS>911173</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>911226</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/410/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>410</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>TORRENS TITLE SUBDIVISION OF ONE LOT INTO TWO LOTS
+        - RETAIN EXISTING DWELLING</ApplicationDetails>\r\n    <CreatedDate>2019-05-28T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-28T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 2 - Major                         </OfficerTitle>\r\n    <Officer>Lawrence
+        Huang                                    </Officer>\r\n    <ApplicationIdS>911226</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>330607</PropertyId>\r\n      <ApplicationId>911226</ApplicationId>\r\n
+        \     <Line1>108 Boundary Road PENNANT HILLS  NSW  2120</Line1>\r\n      <Line2
+        />\r\n      <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>911226</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>516471</PartyId>\r\n      <ApplicationId>911226</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GARDEN HOMES</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Garden Homes</FullName>\r\n      <ApplicationIdS>911226</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>911226</ApplicationId>\r\n
+        \     <ApplicationIdS>911226</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>911246</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/411/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>411</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>DWELLING HOUSE</ApplicationDetails>\r\n    <CreatedDate>2019-05-28T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-28T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 1 - Minor                         </OfficerTitle>\r\n    <Officer>Madeleine
+        Brown                                   </Officer>\r\n    <ApplicationIdS>911246</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>304792</PropertyId>\r\n      <ApplicationId>911246</ApplicationId>\r\n
+        \     <Line1>14 Derby Road HORNSBY  NSW  2077</Line1>\r\n      <Line2 />\r\n
+        \     <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>911246</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>243382</PartyId>\r\n      <ApplicationId>911246</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>ALLCASTLE HOMES PTY LTD</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Allcastle Homes Pty Ltd</FullName>\r\n      <ApplicationIdS>911246</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>911246</ApplicationId>\r\n
+        \     <ApplicationIdS>911246</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>911266</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/413/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>413</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>TELECOMMUNICATIONS FACILITY - RAILWAY LAND, OPPOSITE
+        BERYL AVENUE, MOUNT COLAH</ApplicationDetails>\r\n    <CreatedDate>2019-05-28T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-28T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 2 - Major                         </OfficerTitle>\r\n    <Officer>Benjamin
+        Jones                                    </Officer>\r\n    <ApplicationIdS>911266</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>372007</PropertyId>\r\n      <ApplicationId>911266</ApplicationId>\r\n
+        \     <Line1>Lot 1029 DP 1192343 Pacific Highway MOUNT COLAH  NSW  2079</Line1>\r\n
+        \     <Line2 />\r\n      <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>911266</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>476007</PartyId>\r\n      <ApplicationId>911266</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>TELSTRA CORPORATION LIMITED</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Telstra Corporation Limited</FullName>\r\n      <ApplicationIdS>911266</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>911266</ApplicationId>\r\n
+        \     <ApplicationIdS>911266</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>911296</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/414/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>414</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>TELECOMMUNICATIONS FACILITY - PACIFIC HIGHWAY, NORTH
+        OF BEROWRA RAILWAY STATION</ApplicationDetails>\r\n    <CreatedDate>2019-05-28T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-28T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 2 - Major                         </OfficerTitle>\r\n    <Officer>Benjamin
+        Jones                                    </Officer>\r\n    <ApplicationIdS>911296</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>373515</PropertyId>\r\n      <ApplicationId>911296</ApplicationId>\r\n
+        \     <Line1>Lot 71 DP 1204750 Pacific Highway BEROWRA  NSW  2081</Line1>\r\n
+        \     <Line2 />\r\n      <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>911296</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>958471</PartyId>\r\n      <ApplicationId>911296</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>TELSTRA CORPORATION LTD</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Telstra Corporation Ltd</FullName>\r\n      <ApplicationIdS>911296</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>911296</ApplicationId>\r\n
+        \     <ApplicationIdS>911296</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>911316</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/415/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>415</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>TELECOMMUNICATIONS FACILITY - COWAN</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-28T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-28T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 2 - Major                         </OfficerTitle>\r\n
+        \   <Officer>Benjamin Jones                                    </Officer>\r\n
+        \   <ApplicationIdS>911316</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>371287</PropertyId>\r\n
+        \     <ApplicationId>911316</ApplicationId>\r\n      <Line1>Railway Land Pacific
+        Highway COWAN  NSW  2081</Line1>\r\n      <Line2 />\r\n      <Role>Property
+        Applications                             </Role>\r\n      <ApplicationIdS>911316</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>958471</PartyId>\r\n      <ApplicationId>911316</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>TELSTRA CORPORATION LTD</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Telstra Corporation Ltd</FullName>\r\n      <ApplicationIdS>911316</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>911316</ApplicationId>\r\n
+        \     <ApplicationIdS>911316</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>911346</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/416/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>416</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>TELECOMMUNICATIONS FACILITY - BROOKLYN</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-28T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-28T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 2 - Major                         </OfficerTitle>\r\n
+        \   <Officer>Benjamin Jones                                    </Officer>\r\n
+        \   <ApplicationIdS>911346</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>346721</PropertyId>\r\n
+        \     <ApplicationId>911346</ApplicationId>\r\n      <Line1>Lot 1 DP 869688
+        Great Northern Railway BROOKLYN  NSW  2083</Line1>\r\n      <Line2 />\r\n
+        \     <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>911346</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>958471</PartyId>\r\n      <ApplicationId>911346</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>TELSTRA CORPORATION LTD</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Telstra Corporation Ltd</FullName>\r\n      <ApplicationIdS>911346</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>911346</ApplicationId>\r\n
+        \     <ApplicationIdS>911346</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>911356</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/417/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>417</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>TELECOMMUNICATIONS FACILITY - MOUNT KURING GAI</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-28T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-28T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 2 - Major                         </OfficerTitle>\r\n
+        \   <Officer>Benjamin Jones                                    </Officer>\r\n
+        \   <ApplicationIdS>911356</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>368844</PropertyId>\r\n
+        \     <ApplicationId>911356</ApplicationId>\r\n      <Line1>Lot 1 DP 1112184
+        Pacific Highway MOUNT KURING-GAI  NSW  2080</Line1>\r\n      <Line2 />\r\n
+        \     <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>911356</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>958471</PartyId>\r\n      <ApplicationId>911356</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>TELSTRA CORPORATION LTD</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Telstra Corporation Ltd</FullName>\r\n      <ApplicationIdS>911356</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>911356</ApplicationId>\r\n
+        \     <ApplicationIdS>911356</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>911758</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/421/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>421</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>RESIDENTIAL ALTERATIONS &amp; ADDITIONS</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-29T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-29T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 1 - Minor                         </OfficerTitle>\r\n
+        \   <Officer>Madeleine Brown                                   </Officer>\r\n
+        \   <ApplicationIdS>911758</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>377342</PropertyId>\r\n
+        \     <ApplicationId>911758</ApplicationId>\r\n      <Line1>33 Grace Avenue
+        BEECROFT  NSW  2119</Line1>\r\n      <Line2 />\r\n      <Role>Property Applications
+        \                            </Role>\r\n      <ApplicationIdS>911758</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>1016387</PartyId>\r\n      <ApplicationId>911758</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>GRGIC</FamilyName>\r\n      <GivenName>DARKO
+        </GivenName>\r\n      <Initial>D    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Mr Darko Grgic</FullName>\r\n      <ApplicationIdS>911758</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>911758</ApplicationId>\r\n
+        \     <ApplicationIdS>911758</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>911913</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/1225/2015/A</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2015</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>1225</ReferenceNumberNumber>\r\n
+        \   <Amendment>A</Amendment>\r\n    <ApplicationDetails>SECTION 4.55 (1A)
+        - SUBDIVISION OF ONE LOT INTO TWO - DEMOLITION</ApplicationDetails>\r\n    <CreatedDate>2019-05-30T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-30T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 2 - Major                         </OfficerTitle>\r\n    <Officer>Stephen
+        Dobbs                                     </Officer>\r\n    <ApplicationIdS>911913</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>315200</PropertyId>\r\n      <ApplicationId>911913</ApplicationId>\r\n
+        \     <Line1>46A Lyndon Way BEECROFT  NSW  2119</Line1>\r\n      <Line2 />\r\n
+        \     <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>911913</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>395298</PartyId>\r\n      <ApplicationId>911913</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MEPSTEAD &amp; ASSOCIATES</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Mepstead &amp; Associates</FullName>\r\n      <ApplicationIdS>911913</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>911913</ApplicationId>\r\n
+        \     <ApplicationIdS>911913</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>911933</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/445/2017/B</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2017</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>445</ReferenceNumberNumber>\r\n
+        \   <Amendment>B</Amendment>\r\n    <ApplicationDetails>SECTION 4.55 (1A)
+        - RESIDENTIAL ALTERATIONS &amp; ADDITIONS - CARPORT</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-30T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-30T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 2 - Major                         </OfficerTitle>\r\n
+        \   <Officer>Tomasz Mojsiejuk                                  </Officer>\r\n
+        \   <ApplicationIdS>911933</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>303429</PropertyId>\r\n
+        \     <ApplicationId>911933</ApplicationId>\r\n      <Line1>156 Copeland Road
+        BEECROFT  NSW  2119</Line1>\r\n      <Line2 />\r\n      <Role>Property Applications
+        \                            </Role>\r\n      <ApplicationIdS>911933</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>381422</PartyId>\r\n      <ApplicationId>911933</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>SPICER</FamilyName>\r\n
+        \     <GivenName>ROSEMARY JOY</GivenName>\r\n      <Initial>RJ   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Mrs Rosemary Joy Spicer</FullName>\r\n
+        \     <ApplicationIdS>911933</ApplicationIdS>\r\n    </Party>\r\n    <Event>\r\n
+        \     <ApplicationId>911933</ApplicationId>\r\n      <ApplicationIdS>911933</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>911965</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/1046/2018/B</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2018</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>1046</ReferenceNumberNumber>\r\n
+        \   <Amendment>B</Amendment>\r\n    <ApplicationDetails>SECTION 4.55 (1A)
+        - CONSTRUCTION OF A TWO STOREY DWELLING HOUSE</ApplicationDetails>\r\n    <CreatedDate>2019-05-30T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-30T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 1 - Minor                         </OfficerTitle>\r\n    <Officer>Development
+        Assessments                           </Officer>\r\n    <ApplicationIdS>911965</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>381787</PropertyId>\r\n      <ApplicationId>911965</ApplicationId>\r\n
+        \     <Line1>10 Charlotte Lane PENNANT HILLS  NSW  2120</Line1>\r\n      <Line2
+        />\r\n      <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>911965</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>832879</PartyId>\r\n      <ApplicationId>911965</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>ROBERTSHAW</FamilyName>\r\n
+        \     <GivenName>COL </GivenName>\r\n      <Initial>C    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Mr Col Robertshaw</FullName>\r\n      <ApplicationIdS>911965</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>911965</ApplicationId>\r\n
+        \     <ApplicationIdS>911965</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>912016</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/423/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>423</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>ALTERATIONS &amp; ADDITIONS TO RESTAURANT</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-30T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-30T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 2 - Major                         </OfficerTitle>\r\n
+        \   <Officer>Development Assessments                           </Officer>\r\n
+        \   <ApplicationIdS>912016</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>366814</PropertyId>\r\n
+        \     <ApplicationId>912016</ApplicationId>\r\n      <Line1>1237 Old Northern
+        Road MIDDLE DURAL  NSW  2158</Line1>\r\n      <Line2 />\r\n      <Role>Property
+        Applications                             </Role>\r\n      <ApplicationIdS>912016</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>991958</PartyId>\r\n      <ApplicationId>912016</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>POONI &amp; BENEPAL PTY
+        LTD</FamilyName>\r\n      <GivenName xml:space=\"preserve\"> </GivenName>\r\n
+        \     <NameType>C</NameType>\r\n      <FullName>Pooni &amp; Benepal Pty Ltd</FullName>\r\n
+        \     <ApplicationIdS>912016</ApplicationIdS>\r\n    </Party>\r\n    <Event>\r\n
+        \     <ApplicationId>912016</ApplicationId>\r\n      <ApplicationIdS>912016</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>912111</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/425/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>425</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>RESIDENTIAL ALTERATIONS &amp; ADDITIONS - SHED</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-31T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-31T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 1 - Minor                         </OfficerTitle>\r\n
+        \   <Officer>Development Assessments                           </Officer>\r\n
+        \   <ApplicationIdS>912111</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>332635</PropertyId>\r\n
+        \     <ApplicationId>912111</ApplicationId>\r\n      <Line1>1204 Pacific Highway
+        COWAN  NSW  2081</Line1>\r\n      <Line2 />\r\n      <Role>Property Applications
+        \                            </Role>\r\n      <ApplicationIdS>912111</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>927900</PartyId>\r\n      <ApplicationId>912111</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>CEO ARCHITECTURAL</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>CEO Architectural</FullName>\r\n      <ApplicationIdS>912111</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>912111</ApplicationId>\r\n
+        \     <ApplicationIdS>912111</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>912121</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/426/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>426</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>RESIDENTIAL ALTERATIONS &amp; ADDITIONS</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-31T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-31T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 2 - Major                         </OfficerTitle>\r\n
+        \   <Officer>Development Assessments                           </Officer>\r\n
+        \   <ApplicationIdS>912121</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>322629</PropertyId>\r\n
+        \     <ApplicationId>912121</ApplicationId>\r\n      <Line1>160 Riverview
+        Avenue DANGAR ISLAND  NSW  2083</Line1>\r\n      <Line2 />\r\n      <Role>Property
+        Applications                             </Role>\r\n      <ApplicationIdS>912121</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>1016877</PartyId>\r\n      <ApplicationId>912121</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>JODIE DIXON ARCHITECT</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Jodie Dixon Architect</FullName>\r\n      <ApplicationIdS>912121</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>912121</ApplicationId>\r\n
+        \     <ApplicationIdS>912121</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>912131</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/427/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>427</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>RESIDENTIAL - ALTERATIONS &amp; ADDITIONS</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-31T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-31T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 1 - Minor                         </OfficerTitle>\r\n
+        \   <Officer>Development Assessments                           </Officer>\r\n
+        \   <ApplicationIdS>912131</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>327574</PropertyId>\r\n
+        \     <ApplicationId>912131</ApplicationId>\r\n      <Line1>23 Vista Close
+        HORNSBY  NSW  2077</Line1>\r\n      <Line2 />\r\n      <Role>Property Applications
+        \                            </Role>\r\n      <ApplicationIdS>912131</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Event>\r\n      <ApplicationId>912131</ApplicationId>\r\n
+        \     <ApplicationIdS>912131</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>912151</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/428/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>428</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>RESIDENTIAL - ALTERATIONS &amp; ADDITIONS</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-31T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-06-03T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 1 - Minor                         </OfficerTitle>\r\n
+        \   <Officer>Development Assessments                           </Officer>\r\n
+        \   <ApplicationIdS>912151</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>321096</PropertyId>\r\n
+        \     <ApplicationId>912151</ApplicationId>\r\n      <Line1>95 Pretoria Parade
+        HORNSBY  NSW  2077</Line1>\r\n      <Line2 />\r\n      <Role>Property Applications
+        \                            </Role>\r\n      <ApplicationIdS>912151</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>192676</PartyId>\r\n      <ApplicationId>912151</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>ROBIN EDMISTON &amp; ASSOCIATES
+        PL</FamilyName>\r\n      <GivenName xml:space=\"preserve\"> </GivenName>\r\n
+        \     <NameType>C</NameType>\r\n      <FullName>Robin Edmiston &amp; Associates
+        P/L</FullName>\r\n      <ApplicationIdS>912151</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Event>\r\n      <ApplicationId>912151</ApplicationId>\r\n      <ApplicationIdS>912151</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>912275</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/430/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>430</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>DWELLING HOUSE</ApplicationDetails>\r\n    <CreatedDate>2019-05-31T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-05-31T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 1 - Minor                         </OfficerTitle>\r\n    <Officer>Development
+        Assessments                           </Officer>\r\n    <ApplicationIdS>912275</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>299144</PropertyId>\r\n      <ApplicationId>912275</ApplicationId>\r\n
+        \     <Line1>3 Binya Close HORNSBY HEIGHTS  NSW  2077</Line1>\r\n      <Line2
+        />\r\n      <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>912275</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>874138</PartyId>\r\n      <ApplicationId>912275</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>NEW SOUTH HOMES</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>New South Homes</FullName>\r\n      <ApplicationIdS>912275</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>912275</ApplicationId>\r\n
+        \     <ApplicationIdS>912275</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>912305</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/431/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>431</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>DWELLING HOUSE ON PROPOSED LOT 3</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-31T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-31T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 1 - Minor                         </OfficerTitle>\r\n
+        \   <Officer>Development Assessments                           </Officer>\r\n
+        \   <ApplicationIdS>912305</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>321742</PropertyId>\r\n
+        \     <ApplicationId>912305</ApplicationId>\r\n      <Line1>11 Queens Road
+        ASQUITH  NSW  2077</Line1>\r\n      <Line2 />\r\n      <Role>Property Applications
+        \                            </Role>\r\n      <ApplicationIdS>912305</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>1017080</PartyId>\r\n      <ApplicationId>912305</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>ECO FACTOR ARCHITECTS</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Eco Factor Architects</FullName>\r\n      <ApplicationIdS>912305</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>912305</ApplicationId>\r\n
+        \     <ApplicationIdS>912305</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>912315</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/432/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>432</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>ERECTION OF A DWELLING HOUSE ON PROPOSED LOT 9A</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-05-31T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-05-31T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 1 - Minor                         </OfficerTitle>\r\n
+        \   <Officer>Development Assessments                           </Officer>\r\n
+        \   <ApplicationIdS>912315</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>321740</PropertyId>\r\n
+        \     <ApplicationId>912315</ApplicationId>\r\n      <Line1>9 Queens Road
+        ASQUITH  NSW  2077</Line1>\r\n      <Line2 />\r\n      <Role>Property Applications
+        \                            </Role>\r\n      <ApplicationIdS>912315</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>1017080</PartyId>\r\n      <ApplicationId>912315</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>ECO FACTOR ARCHITECTS</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Eco Factor Architects</FullName>\r\n      <ApplicationIdS>912315</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>912315</ApplicationId>\r\n
+        \     <ApplicationIdS>912315</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>912328</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/433/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>433</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>RESIDENTIAL - ALTERATIONS &amp; ADDITIONS - DECK &amp;
+        RETAINING WALL</ApplicationDetails>\r\n    <CreatedDate>2019-06-03T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-03T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 1 - Minor                         </OfficerTitle>\r\n    <Officer>Development
+        Assessments                           </Officer>\r\n    <ApplicationIdS>912328</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>316427</PropertyId>\r\n      <ApplicationId>912328</ApplicationId>\r\n
+        \     <Line1>43 Meredith Avenue HORNSBY HEIGHTS  NSW  2077</Line1>\r\n      <Line2
+        />\r\n      <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>912328</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>284084</PartyId>\r\n      <ApplicationId>912328</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>PERGOLA LAND AUSTRALIA PTY
+        LTD</FamilyName>\r\n      <GivenName xml:space=\"preserve\"> </GivenName>\r\n
+        \     <NameType>C</NameType>\r\n      <FullName>Pergola Land Australia Pty
+        Ltd</FullName>\r\n      <ApplicationIdS>912328</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Event>\r\n      <ApplicationId>912328</ApplicationId>\r\n      <ApplicationIdS>912328</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>912338</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/434/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>434</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>RESIDENTIAL - ALTERATIONS &amp; ADDITIONS - DECK &amp;
+        PERGOLA</ApplicationDetails>\r\n    <CreatedDate>2019-06-03T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-03T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 1 - Minor                         </OfficerTitle>\r\n    <Officer>Development
+        Assessments                           </Officer>\r\n    <ApplicationIdS>912338</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>303479</PropertyId>\r\n      <ApplicationId>912338</ApplicationId>\r\n
+        \     <Line1>188 Copeland Road BEECROFT  NSW  2119</Line1>\r\n      <Line2
+        />\r\n      <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>912338</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>1017198</PartyId>\r\n      <ApplicationId>912338</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>POPPY BEVAN DESIGN STUDIO</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Poppy Bevan Design Studio</FullName>\r\n      <ApplicationIdS>912338</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>912338</ApplicationId>\r\n
+        \     <ApplicationIdS>912338</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>912462</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/68/2019/A</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>68</ReferenceNumberNumber>\r\n
+        \   <Amendment>A</Amendment>\r\n    <ApplicationDetails>SECTION 4.55 (1A)
+        - RESIDENTIAL ALTERATIONS &amp; ADDITIONS - AWNING, ROOF &amp; DECK</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-06-03T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-06-03T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 1 - Minor                         </OfficerTitle>\r\n
+        \   <Officer>Development Assessments                           </Officer>\r\n
+        \   <ApplicationIdS>912462</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>344453</PropertyId>\r\n
+        \     <ApplicationId>912462</ApplicationId>\r\n      <Line1>18 Jenner Road
+        DURAL  NSW  2158</Line1>\r\n      <Line2 />\r\n      <Role>Property Applications
+        \                            </Role>\r\n      <ApplicationIdS>912462</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>442516</PartyId>\r\n      <ApplicationId>912462</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>ICR DESIGN</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>ICR Design</FullName>\r\n      <ApplicationIdS>912462</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>912462</ApplicationId>\r\n
+        \     <ApplicationIdS>912462</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>912482</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/437/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>437</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>DEMOLITION OF EXISTING DWELLING - HERITAGE</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-06-03T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-06-03T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 2 - Major                         </OfficerTitle>\r\n
+        \   <Officer>Development Assessments                           </Officer>\r\n
+        \   <ApplicationIdS>912482</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>302965</PropertyId>\r\n
+        \     <ApplicationId>912482</ApplicationId>\r\n      <Line1>15 Cobah Road
+        ARCADIA  NSW  2159</Line1>\r\n      <Line2 />\r\n      <Role>Property Applications
+        \                            </Role>\r\n      <ApplicationIdS>912482</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>442516</PartyId>\r\n      <ApplicationId>912482</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>ICR DESIGN</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>ICR Design</FullName>\r\n      <ApplicationIdS>912482</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>912482</ApplicationId>\r\n
+        \     <ApplicationIdS>912482</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>912493</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/438/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>438</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>RESIDENTIAL - ALTERATIONS &amp; ADDITIONS - DEMOLITION</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-06-03T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-06-03T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 1 - Minor                         </OfficerTitle>\r\n
+        \   <Officer>Development Assessments                           </Officer>\r\n
+        \   <ApplicationIdS>912493</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>311386</PropertyId>\r\n
+        \     <ApplicationId>912493</ApplicationId>\r\n      <Line1>12 Hull Road BEECROFT
+        \ NSW  2119</Line1>\r\n      <Line2 />\r\n      <Role>Property Applications
+        \                            </Role>\r\n      <ApplicationIdS>912493</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>456242</PartyId>\r\n      <ApplicationId>912493</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>ADA</FamilyName>\r\n      <GivenName
+        xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n      <FullName>Ada</FullName>\r\n
+        \     <ApplicationIdS>912493</ApplicationIdS>\r\n    </Party>\r\n    <Event>\r\n
+        \     <ApplicationId>912493</ApplicationId>\r\n      <ApplicationIdS>912493</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>912589</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/442/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>442</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>CONSTRUCTION OF A NEW  DWELLING HOUSE - HERITAGE</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-06-04T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-06-04T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 2 - Major                         </OfficerTitle>\r\n
+        \   <Officer>Development Assessments                           </Officer>\r\n
+        \   <ApplicationIdS>912589</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>302965</PropertyId>\r\n
+        \     <ApplicationId>912589</ApplicationId>\r\n      <Line1>15 Cobah Road
+        ARCADIA  NSW  2159</Line1>\r\n      <Line2 />\r\n      <Role>Property Applications
+        \                            </Role>\r\n      <ApplicationIdS>912589</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>438391</PartyId>\r\n      <ApplicationId>912589</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MACDONALD JONES HOMES</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>McDonald Jones Homes</FullName>\r\n      <ApplicationIdS>912589</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>912589</ApplicationId>\r\n
+        \     <ApplicationIdS>912589</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>912712</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/447/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>447</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>RESIDENTIAL - ALTERATIONS &amp; ADDITIONS - DECK</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-06-04T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-06-04T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 1 - Minor                         </OfficerTitle>\r\n
+        \   <Officer>Development Assessments                           </Officer>\r\n
+        \   <ApplicationIdS>912712</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>311582</PropertyId>\r\n
+        \     <ApplicationId>912712</ApplicationId>\r\n      <Line1>32 Huntingdon
+        Place BEROWRA  NSW  2081</Line1>\r\n      <Line2 />\r\n      <Role>Property
+        Applications                             </Role>\r\n      <ApplicationIdS>912712</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>198749</PartyId>\r\n      <ApplicationId>912712</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>MARK CAMBOURN &amp; ASSOCIATES
+        PTY LTD</FamilyName>\r\n      <GivenName xml:space=\"preserve\"> </GivenName>\r\n
+        \     <NameType>C</NameType>\r\n      <FullName>Mark Cambourn &amp; Associates
+        Pty Ltd</FullName>\r\n      <ApplicationIdS>912712</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Event>\r\n      <ApplicationId>912712</ApplicationId>\r\n      <ApplicationIdS>912712</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>912805</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/1277/2017/A</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2017</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>1277</ReferenceNumberNumber>\r\n
+        \   <Amendment>A</Amendment>\r\n    <ApplicationDetails>SECTION 4.55 (1A)
+        AMENDED PLANS - DEMOLITION OF ONE EXISTING DWELLING &amp; ASSOCIATED STRUCTURES
+        AND CONSTRUCTION OF A SENIORS LIVING DEVELOPMENT COMPRISING 15 INDEPENDENT
+        LIVING UNITS &amp; ADAPTIVE REUSE OF THE EXISTING DWELLING</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-06-04T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-06-04T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 2 - Major                         </OfficerTitle>\r\n
+        \   <Officer>Garry Mahony                                      </Officer>\r\n
+        \   <ApplicationIdS>912805</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>303367</PropertyId>\r\n
+        \     <ApplicationId>912805</ApplicationId>\r\n      <Line1>95-97 Copeland
+        Road BEECROFT  NSW  2119</Line1>\r\n      <Line2 />\r\n      <Role>Property
+        Applications                             </Role>\r\n      <ApplicationIdS>912805</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>311387</PropertyId>\r\n
+        \     <ApplicationId>912805</ApplicationId>\r\n      <Line1>14 Hull Road BEECROFT
+        \ NSW  2119</Line1>\r\n      <Line2 />\r\n      <Role>Property Applications
+        \                            </Role>\r\n      <ApplicationIdS>912805</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>441176</PartyId>\r\n      <ApplicationId>912805</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>CAXTON PROPERTY GROUP PTY
+        LTD</FamilyName>\r\n      <GivenName xml:space=\"preserve\"> </GivenName>\r\n
+        \     <NameType>C</NameType>\r\n      <FullName>Caxton Property Group Pty
+        Ltd</FullName>\r\n      <ApplicationIdS>912805</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Event>\r\n      <ApplicationId>912805</ApplicationId>\r\n      <ApplicationIdS>912805</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>912929</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/451/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>451</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>RESIDENTIAL - SINGLE NEW DWELLING - DWELLING HOUSE
+        - RETAINING WALLS</ApplicationDetails>\r\n    <CreatedDate>2019-06-05T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-05T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 1 - Minor                         </OfficerTitle>\r\n    <Officer>Development
+        Assessments                           </Officer>\r\n    <ApplicationIdS>912929</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>324070</PropertyId>\r\n      <ApplicationId>912929</ApplicationId>\r\n
+        \     <Line1>10 Silvia Street HORNSBY  NSW  2077</Line1>\r\n      <Line2 />\r\n
+        \     <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>912929</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>831513</PartyId>\r\n      <ApplicationId>912929</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>YANG</FamilyName>\r\n      <GivenName>XIULI
+        </GivenName>\r\n      <Initial>X    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Ms Xiuli Yang</FullName>\r\n      <ApplicationIdS>912929</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PartyId>996534</PartyId>\r\n      <ApplicationId>912929</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>YU</FamilyName>\r\n      <GivenName>JUNWU
+        </GivenName>\r\n      <Initial>J    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Mr Junwu Yu</FullName>\r\n      <ApplicationIdS>912929</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>912929</ApplicationId>\r\n
+        \     <ApplicationIdS>912929</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>912938</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/450/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>450</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>RESIDENTIAL - ALTERATIONS &amp; ADDITIONS - TERRACE</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-06-05T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-06-05T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 1 - Minor                         </OfficerTitle>\r\n
+        \   <Officer>Development Assessments                           </Officer>\r\n
+        \   <ApplicationIdS>912938</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>368908</PropertyId>\r\n
+        \     <ApplicationId>912938</ApplicationId>\r\n      <Line1>37 Belinda Crescent
+        NORTH EPPING  NSW  2121</Line1>\r\n      <Line2 />\r\n      <Role>Property
+        Applications                             </Role>\r\n      <ApplicationIdS>912938</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>695221</PartyId>\r\n      <ApplicationId>912938</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>ARCHISPECTRUM</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>Archispectrum</FullName>\r\n      <ApplicationIdS>912938</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>912938</ApplicationId>\r\n
+        \     <ApplicationIdS>912938</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>913093</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/452/2016/B</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2016</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>452</ReferenceNumberNumber>\r\n
+        \   <Amendment>B</Amendment>\r\n    <ApplicationDetails>SECTION 4.55 (2) -
+        CHANGE OF USE TO A RECREATIONAL FACILITY - PERSONAL TRAINING FRANCHISE</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-06-06T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-06-06T00:00:00+10:00</LodgementDate>\r\n
+        \   <ApplicationIdS>913093</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>306629</PropertyId>\r\n
+        \     <ApplicationId>913093</ApplicationId>\r\n      <Line1>Westleigh Shopping
+        Centre 4-8 Eucalyptus Drive WESTLEIGH  NSW  2120</Line1>\r\n      <Line2 />\r\n
+        \     <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>913093</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>708737</PartyId>\r\n      <ApplicationId>913093</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>F45 TRAINING</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>F45 Training</FullName>\r\n      <ApplicationIdS>913093</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>913093</ApplicationId>\r\n
+        \     <ApplicationIdS>913093</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>913103</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/452/2016/C</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2016</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>452</ReferenceNumberNumber>\r\n
+        \   <Amendment>C</Amendment>\r\n    <ApplicationDetails>INCORRECT LODGEMENT
+        - REFER TO DA/452/2016/B</ApplicationDetails>\r\n    <CreatedDate>2019-06-06T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-06T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 2 - Major                         </OfficerTitle>\r\n    <Officer>Development
+        Assessments                           </Officer>\r\n    <ApplicationIdS>913103</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>913103</ApplicationId>\r\n      <DeterminationDate>2019-06-06T14:16:37+10:00</DeterminationDate>\r\n
+        \     <EffectiveDate>2019-06-06T00:00:00+10:00</EffectiveDate>\r\n      <DeterminationType>Cancelled</DeterminationType>\r\n
+        \     <AuthorityParty>Delegated                                         </AuthorityParty>\r\n
+        \     <ApplicationIdS>913103</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>306629</PropertyId>\r\n      <ApplicationId>913103</ApplicationId>\r\n
+        \     <Line1>Westleigh Shopping Centre 4-8 Eucalyptus Drive WESTLEIGH  NSW
+        \ 2120</Line1>\r\n      <Line2 />\r\n      <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>913103</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>1018721</PartyId>\r\n      <ApplicationId>913103</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>F45 WESTLEIGH</FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n
+        \     <FullName>F45 Westleigh</FullName>\r\n      <ApplicationIdS>913103</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>913103</ApplicationId>\r\n
+        \     <ApplicationIdS>913103</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n
+        \ <Application>\r\n    <ApplicationId>913134</ApplicationId>\r\n    <NatureOfApplication>Development
+        Application                           </NatureOfApplication>\r\n    <NatureOfApplicationType>437</NatureOfApplicationType>\r\n
+        \   <ApplicationType>DA    </ApplicationType>\r\n    <ReferenceNumber>DA/456/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>456</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>RESIDENTIAL ALTERATIONS &amp; ADDITIONS</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-06-06T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-06-06T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 2 - Major                         </OfficerTitle>\r\n
+        \   <Officer>Development Assessments                           </Officer>\r\n
+        \   <ApplicationIdS>913134</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>315956</PropertyId>\r\n
+        \     <ApplicationId>913134</ApplicationId>\r\n      <Line1>16 Maple Avenue
+        PENNANT HILLS  NSW  2120</Line1>\r\n      <Line2 />\r\n      <Role>Property
+        Applications                             </Role>\r\n      <ApplicationIdS>913134</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>992559</PartyId>\r\n      <ApplicationId>913134</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>SEDRAK</FamilyName>\r\n
+        \     <GivenName>RANDA </GivenName>\r\n      <Initial>R    </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Randa Sedrak</FullName>\r\n
+        \     <ApplicationIdS>913134</ApplicationIdS>\r\n    </Party>\r\n    <Event>\r\n
+        \     <ApplicationId>913134</ApplicationId>\r\n      <ApplicationIdS>913134</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>913144</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/457/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>457</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>RESIDENTIAL - ALTERATIONS &amp; ADDITIONS</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-06-06T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-06-06T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 1 - Minor                         </OfficerTitle>\r\n
+        \   <Officer>Development Assessments                           </Officer>\r\n
+        \   <ApplicationIdS>913144</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>319234</PropertyId>\r\n
+        \     <ApplicationId>913144</ApplicationId>\r\n      <Line1>5 Odette Road
+        DURAL  NSW  2158</Line1>\r\n      <Line2 />\r\n      <Role>Property Applications
+        \                            </Role>\r\n      <ApplicationIdS>913144</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>1018761</PartyId>\r\n      <ApplicationId>913144</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>BDDS</FamilyName>\r\n      <GivenName
+        xml:space=\"preserve\"> </GivenName>\r\n      <NameType>C</NameType>\r\n      <FullName>Bdds</FullName>\r\n
+        \     <ApplicationIdS>913144</ApplicationIdS>\r\n    </Party>\r\n    <Event>\r\n
+        \     <ApplicationId>913144</ApplicationId>\r\n      <ApplicationIdS>913144</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>913189</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/458/2019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>458</ReferenceNumberNumber>\r\n
+        \   <ApplicationDetails>RESIDENTIAL - ALTERATIONS &amp; ADDITIONS</ApplicationDetails>\r\n
+        \   <CreatedDate>2019-06-06T00:00:00+10:00</CreatedDate>\r\n    <LodgementDate>2019-06-06T00:00:00+10:00</LodgementDate>\r\n
+        \   <OfficerTitle>Assessment Team 1 - Minor                         </OfficerTitle>\r\n
+        \   <Officer>Development Assessments                           </Officer>\r\n
+        \   <ApplicationIdS>913189</ApplicationIdS>\r\n    <Address>\r\n      <PropertyId>298623</PropertyId>\r\n
+        \     <ApplicationId>913189</ApplicationId>\r\n      <Line1>23 Berkeley Close
+        BEROWRA HEIGHTS  NSW  2082</Line1>\r\n      <Line2 />\r\n      <Role>Property
+        Applications                             </Role>\r\n      <ApplicationIdS>913189</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PartyId>275027</PartyId>\r\n      <ApplicationId>913189</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>VELLENDER</FamilyName>\r\n
+        \     <GivenName>MARK EDWARD</GivenName>\r\n      <Initial>ME   </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Mr Mark Edward Vellender</FullName>\r\n
+        \     <ApplicationIdS>913189</ApplicationIdS>\r\n    </Party>\r\n    <Party>\r\n
+        \     <PartyId>275028</PartyId>\r\n      <ApplicationId>913189</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>2</Sequence>\r\n      <FamilyName>VELLENDER</FamilyName>\r\n
+        \     <GivenName>SATOKO </GivenName>\r\n      <Initial>S    </Initial>\r\n
+        \     <NameType>P</NameType>\r\n      <FullName>Mrs Satoko Vellender</FullName>\r\n
+        \     <ApplicationIdS>913189</ApplicationIdS>\r\n    </Party>\r\n    <Event>\r\n
+        \     <ApplicationId>913189</ApplicationId>\r\n      <ApplicationIdS>913189</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>913332</ApplicationId>\r\n
+        \   <NatureOfApplication>Development Application                           </NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>437</NatureOfApplicationType>\r\n    <ApplicationType>DA
+        \   </ApplicationType>\r\n    <ReferenceNumber>DA/127/2019/A</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>127</ReferenceNumberNumber>\r\n
+        \   <Amendment>A</Amendment>\r\n    <ApplicationDetails>SECTION 4.55 (2) -
+        RESIDENTIAL - ALTERATIONS &amp; ADDITIONS</ApplicationDetails>\r\n    <CreatedDate>2019-06-07T00:00:00+10:00</CreatedDate>\r\n
+        \   <LodgementDate>2019-06-07T00:00:00+10:00</LodgementDate>\r\n    <OfficerTitle>Assessment
+        Team 1 - Minor                         </OfficerTitle>\r\n    <Officer>Development
+        Assessments                           </Officer>\r\n    <ApplicationIdS>913332</ApplicationIdS>\r\n
+        \   <Address>\r\n      <PropertyId>342483</PropertyId>\r\n      <ApplicationId>913332</ApplicationId>\r\n
+        \     <Line1>125A Edgeworth David Avenue WAHROONGA  NSW  2076</Line1>\r\n
+        \     <Line2 />\r\n      <Role>Property Applications                             </Role>\r\n
+        \     <ApplicationIdS>913332</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <PartyId>875068</PartyId>\r\n      <ApplicationId>913332</ApplicationId>\r\n
+        \     <PartyRole>Applicant                                         </PartyRole>\r\n
+        \     <Sequence>1</Sequence>\r\n      <FamilyName>WANG</FamilyName>\r\n      <GivenName>HENAN
+        </GivenName>\r\n      <Initial>H    </Initial>\r\n      <NameType>P</NameType>\r\n
+        \     <FullName>Mr Henan Wang</FullName>\r\n      <ApplicationIdS>913332</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>913332</ApplicationId>\r\n
+        \     <ApplicationIdS>913332</ApplicationIdS>\r\n    </Event>\r\n  </Application>\r\n</NewDataSet>"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+recorded_with: VCR 5.0.0
