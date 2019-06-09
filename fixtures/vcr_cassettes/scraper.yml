@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?d=last14days&k=LodgementDate&o=xml
+    uri: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx
     body:
       encoding: US-ASCII
       string: ''
@@ -31,13 +31,705 @@ http_interactions:
       Cache-Control:
       - private
       Content-Type:
-      - application/xml; charset=utf-8
+      - text/html; charset=utf-8
       Set-Cookie:
-      - ASP.NET_SessionId=yoepuuko2gs0hn41gpxpoea3; path=/; HttpOnly
+      - ASP.NET_SessionId=exdc4l5wnjmo3drbph5oinss; path=/; HttpOnly
       X-Frame-Options:
       - SAMEORIGIN
       Date:
-      - Sun, 09 Jun 2019 15:36:07 GMT
+      - Sun, 09 Jun 2019 15:36:37 GMT
+      Content-Length:
+      - '95706'
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head
+        id=\"ctl00_Head1\"><meta http-equiv=\"Expires\" content=\"0\" /><meta http-equiv=\"Cache-Control\"
+        content=\"no-cache\" /><meta http-equiv=\"Pragma\" content=\"no-cache\" /><meta
+        name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /><link
+        href=\"../../images/misc/HSC-favicon.ico\" type=\"image/x-icon\" rel=\"icon\"
+        /><link href=\"../../images/misc/HSC-favicon.ico\" type=\"image/x-icon\" rel=\"shortcut
+        icon\" /><link href=\"../../HttpCombiner.ashx?s=IconCss&amp;t=text/css\" type=\"text/css\"
+        rel=\"Stylesheet\" media=\"all\" />\r\n    <base target=\"_top\" />\r\n\r\n
+        \   <!-- Conditional Queries to load the Formatted Lists CSS files -->\r\n
+        \   <!--[if lt IE 8]>\r\n        <link type=\"text/css\" href=\"../../App_Themes/Icon/IE7.css\"
+        rel=\"Stylesheet\" />\r\n    <![endif]-->\r\n\r\n    <!--[if gt IE 7]>\r\n\t
+        \   <link type=\"text/css\" href=\"../../App_Themes/Icon/FormattedLists.css\"
+        rel=\"Stylesheet\" />\r\n    <![endif]-->\r\n\r\n    <!--[if !IE]><!-->\r\n
+        \   <link type=\"text/css\" href=\"../../App_Themes/Icon/FormattedLists.css\"
+        rel=\"Stylesheet\" />\r\n    <!--<![endif]-->\r\n    \r\n    <style type='text/css'>@import
+        url(\"https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css\");\n@import
+        url(\"https://fonts.googleapis.com/css?family=Poppins:300,400,600,700\");\n\n*
+        { \n    box-sizing: border-box;\n    \n}\n\n#usrAgent {display:none;}\n\nhtml
+        {\n    font-size:16px;\n    \n}\n\nbody {\n    color:#4d4d4d; \n    font-size:15px;\n
+        \   \n}\n\ndiv#hd, #hd {\n    height:109px;\n}\n\ndiv#bd, #bd {\n    border:none;\n
+        \   \n}\n\n#navwrap {\n    background:none;\n    height:0; \n    border:none;\n
+        \   \n}\n#nav {\n    display:none;\n    \n}\n\n#menuline.customMaster-TopMenu
+        {\n    display:none;\n    \n}\n\n@media (min-width: 64em) {\n    header.main-header
+        {\n        margin-left:auto !important; \n        margin-right:auto !important;;
+        \n        width:84rem !important;\n        \n    }\n}\n\n@media (min-width:
+        48em) {\n    header.main-header {\n        padding-left:2rem; \n        padding-right:2rem;\n
+        \       \n    }\n}\n\n.main-header {\n    margin-left:auto; \n    margin-right:auto;
+        \n    width:84rem;\n    \n}\n\n.logo__link {\n    float:left;\n    \n}\n\n.main-nav
+        {\n    float:right;\n    display:block;\n    background-color:#FFF;\n    padding-right:82px;\n
+        \   \n}\n\n.main-nav__list {\n    padding-top:35px;\n    \n}\n\n.main-nav__item
+        {\n    margin-left:.5rem;\n    \n}\n\nul.main-nav__list li.main-nav__item
+        {\n    float:left;\n    margin-left: .5rem;\n    list-style-type:none;\n    padding:0;\n
+        \   \n}\n\na.main-nav__link {\n    color:#4d4d4d;\n    text-decoration:none;\n
+        \   font-size: 1.125rem;\n    font-weight: bold;\n    padding: 1rem 1.25rem;\n
+        \   display: block;\n    \n}\n\n#ctl00_ctMain_search_txtSearch {\n    width:550px;\n}\n\n@media
+        (max-width: 20rem) {\n    .main-nav {\n        display:none;\n        \n    }\n
+        \       \n    #ctl00_ctMain_search_txtSearch {\n        width:160px !important;\n
+        \       \n    }\n}\n\n@media (min-width: 48em) {\n    .landing-image {\n        height:
+        5.75rem;\n    }\n}\n\n.landing-image {\n    position: relative;\n    display:
+        block;\n    height: 6.9375rem;\n    width: 100%;\n    object-fit: cover;\n
+        \   z-index: -1;\n}\n\n#breadcrumbs {\n    min-height:5rem;\n    \n}\n\n@media
+        (min-width: 48em) {\n    .main-customMaster-Body {\n        padding-left:2rem;
+        \n        padding-right:2rem;\n        \n    }\n}\n\n@media (min-width: 64em)
+        {\n    .main-customMaster-Body {\n        margin-left:auto !important; \n
+        \       margin-right:auto !important;; \n        width:84rem !important;\n
+        \       \n    }\n}\n\n#mainline.customMaster-Header {\n    display:none;\n
+        \   \n}\n\n.main-containerLeft-customMaster-Body {\n    max-width:25%;\n    width:25%;\n
+        \   padding-right:3%;\n    display:inline-block;\n    vertical-align:top;\n
+        \   \n}\n\n.containerRight.customMaster-Body.main-containerRight-customMaster-Body
+        {\n    max-width:70%;\n    display:inline-block;\n    vertical-align:top;\n
+        \   \n}\n\n\n.containerRight.customMaster-Body input, \n.containerRight.customMaster-Body
+        textarea, \n.containerRight.customMaster-Body select{\n    max-width:99% !important;\n
+        \   \n}\n\n.Portal-Menu-Padding,\n.menuPadding {\n    background-color:#fafafa;\n
+        \   \n}\n\n.Portal-Menu,\n.LinksTitle,\n.LinksSection>a.Links {\n    color:white;\n
+        \   padding:16px 24px;\n    border-bottom: 1px solid #fafafa;\n    \n}\n\n.Portal-Menu-Group,\n.LinksGroup
+        {\n    background-color:#00447c;\n    \n}\n\n.LinksGroup {\n    margin:0;\n
+        \   width:100%;\n    \n}\n\n.Portal-Menu.Portal-Menu-Title:hover,\n.LinksTitle:hover
+        {\n    background-color:#005ba6;\n}\n\ndiv.Portal-Menu-Title,\ndiv.LinksTitle
+        \ {\n    padding-right: 2.75rem;\n}\n\n.LinksTitle {\n    margin:0;\n    width:100%;\n}\n\n.Portal-Menu-Section,\n.LinksSection
+        {\n    background-color:#03345d;\n    \n}\n\n.LinksSection {\n    width:100%;\n
+        \   \n}\n\n.Portal-Menu-Section > .Portal-Menu:hover,\n.LinksSection > .Portal-Menu:hover,\n.LinksSection
+        > .Portal-Menu>a.Links:hover {\n    background-color:#044c87;\n}\n\na.Portal-Menu-Links,\n.Portal-Menu>a.Links
+        {\n    color:white !important;\n    text-decoration:none;\n    font-size:
+        0.875rem;\n\n}\n\na.Portal-Menu-Links.Portal-Menu-Title,\n.LinksTitle {\n
+        \   font-weight:bold;    \n    \n}\n\na.Portal-Menu-Links.Portal-Menu-Title:before,\n.LinksTitle>img:before
+        {\n    content: '';\n    right: 1.15rem;\n    top: .95rem;\n    display: block;\n
+        \   height: 10px;\n    width: 10px;\n    border-right: 3px solid #fff;\n    border-bottom:
+        3px solid #fff;\n    -webkit-transform: rotate(45deg);\n    -ms-transform:
+        rotate(45deg);\n    transform: rotate(45deg);\n    float:right;\n}\n\n.LinksTitle>img
+        {\n    display:none;\n}\n\n#mSub>div,\n#mDet>div,\n#iSub, \n#iDet {\n    margin-left:0
+        !important;\n    \n}\n\n#iSub, \n#iDet {\n    border-left:none !important;\n
+        \   border-right:none !important;\n    width:100% !important;\n    overflow-x:hidden;\n}\n\nul.spatialSub,\nul.spatialDet
+        {\n    min-height:40px !important;\n    width:100%;\n}\n\nul.spatialSub li,\nul.spatialDet
+        li {\n    color:white;\n    /*width:80%;*/\n}\n\n@media (min-width: 18rem)
+        {\n    ul.spatialSub>li,\n    ul.spatialDet>li,\n    ul.spatialSub>li.spatialSub,\n
+        \   ul.spatialDet>li.spatialDet,\n    ul.spatialSub>li.spatialSub:not(.init),\n
+        \   ul.spatialDet>li.spatialDet:not(.init) { \n        width:80px;\n    }
+        \  \n}\n\n@media (min-width: 50rem) {\n    ul.spatialSub>li,\n    ul.spatialDet>li,\n
+        \   ul.spatialSub>li.spatialSub,\n    ul.spatialDet>li.spatialDet,\n    ul.spatialSub>li.spatialSub:not(.init),\n
+        \   ul.spatialDet>li.spatialDet:not(.init) { \n        width:288px;\n    }
+        \  \n}\n\nul.spatialSub>li.spatialSub:hover, \nul.spatialDet>li.spatialDet:hover
+        { \n    background-color: #005ba6 !important; \n    \n}\n\n@media (max-width:
+        349px) {\n    .Portal-Menu,\n    .LinksTitle,\n    .LinksSection>a.Links {\n
+        \       color:white;\n        padding: 4px;\n        border-bottom: 1px solid
+        #fafafa;\n        \n    }\n    \n}\n\n.paddedLarge.customMenu {\n    padding:0;\n
+        \   \n}\n\n.containerInner.main-containerInner-containerLeft-customMaster-Body
+        {\n    overflow:hidden;\n    \n}\n\n.containerInner.main-containerInner-containerRight-customMaster-Body
+        {\n    padding-top: 2rem;\n    \n}\n\n.main-header__wrapper {\n    background-color:
+        white !important;\n    \n}\n\na.WhiteText {\n    color:#FFF !important;font-weight:bold
+        !important;\n}\n\n/* Media CSS Overrides */\n\n/* ----------- iPhone 4 and
+        4S ----------- */\n\n/* Portrait and Landscape */\n@media only screen \n  and
+        (min-device-width: 320px) \n  and (max-device-width: 480px)\n  and (-webkit-min-device-pixel-ratio:
+        2) {\n    .Portal-Menu,\n    .LinksTitle,\n    .LinksSection>a.Links {\n        color:white;\n
+        \       padding: 4px;\n        border-bottom: 1px solid #fafafa;\n        \n
+        \   }\n\n    .main-nav {\n        display:none;\n        \n    }\n        \n
+        \   #ctl00_ctMain_search_txtSearch {\n        width:160px !important;\n        \n
+        \   }\n    \n    ul.spatialSub>li,\n    ul.spatialDet>li,\n    ul.spatialSub>li.spatialSub,\n
+        \   ul.spatialDet>li.spatialDet,\n    ul.spatialSub>li.spatialSub:not(.init),\n
+        \   ul.spatialDet>li.spatialDet:not(.init) { \n        width:80px;\n    }
+        \  \n    \n}\n\n/* Portrait */\n@media only screen \n  and (min-device-width:
+        320px) \n  and (max-device-width: 480px)\n  and (-webkit-min-device-pixel-ratio:
+        2)\n  and (orientation: portrait) {\n}\n\n/* Landscape */\n@media only screen
+        \n  and (min-device-width: 320px) \n  and (max-device-width: 480px)\n  and
+        (-webkit-min-device-pixel-ratio: 2)\n  and (orientation: landscape) {\n        \n
+        \   #ctl00_ctMain_search_txtSearch {\n        width:280px !important;\n        \n
+        \   }\n\n}\n\n/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */\n\n/*
+        Portrait and Landscape */\n@media only screen \n  and (min-device-width: 320px)
+        \n  and (max-device-width: 568px)\n  and (-webkit-min-device-pixel-ratio:
+        2) {\n    .Portal-Menu,\n    .LinksTitle,\n    .LinksSection>a.Links {\n        color:white;\n
+        \       padding: 4px;\n        border-bottom: 1px solid #fafafa;\n        \n
+        \   }\n\n    .main-nav {\n        display:none;\n        \n    }\n        \n
+        \   #ctl00_ctMain_search_txtSearch {\n        width:160px !important;\n        \n
+        \   }\n    \n    ul.spatialSub>li,\n    ul.spatialDet>li,\n    ul.spatialSub>li.spatialSub,\n
+        \   ul.spatialDet>li.spatialDet,\n    ul.spatialSub>li.spatialSub:not(.init),\n
+        \   ul.spatialDet>li.spatialDet:not(.init) { \n        width:80px;\n    }
+        \  \n\n}\n\n/* Portrait */\n@media only screen \n  and (min-device-width:
+        320px) \n  and (max-device-width: 568px)\n  and (-webkit-min-device-pixel-ratio:
+        2)\n  and (orientation: portrait) {\n}\n\n/* Landscape */\n@media only screen
+        \n  and (min-device-width: 320px) \n  and (max-device-width: 568px)\n  and
+        (-webkit-min-device-pixel-ratio: 2)\n  and (orientation: landscape) {\n        \n
+        \   #ctl00_ctMain_search_txtSearch {\n        width:280px !important;\n        \n
+        \   }\n\n}\n\n/* ----------- iPhone 6, 6S, 7 and 8 ----------- */\n\n/* Portrait
+        and Landscape */\n@media only screen \n  and (min-device-width: 375px) \n
+        \ and (max-device-width: 667px) \n  and (-webkit-min-device-pixel-ratio: 2)
+        { \n    .Portal-Menu,\n    .LinksTitle,\n    .LinksSection>a.Links {\n        color:white;\n
+        \       padding: 4px;\n        border-bottom: 1px solid #fafafa;\n        \n
+        \   }\n\n    .main-nav {\n        display:none;\n        \n    }\n        \n
+        \   #ctl00_ctMain_search_txtSearch {\n        width:160px !important;\n        \n
+        \   }\n    \n    ul.spatialSub>li,\n    ul.spatialDet>li,\n    ul.spatialSub>li.spatialSub,\n
+        \   ul.spatialDet>li.spatialDet,\n    ul.spatialSub>li.spatialSub:not(.init),\n
+        \   ul.spatialDet>li.spatialDet:not(.init) { \n        width:80px;\n    }
+        \  \n    \n}\n\n/* Portrait */\n@media only screen \n  and (min-device-width:
+        375px) \n  and (max-device-width: 667px) \n  and (-webkit-min-device-pixel-ratio:
+        2)\n  and (orientation: portrait) { \n\n}\n\n/* Landscape */\n@media only
+        screen \n  and (min-device-width: 375px) \n  and (max-device-width: 667px)
+        \n  and (-webkit-min-device-pixel-ratio: 2)\n  and (orientation: landscape)
+        { \n        \n    #ctl00_ctMain_search_txtSearch {\n        width:280px !important;\n
+        \       \n    }\n\n}\n\n/* ----------- iPhone 6+, 7+ and 8+ ----------- */\n\n/*
+        Portrait and Landscape */\n@media only screen \n  and (min-device-width: 414px)
+        \n  and (max-device-width: 736px) \n  and (-webkit-min-device-pixel-ratio:
+        3) { \n    .Portal-Menu,\n    .LinksTitle,\n    .LinksSection>a.Links {\n
+        \       color:white;\n        padding: 4px;\n        border-bottom: 1px solid
+        #fafafa;\n        \n    }\n\n    .main-nav {\n        display:none;\n        \n
+        \   }\n        \n    #ctl00_ctMain_search_txtSearch {\n        width:280px
+        !important;\n        \n    }\n    \n    ul.spatialSub>li,\n    ul.spatialDet>li,\n
+        \   ul.spatialSub>li.spatialSub,\n    ul.spatialDet>li.spatialDet,\n    ul.spatialSub>li.spatialSub:not(.init),\n
+        \   ul.spatialDet>li.spatialDet:not(.init) { \n        width:80px;\n    }
+        \  \n    \n}\n\n/* Portrait */\n@media only screen \n  and (min-device-width:
+        414px) \n  and (max-device-width: 736px) \n  and (-webkit-min-device-pixel-ratio:
+        3)\n  and (orientation: portrait) { \n\n}\n\n/* Landscape */\n@media only
+        screen \n  and (min-device-width: 414px) \n  and (max-device-width: 736px)
+        \n  and (-webkit-min-device-pixel-ratio: 3)\n  and (orientation: landscape)
+        { \n        \n    #ctl00_ctMain_search_txtSearch {\n        width:320px !important;\n
+        \       \n    }\n\n}\n\n/* ----------- iPhone X ----------- */\n\n/* Portrait
+        and Landscape */\n@media only screen \n  and (min-device-width: 375px) \n
+        \ and (max-device-width: 812px) \n  and (-webkit-min-device-pixel-ratio: 3)
+        { \n    .Portal-Menu,\n    .LinksTitle,\n    .LinksSection>a.Links {\n        color:white;\n
+        \       padding: 4px;\n        border-bottom: 1px solid #fafafa;\n        \n
+        \   }\n\n    .main-nav {\n        display:none;\n        \n    }\n        \n
+        \   #ctl00_ctMain_search_txtSearch {\n        width:160px !important;\n        \n
+        \   }\n    \n    ul.spatialSub>li,\n    ul.spatialDet>li,\n    ul.spatialSub>li.spatialSub,\n
+        \   ul.spatialDet>li.spatialDet,\n    ul.spatialSub>li.spatialSub:not(.init),\n
+        \   ul.spatialDet>li.spatialDet:not(.init) { \n        width:80px;\n    }
+        \  \n\n}\n\n/* Portrait */\n@media only screen \n  and (min-device-width:
+        375px) \n  and (max-device-width: 812px) \n  and (-webkit-min-device-pixel-ratio:
+        3)\n  and (orientation: portrait) { \n\n}\n\n/* Landscape */\n@media only
+        screen \n  and (min-device-width: 375px) \n  and (max-device-width: 812px)
+        \n  and (-webkit-min-device-pixel-ratio: 3)\n  and (orientation: landscape)
+        {\n        \n    #ctl00_ctMain_search_txtSearch {\n        width:280px !important;\n
+        \       \n    } \n\n}\n/* ----------- iPad 1, 2, Mini and Air -----------
+        */\n\n/* Portrait and Landscape */\n@media only screen \n  and (min-device-width:
+        768px) \n  and (max-device-width: 1024px) \n  and (-webkit-min-device-pixel-ratio:
+        1) {\n    .main-header__wrapper clearfix {\n        margin-left:none !important;
+        \n        margin-right:none !important;; \n        width:768px !important;\n
+        \       \n    }\n\n    .main-nav {\n        float:left;\n        display:block;\n
+        \       background-color:#FFF;\n        padding-right:0;\n        padding-left:2rem;\n
+        \       \n    }\n    \n    .main-nav__list {\n        padding-top:35px;\n
+        \       \n    }\n    \n    .main-nav__item {\n        margin-left:.15rem;\n
+        \       \n    }\n    \n    a.main-nav__link {\n        padding:1rem 0.5rem;\n
+        \   }\n    \n    .main-customMaster-Body {\n        padding-left:0; \n        padding-right:0;\n
+        \       \n    }\n    \n    .main-customMaster-Body {\n        margin-left:auto
+        !important; \n        margin-right:auto !important;; \n        width:95% !important;\n
+        \       \n    }\n    \n    .SwitchToMobile {\n        display:none;\n    }\n}\n\n/*
+        Portrait */\n@media only screen \n  and (min-device-width: 768px) \n  and
+        (max-device-width: 1024px) \n  and (orientation: portrait) \n  and (-webkit-min-device-pixel-ratio:
+        1) {\n    \n    .main-nav__list {\n        padding-top:5px;\n        width:
+        70%;\n        \n    }\n    \n    a.main-nav__link {\n        padding:0.5rem
+        0.5rem;\n    }\n        \n    #ctl00_ctMain_search_txtSearch {\n        width:320px
+        !important;\n        \n    }\n}\n\n/* Landscape */\n@media only screen \n
+        \ and (min-device-width: 768px) \n  and (max-device-width: 1024px) \n  and
+        (orientation: landscape) \n  and (-webkit-min-device-pixel-ratio: 1) {\n    .main-header__wrapper
+        clearfix {\n        margin-left:none !important; \n        margin-right:none
+        !important; \n        width:1024px !important;\n        \n    }\n        \n
+        \   #ctl00_ctMain_search_txtSearch {\n        max-width:500px !important;\n
+        \       \n    }\n\n}\n\n/* ----------- iPad 3, 4 and Pro 9.7\" -----------
+        */\n\n/* Portrait and Landscape */\n@media only screen \n  and (min-device-width:
+        768px) \n  and (max-device-width: 1024px) \n  and (-webkit-min-device-pixel-ratio:
+        2) {\n    .main-header__wrapper clearfix {\n        margin-left:none !important;
+        \n        margin-right:none !important;; \n        width:768px !important;\n
+        \       \n    }\n\n    .main-nav {\n        float:left;\n        display:block;\n
+        \       background-color:#FFF;\n        padding-right:0;\n        padding-left:2rem;\n
+        \       \n    }\n    \n    .main-nav__list {\n        padding-top:35px;\n
+        \       \n    }\n    \n    .main-nav__item {\n        margin-left:.15rem;\n
+        \       \n    }\n    \n    a.main-nav__link {\n        padding:1rem 0.5rem;\n
+        \   }\n    \n    .main-customMaster-Body {\n        padding-left:0; \n        padding-right:0;\n
+        \       \n    }\n    \n    .main-customMaster-Body {\n        margin-left:auto
+        !important; \n        margin-right:auto !important;; \n        width:95% !important;\n
+        \       \n    }\n    \n    .SwitchToMobile {\n        display:none;\n    }\n\n}\n\n/*
+        Portrait */\n@media only screen \n  and (min-device-width: 768px) \n  and
+        (max-device-width: 1024px) \n  and (orientation: portrait) \n  and (-webkit-min-device-pixel-ratio:
+        2) {\n    \n    .main-nav__list {\n        padding-top:5px;\n        width:
+        70%;\n        \n    }\n    \n    a.main-nav__link {\n        padding:0.5rem
+        0.5rem;\n    }\n        \n    #ctl00_ctMain_search_txtSearch {\n        width:320px
+        !important;\n        \n    }\n\n}\n\n/* Landscape */\n@media only screen \n
+        \ and (min-device-width: 768px) \n  and (max-device-width: 1024px) \n  and
+        (orientation: landscape) \n  and (-webkit-min-device-pixel-ratio: 2) {\n    .main-header__wrapper
+        clearfix {\n        margin-left:none !important; \n        margin-right:none
+        !important; \n        width:1024px !important;\n        \n    }\n        \n
+        \   #ctl00_ctMain_search_txtSearch {\n        max-width:500px !important;\n
+        \       \n    }\n\n}\n\n/* ----------- iPad Pro 10.5\" ----------- */\n\n/*
+        Portrait and Landscape */\n@media only screen \n  and (min-device-width: 834px)
+        \n  and (max-device-width: 1112px)\n  and (-webkit-min-device-pixel-ratio:
+        2) {\n    \n    .SwitchToMobile {\n        display:none;\n    }\n\n}\n\n/*
+        Portrait */\n/* Declare the same value for min- and max-width to avoid colliding
+        with desktops */\n/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/\n@media
+        only screen \n  and (min-device-width: 834px) \n  and (max-device-width: 834px)
+        \n  and (orientation: portrait) \n  and (-webkit-min-device-pixel-ratio: 2)
+        {\n\n}\n\n/* Landscape */\n/* Declare the same value for min- and max-width
+        to avoid colliding with desktops */\n/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/\n@media
+        only screen \n  and (min-device-width: 1112px) \n  and (max-device-width:
+        1112px) \n  and (orientation: landscape) \n  and (-webkit-min-device-pixel-ratio:
+        2) {\n\n}\n\n/* ----------- iPad Pro 12.9\" ----------- */\n\n/* Portrait
+        and Landscape */\n@media only screen \n  and (min-device-width: 1024px) \n
+        \ and (max-device-width: 1366px)\n  and (-webkit-min-device-pixel-ratio: 2)
+        {\n    \n    .SwitchToMobile {\n        display:none;\n    }\n\n}\n\n/* Portrait
+        */\n/* Declare the same value for min- and max-width to avoid colliding with
+        desktops */\n/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/\n@media
+        only screen \n  and (min-device-width: 1024px) \n  and (max-device-width:
+        1024px) \n  and (orientation: portrait) \n  and (-webkit-min-device-pixel-ratio:
+        2) {\n\n}\n\n/* Landscape */\n/* Declare the same value for min- and max-width
+        to avoid colliding with desktops */\n/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/\n@media
+        only screen \n  and (min-device-width: 1366px) \n  and (max-device-width:
+        1366px) \n  and (orientation: landscape) \n  and (-webkit-min-device-pixel-ratio:
+        2) {\n\n}\n\n/* ----------- Galaxy S3 ----------- */\n\n/* Portrait and Landscape
+        */\n@media screen \n  and (device-width: 320px) \n  and (device-height: 640px)
+        \n  and (-webkit-device-pixel-ratio: 2) {\n    .Portal-Menu,\n    .LinksTitle,\n
+        \   .LinksSection>a.Links {\n        color:white;\n        padding: 4px;\n
+        \       border-bottom: 1px solid #fafafa;\n        \n    }\n\n    .main-nav
+        {\n        display:none;\n        \n    }\n        \n    #ctl00_ctMain_search_txtSearch
+        {\n        width:160px !important;\n        \n    }\n    \n    ul.spatialSub>li,\n
+        \   ul.spatialDet>li,\n    ul.spatialSub>li.spatialSub,\n    ul.spatialDet>li.spatialDet,\n
+        \   ul.spatialSub>li.spatialSub:not(.init),\n    ul.spatialDet>li.spatialDet:not(.init)
+        { \n        width:80px;\n    }   \n\n}\n\n/* Portrait */\n@media screen \n
+        \ and (device-width: 320px) \n  and (device-height: 640px) \n  and (-webkit-device-pixel-ratio:
+        2) \n  and (orientation: portrait) {\n\n}\n\n/* Landscape */\n@media screen
+        \n  and (device-width: 320px) \n  and (device-height: 640px) \n  and (-webkit-device-pixel-ratio:
+        2) \n  and (orientation: landscape) {\n        \n    #ctl00_ctMain_search_txtSearch
+        {\n        width:280px !important;\n        \n    }\n\n}\n\n/* -----------
+        Galaxy S4, S5 and Note 3 ----------- */\n\n/* Portrait and Landscape */\n@media
+        screen \n  and (device-width: 320px) \n  and (device-height: 640px) \n  and
+        (-webkit-device-pixel-ratio: 3) {\n    .Portal-Menu,\n    .LinksTitle,\n    .LinksSection>a.Links
+        {\n        color:white;\n        padding: 4px;\n        border-bottom: 1px
+        solid #fafafa;\n        \n    }\n\n    .main-nav {\n        display:none;\n
+        \       \n    }\n        \n    #ctl00_ctMain_search_txtSearch {\n        width:160px
+        !important;\n        \n    }\n    \n    ul.spatialSub>li,\n    ul.spatialDet>li,\n
+        \   ul.spatialSub>li.spatialSub,\n    ul.spatialDet>li.spatialDet,\n    ul.spatialSub>li.spatialSub:not(.init),\n
+        \   ul.spatialDet>li.spatialDet:not(.init) { \n        width:80px;\n    }
+        \  \n\n}\n\n/* Portrait */\n@media screen \n  and (device-width: 320px) \n
+        \ and (device-height: 640px) \n  and (-webkit-device-pixel-ratio: 3) \n  and
+        (orientation: portrait) {\n\n}\n\n/* Landscape */\n@media screen \n  and (device-width:
+        320px) \n  and (device-height: 640px) \n  and (-webkit-device-pixel-ratio:
+        3) \n  and (orientation: landscape) {\n        \n    #ctl00_ctMain_search_txtSearch
+        {\n        width:280px !important;\n        \n    }\n\n}\n\n/* -----------
+        Galaxy S6 ----------- */\n\n/* Portrait and Landscape */\n@media screen \n
+        \ and (device-width: 360px) \n  and (device-height: 640px) \n  and (-webkit-device-pixel-ratio:
+        4) {\n    .Portal-Menu,\n    .LinksTitle,\n    .LinksSection>a.Links {\n        color:white;\n
+        \       padding: 4px;\n        border-bottom: 1px solid #fafafa;\n        \n
+        \   }\n\n    .main-nav {\n        display:none;\n        \n    }\n        \n
+        \   #ctl00_ctMain_search_txtSearch {\n        width:160px !important;\n        \n
+        \   }\n    \n    ul.spatialSub>li,\n    ul.spatialDet>li,\n    ul.spatialSub>li.spatialSub,\n
+        \   ul.spatialDet>li.spatialDet,\n    ul.spatialSub>li.spatialSub:not(.init),\n
+        \   ul.spatialDet>li.spatialDet:not(.init) { \n        width:80px;\n    }
+        \  \n\n}\n\n/* Portrait */\n@media screen \n  and (device-width: 360px) \n
+        \ and (device-height: 640px) \n  and (-webkit-device-pixel-ratio: 4) \n  and
+        (orientation: portrait) {\n\n}\n\n/* Landscape */\n@media screen \n  and (device-width:
+        360px) \n  and (device-height: 640px) \n  and (-webkit-device-pixel-ratio:
+        4) \n  and (orientation: landscape) {\n        \n    #ctl00_ctMain_search_txtSearch
+        {\n        width:280px !important;\n        \n    }\n\n}\n\n/* -----------
+        Galaxy Tab 2 ----------- */\n\n/* Portrait and Landscape */\n@media \n  (min-device-width:
+        800px) \n  and (max-device-width: 1280px) {\n    .main-header__wrapper clearfix
+        {\n        margin-left:none !important; \n        margin-right:none !important;;
+        \n        width:800px !important;\n        \n    }\n\n    .main-nav {\n        float:left;\n
+        \       display:block;\n        background-color:#FFF;\n        padding-right:0;\n
+        \       padding-left:2rem;\n        \n    }\n    \n    .main-nav__list {\n
+        \       padding-top:35px;\n        \n    }\n    \n    .main-nav__item {\n
+        \       margin-left:.15rem;\n        \n    }\n    \n    a.main-nav__link {\n
+        \       padding:1rem 0.5rem;\n    }\n    \n    .main-customMaster-Body {\n
+        \       padding-left:0; \n        padding-right:0;\n        \n    }\n    \n
+        \   .main-customMaster-Body {\n        margin-left:auto !important; \n        margin-right:auto
+        !important;; \n        width:95% !important;\n        \n    }\n    \n    .SwitchToMobile
+        {\n        display:none;\n    }\n\n}\n\n/* Portrait */\n@media \n  (max-device-width:
+        800px) \n  and (orientation: portrait) {  \n    \n    .main-nav__list {\n
+        \       padding-top:5px;\n        width: 70%;\n        \n    }\n    \n    a.main-nav__link
+        {\n        padding:0.5rem 0.5rem;\n    }\n        \n    #ctl00_ctMain_search_txtSearch
+        {\n        width:320px !important;\n        \n    }\n\n}\n\n/* Landscape */\n@media
+        \n  (max-device-width: 1280px) \n  and (orientation: landscape) { \n    .main-header__wrapper
+        clearfix {\n        margin-left:none !important; \n        margin-right:none
+        !important; \n        width:1024px !important;\n        \n    }\n        \n
+        \   #ctl00_ctMain_search_txtSearch {\n        max-width:550px !important;\n
+        \       \n    }\n\n}\n\n/* ----------- Galaxy Tab S ----------- */\n\n/* Portrait
+        and Landscape */\n@media \n  (min-device-width: 800px) \n  and (max-device-width:
+        1280px)\n  and (-webkit-min-device-pixel-ratio: 2) {\n    .main-header__wrapper
+        clearfix {\n        margin-left:none !important; \n        margin-right:none
+        !important;; \n        width:800px !important;\n        \n    }\n\n    .main-nav
+        {\n        float:left;\n        display:block;\n        background-color:#FFF;\n
+        \       padding-right:0;\n        padding-left:2rem;\n        \n    }\n    \n
+        \   .main-nav__list {\n        padding-top:35px;\n        \n    }\n    \n
+        \   .main-nav__item {\n        margin-left:.15rem;\n        \n    }\n    \n
+        \   a.main-nav__link {\n        padding:1rem 0.5rem;\n    }\n    \n    .main-customMaster-Body
+        {\n        padding-left:0; \n        padding-right:0;\n        \n    }\n    \n
+        \   .main-customMaster-Body {\n        margin-left:auto !important; \n        margin-right:auto
+        !important;; \n        width:95% !important;\n        \n    }\n    \n    .SwitchToMobile
+        {\n        display:none;\n    }\n}\n\n/* Portrait */\n@media \n  (max-device-width:
+        800px) \n  and (orientation: portrait)\n  and (-webkit-min-device-pixel-ratio:
+        2) { \n    \n    .main-nav__list {\n        padding-top:5px;\n        width:
+        70%;\n        \n    }\n    \n    a.main-nav__link {\n        padding:0.5rem
+        0.5rem;\n    }\n        \n    #ctl00_ctMain_search_txtSearch {\n        width:320px
+        !important;\n        \n    }\n\n}\n\n/* Landscape */\n@media \n  (max-device-width:
+        1280px) \n  and (orientation: landscape)\n  and (-webkit-min-device-pixel-ratio:
+        2) { \n    .main-header__wrapper clearfix {\n        margin-left:none !important;
+        \n        margin-right:none !important; \n        width:1024px !important;\n
+        \       \n    }\n        \n    #ctl00_ctMain_search_txtSearch {\n        max-width:550px
+        !important;\n        \n    }\n\n} .default-navigation {display:inline-block
+        !important} .default-footer {display:block !important} </style><style type='text/css'></style><meta
+        http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" /><link href=\"../../App_Themes/None/None.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/None/User.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><title>\r\n\tFind an Application\r\n</title></head>\r\n<body>\r\n
+        \   <form method=\"post\" action=\"./SearchApplication.aspx\" id=\"aspnetForm\"
+        role=\"form\" autocomplete=\"off\">\r\n<input type=\"hidden\" name=\"ctl00_rcss_TSSM\"
+        id=\"ctl00_rcss_TSSM\" value=\"\" />\r\n<input type=\"hidden\" name=\"ctl00_script_TSM\"
+        id=\"ctl00_script_TSM\" value=\"\" />\r\n<input type=\"hidden\" name=\"__VIEWSTATE\"
+        id=\"__VIEWSTATE\" value=\"/wEPDwULLTEyMjcwNjA1NTEPZBYCZg9kFgQCAQ9kFgICDw8WAh4EVGV4dAWdwgE8c3R5bGUgdHlwZT0ndGV4dC9jc3MnPkBpbXBvcnQgdXJsKCJodHRwczovL21heGNkbi5ib290c3RyYXBjZG4uY29tL2ZvbnQtYXdlc29tZS80LjUuMC9jc3MvZm9udC1hd2Vzb21lLm1pbi5jc3MiKTsKQGltcG9ydCB1cmwoImh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Qb3BwaW5zOjMwMCw0MDAsNjAwLDcwMCIpOwoKKiB7IAogICAgYm94LXNpemluZzogYm9yZGVyLWJveDsKICAgIAp9CgojdXNyQWdlbnQge2Rpc3BsYXk6bm9uZTt9CgpodG1sIHsKICAgIGZvbnQtc2l6ZToxNnB4OwogICAgCn0KCmJvZHkgewogICAgY29sb3I6IzRkNGQ0ZDsgCiAgICBmb250LXNpemU6MTVweDsKICAgIAp9CgpkaXYjaGQsICNoZCB7CiAgICBoZWlnaHQ6MTA5cHg7Cn0KCmRpdiNiZCwgI2JkIHsKICAgIGJvcmRlcjpub25lOwogICAgCn0KCiNuYXZ3cmFwIHsKICAgIGJhY2tncm91bmQ6bm9uZTsKICAgIGhlaWdodDowOyAKICAgIGJvcmRlcjpub25lOwogICAgCn0KI25hdiB7CiAgICBkaXNwbGF5Om5vbmU7CiAgICAKfQoKI21lbnVsaW5lLmN1c3RvbU1hc3Rlci1Ub3BNZW51IHsKICAgIGRpc3BsYXk6bm9uZTsKICAgIAp9CgpAbWVkaWEgKG1pbi13aWR0aDogNjRlbSkgewogICAgaGVhZGVyLm1haW4taGVhZGVyIHsKICAgICAgICBtYXJnaW4tbGVmdDphdXRvICFpbXBvcnRhbnQ7IAogICAgICAgIG1hcmdpbi1yaWdodDphdXRvICFpbXBvcnRhbnQ7OyAKICAgICAgICB3aWR0aDo4NHJlbSAhaW1wb3J0YW50OwogICAgICAgIAogICAgfQp9CgpAbWVkaWEgKG1pbi13aWR0aDogNDhlbSkgewogICAgaGVhZGVyLm1haW4taGVhZGVyIHsKICAgICAgICBwYWRkaW5nLWxlZnQ6MnJlbTsgCiAgICAgICAgcGFkZGluZy1yaWdodDoycmVtOwogICAgICAgIAogICAgfQp9CgoubWFpbi1oZWFkZXIgewogICAgbWFyZ2luLWxlZnQ6YXV0bzsgCiAgICBtYXJnaW4tcmlnaHQ6YXV0bzsgCiAgICB3aWR0aDo4NHJlbTsKICAgIAp9CgoubG9nb19fbGluayB7CiAgICBmbG9hdDpsZWZ0OwogICAgCn0KCi5tYWluLW5hdiB7CiAgICBmbG9hdDpyaWdodDsKICAgIGRpc3BsYXk6YmxvY2s7CiAgICBiYWNrZ3JvdW5kLWNvbG9yOiNGRkY7CiAgICBwYWRkaW5nLXJpZ2h0OjgycHg7CiAgICAKfQoKLm1haW4tbmF2X19saXN0IHsKICAgIHBhZGRpbmctdG9wOjM1cHg7CiAgICAKfQoKLm1haW4tbmF2X19pdGVtIHsKICAgIG1hcmdpbi1sZWZ0Oi41cmVtOwogICAgCn0KCnVsLm1haW4tbmF2X19saXN0IGxpLm1haW4tbmF2X19pdGVtIHsKICAgIGZsb2F0OmxlZnQ7CiAgICBtYXJnaW4tbGVmdDogLjVyZW07CiAgICBsaXN0LXN0eWxlLXR5cGU6bm9uZTsKICAgIHBhZGRpbmc6MDsKICAgIAp9CgphLm1haW4tbmF2X19saW5rIHsKICAgIGNvbG9yOiM0ZDRkNGQ7CiAgICB0ZXh0LWRlY29yYXRpb246bm9uZTsKICAgIGZvbnQtc2l6ZTogMS4xMjVyZW07CiAgICBmb250LXdlaWdodDogYm9sZDsKICAgIHBhZGRpbmc6IDFyZW0gMS4yNXJlbTsKICAgIGRpc3BsYXk6IGJsb2NrOwogICAgCn0KCiNjdGwwMF9jdE1haW5fc2VhcmNoX3R4dFNlYXJjaCB7CiAgICB3aWR0aDo1NTBweDsKfQoKQG1lZGlhIChtYXgtd2lkdGg6IDIwcmVtKSB7CiAgICAubWFpbi1uYXYgewogICAgICAgIGRpc3BsYXk6bm9uZTsKICAgICAgICAKICAgIH0KICAgICAgICAKICAgICNjdGwwMF9jdE1haW5fc2VhcmNoX3R4dFNlYXJjaCB7CiAgICAgICAgd2lkdGg6MTYwcHggIWltcG9ydGFudDsKICAgICAgICAKICAgIH0KfQoKQG1lZGlhIChtaW4td2lkdGg6IDQ4ZW0pIHsKICAgIC5sYW5kaW5nLWltYWdlIHsKICAgICAgICBoZWlnaHQ6IDUuNzVyZW07CiAgICB9Cn0KCi5sYW5kaW5nLWltYWdlIHsKICAgIHBvc2l0aW9uOiByZWxhdGl2ZTsKICAgIGRpc3BsYXk6IGJsb2NrOwogICAgaGVpZ2h0OiA2LjkzNzVyZW07CiAgICB3aWR0aDogMTAwJTsKICAgIG9iamVjdC1maXQ6IGNvdmVyOwogICAgei1pbmRleDogLTE7Cn0KCiNicmVhZGNydW1icyB7CiAgICBtaW4taGVpZ2h0OjVyZW07CiAgICAKfQoKQG1lZGlhIChtaW4td2lkdGg6IDQ4ZW0pIHsKICAgIC5tYWluLWN1c3RvbU1hc3Rlci1Cb2R5IHsKICAgICAgICBwYWRkaW5nLWxlZnQ6MnJlbTsgCiAgICAgICAgcGFkZGluZy1yaWdodDoycmVtOwogICAgICAgIAogICAgfQp9CgpAbWVkaWEgKG1pbi13aWR0aDogNjRlbSkgewogICAgLm1haW4tY3VzdG9tTWFzdGVyLUJvZHkgewogICAgICAgIG1hcmdpbi1sZWZ0OmF1dG8gIWltcG9ydGFudDsgCiAgICAgICAgbWFyZ2luLXJpZ2h0OmF1dG8gIWltcG9ydGFudDs7IAogICAgICAgIHdpZHRoOjg0cmVtICFpbXBvcnRhbnQ7CiAgICAgICAgCiAgICB9Cn0KCiNtYWlubGluZS5jdXN0b21NYXN0ZXItSGVhZGVyIHsKICAgIGRpc3BsYXk6bm9uZTsKICAgIAp9CgoubWFpbi1jb250YWluZXJMZWZ0LWN1c3RvbU1hc3Rlci1Cb2R5IHsKICAgIG1heC13aWR0aDoyNSU7CiAgICB3aWR0aDoyNSU7CiAgICBwYWRkaW5nLXJpZ2h0OjMlOwogICAgZGlzcGxheTppbmxpbmUtYmxvY2s7CiAgICB2ZXJ0aWNhbC1hbGlnbjp0b3A7CiAgICAKfQoKLmNvbnRhaW5lclJpZ2h0LmN1c3RvbU1hc3Rlci1Cb2R5Lm1haW4tY29udGFpbmVyUmlnaHQtY3VzdG9tTWFzdGVyLUJvZHkgewogICAgbWF4LXdpZHRoOjcwJTsKICAgIGRpc3BsYXk6aW5saW5lLWJsb2NrOwogICAgdmVydGljYWwtYWxpZ246dG9wOwogICAgCn0KCgouY29udGFpbmVyUmlnaHQuY3VzdG9tTWFzdGVyLUJvZHkgaW5wdXQsIAouY29udGFpbmVyUmlnaHQuY3VzdG9tTWFzdGVyLUJvZHkgdGV4dGFyZWEsIAouY29udGFpbmVyUmlnaHQuY3VzdG9tTWFzdGVyLUJvZHkgc2VsZWN0ewogICAgbWF4LXdpZHRoOjk5JSAhaW1wb3J0YW50OwogICAgCn0KCi5Qb3J0YWwtTWVudS1QYWRkaW5nLAoubWVudVBhZGRpbmcgewogICAgYmFja2dyb3VuZC1jb2xvcjojZmFmYWZhOwogICAgCn0KCi5Qb3J0YWwtTWVudSwKLkxpbmtzVGl0bGUsCi5MaW5rc1NlY3Rpb24+YS5MaW5rcyB7CiAgICBjb2xvcjp3aGl0ZTsKICAgIHBhZGRpbmc6MTZweCAyNHB4OwogICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNmYWZhZmE7CiAgICAKfQoKLlBvcnRhbC1NZW51LUdyb3VwLAouTGlua3NHcm91cCB7CiAgICBiYWNrZ3JvdW5kLWNvbG9yOiMwMDQ0N2M7CiAgICAKfQoKLkxpbmtzR3JvdXAgewogICAgbWFyZ2luOjA7CiAgICB3aWR0aDoxMDAlOwogICAgCn0KCi5Qb3J0YWwtTWVudS5Qb3J0YWwtTWVudS1UaXRsZTpob3ZlciwKLkxpbmtzVGl0bGU6aG92ZXIgewogICAgYmFja2dyb3VuZC1jb2xvcjojMDA1YmE2Owp9CgpkaXYuUG9ydGFsLU1lbnUtVGl0bGUsCmRpdi5MaW5rc1RpdGxlICB7CiAgICBwYWRkaW5nLXJpZ2h0OiAyLjc1cmVtOwp9CgouTGlua3NUaXRsZSB7CiAgICBtYXJnaW46MDsKICAgIHdpZHRoOjEwMCU7Cn0KCi5Qb3J0YWwtTWVudS1TZWN0aW9uLAouTGlua3NTZWN0aW9uIHsKICAgIGJhY2tncm91bmQtY29sb3I6IzAzMzQ1ZDsKICAgIAp9CgouTGlua3NTZWN0aW9uIHsKICAgIHdpZHRoOjEwMCU7CiAgICAKfQoKLlBvcnRhbC1NZW51LVNlY3Rpb24gPiAuUG9ydGFsLU1lbnU6aG92ZXIsCi5MaW5rc1NlY3Rpb24gPiAuUG9ydGFsLU1lbnU6aG92ZXIsCi5MaW5rc1NlY3Rpb24gPiAuUG9ydGFsLU1lbnU+YS5MaW5rczpob3ZlciB7CiAgICBiYWNrZ3JvdW5kLWNvbG9yOiMwNDRjODc7Cn0KCmEuUG9ydGFsLU1lbnUtTGlua3MsCi5Qb3J0YWwtTWVudT5hLkxpbmtzIHsKICAgIGNvbG9yOndoaXRlICFpbXBvcnRhbnQ7CiAgICB0ZXh0LWRlY29yYXRpb246bm9uZTsKICAgIGZvbnQtc2l6ZTogMC44NzVyZW07Cgp9CgphLlBvcnRhbC1NZW51LUxpbmtzLlBvcnRhbC1NZW51LVRpdGxlLAouTGlua3NUaXRsZSB7CiAgICBmb250LXdlaWdodDpib2xkOyAgICAKICAgIAp9CgphLlBvcnRhbC1NZW51LUxpbmtzLlBvcnRhbC1NZW51LVRpdGxlOmJlZm9yZSwKLkxpbmtzVGl0bGU+aW1nOmJlZm9yZSB7CiAgICBjb250ZW50OiAnJzsKICAgIHJpZ2h0OiAxLjE1cmVtOwogICAgdG9wOiAuOTVyZW07CiAgICBkaXNwbGF5OiBibG9jazsKICAgIGhlaWdodDogMTBweDsKICAgIHdpZHRoOiAxMHB4OwogICAgYm9yZGVyLXJpZ2h0OiAzcHggc29saWQgI2ZmZjsKICAgIGJvcmRlci1ib3R0b206IDNweCBzb2xpZCAjZmZmOwogICAgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSg0NWRlZyk7CiAgICAtbXMtdHJhbnNmb3JtOiByb3RhdGUoNDVkZWcpOwogICAgdHJhbnNmb3JtOiByb3RhdGUoNDVkZWcpOwogICAgZmxvYXQ6cmlnaHQ7Cn0KCi5MaW5rc1RpdGxlPmltZyB7CiAgICBkaXNwbGF5Om5vbmU7Cn0KCiNtU3ViPmRpdiwKI21EZXQ+ZGl2LAojaVN1YiwgCiNpRGV0IHsKICAgIG1hcmdpbi1sZWZ0OjAgIWltcG9ydGFudDsKICAgIAp9CgojaVN1YiwgCiNpRGV0IHsKICAgIGJvcmRlci1sZWZ0Om5vbmUgIWltcG9ydGFudDsKICAgIGJvcmRlci1yaWdodDpub25lICFpbXBvcnRhbnQ7CiAgICB3aWR0aDoxMDAlICFpbXBvcnRhbnQ7CiAgICBvdmVyZmxvdy14OmhpZGRlbjsKfQoKdWwuc3BhdGlhbFN1YiwKdWwuc3BhdGlhbERldCB7CiAgICBtaW4taGVpZ2h0OjQwcHggIWltcG9ydGFudDsKICAgIHdpZHRoOjEwMCU7Cn0KCnVsLnNwYXRpYWxTdWIgbGksCnVsLnNwYXRpYWxEZXQgbGkgewogICAgY29sb3I6d2hpdGU7CiAgICAvKndpZHRoOjgwJTsqLwp9CgpAbWVkaWEgKG1pbi13aWR0aDogMThyZW0pIHsKICAgIHVsLnNwYXRpYWxTdWI+bGksCiAgICB1bC5zcGF0aWFsRGV0PmxpLAogICAgdWwuc3BhdGlhbFN1Yj5saS5zcGF0aWFsU3ViLAogICAgdWwuc3BhdGlhbERldD5saS5zcGF0aWFsRGV0LAogICAgdWwuc3BhdGlhbFN1Yj5saS5zcGF0aWFsU3ViOm5vdCguaW5pdCksCiAgICB1bC5zcGF0aWFsRGV0PmxpLnNwYXRpYWxEZXQ6bm90KC5pbml0KSB7IAogICAgICAgIHdpZHRoOjgwcHg7CiAgICB9ICAgCn0KCkBtZWRpYSAobWluLXdpZHRoOiA1MHJlbSkgewogICAgdWwuc3BhdGlhbFN1Yj5saSwKICAgIHVsLnNwYXRpYWxEZXQ+bGksCiAgICB1bC5zcGF0aWFsU3ViPmxpLnNwYXRpYWxTdWIsCiAgICB1bC5zcGF0aWFsRGV0PmxpLnNwYXRpYWxEZXQsCiAgICB1bC5zcGF0aWFsU3ViPmxpLnNwYXRpYWxTdWI6bm90KC5pbml0KSwKICAgIHVsLnNwYXRpYWxEZXQ+bGkuc3BhdGlhbERldDpub3QoLmluaXQpIHsgCiAgICAgICAgd2lkdGg6Mjg4cHg7CiAgICB9ICAgCn0KCnVsLnNwYXRpYWxTdWI+bGkuc3BhdGlhbFN1Yjpob3ZlciwgCnVsLnNwYXRpYWxEZXQ+bGkuc3BhdGlhbERldDpob3ZlciB7IAogICAgYmFja2dyb3VuZC1jb2xvcjogIzAwNWJhNiAhaW1wb3J0YW50OyAKICAgIAp9CgpAbWVkaWEgKG1heC13aWR0aDogMzQ5cHgpIHsKICAgIC5Qb3J0YWwtTWVudSwKICAgIC5MaW5rc1RpdGxlLAogICAgLkxpbmtzU2VjdGlvbj5hLkxpbmtzIHsKICAgICAgICBjb2xvcjp3aGl0ZTsKICAgICAgICBwYWRkaW5nOiA0cHg7CiAgICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNmYWZhZmE7CiAgICAgICAgCiAgICB9CiAgICAKfQoKLnBhZGRlZExhcmdlLmN1c3RvbU1lbnUgewogICAgcGFkZGluZzowOwogICAgCn0KCi5jb250YWluZXJJbm5lci5tYWluLWNvbnRhaW5lcklubmVyLWNvbnRhaW5lckxlZnQtY3VzdG9tTWFzdGVyLUJvZHkgewogICAgb3ZlcmZsb3c6aGlkZGVuOwogICAgCn0KCi5jb250YWluZXJJbm5lci5tYWluLWNvbnRhaW5lcklubmVyLWNvbnRhaW5lclJpZ2h0LWN1c3RvbU1hc3Rlci1Cb2R5IHsKICAgIHBhZGRpbmctdG9wOiAycmVtOwogICAgCn0KCi5tYWluLWhlYWRlcl9fd3JhcHBlciB7CiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZSAhaW1wb3J0YW50OwogICAgCn0KCmEuV2hpdGVUZXh0IHsKICAgIGNvbG9yOiNGRkYgIWltcG9ydGFudDtmb250LXdlaWdodDpib2xkICFpbXBvcnRhbnQ7Cn0KCi8qIE1lZGlhIENTUyBPdmVycmlkZXMgKi8KCi8qIC0tLS0tLS0tLS0tIGlQaG9uZSA0IGFuZCA0UyAtLS0tLS0tLS0tLSAqLwoKLyogUG9ydHJhaXQgYW5kIExhbmRzY2FwZSAqLwpAbWVkaWEgb25seSBzY3JlZW4gCiAgYW5kIChtaW4tZGV2aWNlLXdpZHRoOiAzMjBweCkgCiAgYW5kIChtYXgtZGV2aWNlLXdpZHRoOiA0ODBweCkKICBhbmQgKC13ZWJraXQtbWluLWRldmljZS1waXhlbC1yYXRpbzogMikgewogICAgLlBvcnRhbC1NZW51LAogICAgLkxpbmtzVGl0bGUsCiAgICAuTGlua3NTZWN0aW9uPmEuTGlua3MgewogICAgICAgIGNvbG9yOndoaXRlOwogICAgICAgIHBhZGRpbmc6IDRweDsKICAgICAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI2ZhZmFmYTsKICAgICAgICAKICAgIH0KCiAgICAubWFpbi1uYXYgewogICAgICAgIGRpc3BsYXk6bm9uZTsKICAgICAgICAKICAgIH0KICAgICAgICAKICAgICNjdGwwMF9jdE1haW5fc2VhcmNoX3R4dFNlYXJjaCB7CiAgICAgICAgd2lkdGg6MTYwcHggIWltcG9ydGFudDsKICAgICAgICAKICAgIH0KICAgIAogICAgdWwuc3BhdGlhbFN1Yj5saSwKICAgIHVsLnNwYXRpYWxEZXQ+bGksCiAgICB1bC5zcGF0aWFsU3ViPmxpLnNwYXRpYWxTdWIsCiAgICB1bC5zcGF0aWFsRGV0PmxpLnNwYXRpYWxEZXQsCiAgICB1bC5zcGF0aWFsU3ViPmxpLnNwYXRpYWxTdWI6bm90KC5pbml0KSwKICAgIHVsLnNwYXRpYWxEZXQ+bGkuc3BhdGlhbERldDpub3QoLmluaXQpIHsgCiAgICAgICAgd2lkdGg6ODBweDsKICAgIH0gICAKICAgIAp9CgovKiBQb3J0cmFpdCAqLwpAbWVkaWEgb25seSBzY3JlZW4gCiAgYW5kIChtaW4tZGV2aWNlLXdpZHRoOiAzMjBweCkgCiAgYW5kIChtYXgtZGV2aWNlLXdpZHRoOiA0ODBweCkKICBhbmQgKC13ZWJraXQtbWluLWRldmljZS1waXhlbC1yYXRpbzogMikKICBhbmQgKG9yaWVudGF0aW9uOiBwb3J0cmFpdCkgewp9CgovKiBMYW5kc2NhcGUgKi8KQG1lZGlhIG9ubHkgc2NyZWVuIAogIGFuZCAobWluLWRldmljZS13aWR0aDogMzIwcHgpIAogIGFuZCAobWF4LWRldmljZS13aWR0aDogNDgwcHgpCiAgYW5kICgtd2Via2l0LW1pbi1kZXZpY2UtcGl4ZWwtcmF0aW86IDIpCiAgYW5kIChvcmllbnRhdGlvbjogbGFuZHNjYXBlKSB7CiAgICAgICAgCiAgICAjY3RsMDBfY3RNYWluX3NlYXJjaF90eHRTZWFyY2ggewogICAgICAgIHdpZHRoOjI4MHB4ICFpbXBvcnRhbnQ7CiAgICAgICAgCiAgICB9Cgp9CgovKiAtLS0tLS0tLS0tLSBpUGhvbmUgNSwgNVMsIDVDIGFuZCA1U0UgLS0tLS0tLS0tLS0gKi8KCi8qIFBvcnRyYWl0IGFuZCBMYW5kc2NhcGUgKi8KQG1lZGlhIG9ubHkgc2NyZWVuIAogIGFuZCAobWluLWRldmljZS13aWR0aDogMzIwcHgpIAogIGFuZCAobWF4LWRldmljZS13aWR0aDogNTY4cHgpCiAgYW5kICgtd2Via2l0LW1pbi1kZXZpY2UtcGl4ZWwtcmF0aW86IDIpIHsKICAgIC5Qb3J0YWwtTWVudSwKICAgIC5MaW5rc1RpdGxlLAogICAgLkxpbmtzU2VjdGlvbj5hLkxpbmtzIHsKICAgICAgICBjb2xvcjp3aGl0ZTsKICAgICAgICBwYWRkaW5nOiA0cHg7CiAgICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNmYWZhZmE7CiAgICAgICAgCiAgICB9CgogICAgLm1haW4tbmF2IHsKICAgICAgICBkaXNwbGF5Om5vbmU7CiAgICAgICAgCiAgICB9CiAgICAgICAgCiAgICAjY3RsMDBfY3RNYWluX3NlYXJjaF90eHRTZWFyY2ggewogICAgICAgIHdpZHRoOjE2MHB4ICFpbXBvcnRhbnQ7CiAgICAgICAgCiAgICB9CiAgICAKICAgIHVsLnNwYXRpYWxTdWI+bGksCiAgICB1bC5zcGF0aWFsRGV0PmxpLAogICAgdWwuc3BhdGlhbFN1Yj5saS5zcGF0aWFsU3ViLAogICAgdWwuc3BhdGlhbERldD5saS5zcGF0aWFsRGV0LAogICAgdWwuc3BhdGlhbFN1Yj5saS5zcGF0aWFsU3ViOm5vdCguaW5pdCksCiAgICB1bC5zcGF0aWFsRGV0PmxpLnNwYXRpYWxEZXQ6bm90KC5pbml0KSB7IAogICAgICAgIHdpZHRoOjgwcHg7CiAgICB9ICAgCgp9CgovKiBQb3J0cmFpdCAqLwpAbWVkaWEgb25seSBzY3JlZW4gCiAgYW5kIChtaW4tZGV2aWNlLXdpZHRoOiAzMjBweCkgCiAgYW5kIChtYXgtZGV2aWNlLXdpZHRoOiA1NjhweCkKICBhbmQgKC13ZWJraXQtbWluLWRldmljZS1waXhlbC1yYXRpbzogMikKICBhbmQgKG9yaWVudGF0aW9uOiBwb3J0cmFpdCkgewp9CgovKiBMYW5kc2NhcGUgKi8KQG1lZGlhIG9ubHkgc2NyZWVuIAogIGFuZCAobWluLWRldmljZS13aWR0aDogMzIwcHgpIAogIGFuZCAobWF4LWRldmljZS13aWR0aDogNTY4cHgpCiAgYW5kICgtd2Via2l0LW1pbi1kZXZpY2UtcGl4ZWwtcmF0aW86IDIpCiAgYW5kIChvcmllbnRhdGlvbjogbGFuZHNjYXBlKSB7CiAgICAgICAgCiAgICAjY3RsMDBfY3RNYWluX3NlYXJjaF90eHRTZWFyY2ggewogICAgICAgIHdpZHRoOjI4MHB4ICFpbXBvcnRhbnQ7CiAgICAgICAgCiAgICB9Cgp9CgovKiAtLS0tLS0tLS0tLSBpUGhvbmUgNiwgNlMsIDcgYW5kIDggLS0tLS0tLS0tLS0gKi8KCi8qIFBvcnRyYWl0IGFuZCBMYW5kc2NhcGUgKi8KQG1lZGlhIG9ubHkgc2NyZWVuIAogIGFuZCAobWluLWRldmljZS13aWR0aDogMzc1cHgpIAogIGFuZCAobWF4LWRldmljZS13aWR0aDogNjY3cHgpIAogIGFuZCAoLXdlYmtpdC1taW4tZGV2aWNlLXBpeGVsLXJhdGlvOiAyKSB7IAogICAgLlBvcnRhbC1NZW51LAogICAgLkxpbmtzVGl0bGUsCiAgICAuTGlua3NTZWN0aW9uPmEuTGlua3MgewogICAgICAgIGNvbG9yOndoaXRlOwogICAgICAgIHBhZGRpbmc6IDRweDsKICAgICAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI2ZhZmFmYTsKICAgICAgICAKICAgIH0KCiAgICAubWFpbi1uYXYgewogICAgICAgIGRpc3BsYXk6bm9uZTsKICAgICAgICAKICAgIH0KICAgICAgICAKICAgICNjdGwwMF9jdE1haW5fc2VhcmNoX3R4dFNlYXJjaCB7CiAgICAgICAgd2lkdGg6MTYwcHggIWltcG9ydGFudDsKICAgICAgICAKICAgIH0KICAgIAogICAgdWwuc3BhdGlhbFN1Yj5saSwKICAgIHVsLnNwYXRpYWxEZXQ+bGksCiAgICB1bC5zcGF0aWFsU3ViPmxpLnNwYXRpYWxTdWIsCiAgICB1bC5zcGF0aWFsRGV0PmxpLnNwYXRpYWxEZXQsCiAgICB1bC5zcGF0aWFsU3ViPmxpLnNwYXRpYWxTdWI6bm90KC5pbml0KSwKICAgIHVsLnNwYXRpYWxEZXQ+bGkuc3BhdGlhbERldDpub3QoLmluaXQpIHsgCiAgICAgICAgd2lkdGg6ODBweDsKICAgIH0gICAKICAgIAp9CgovKiBQb3J0cmFpdCAqLwpAbWVkaWEgb25seSBzY3JlZW4gCiAgYW5kIChtaW4tZGV2aWNlLXdpZHRoOiAzNzVweCkgCiAgYW5kIChtYXgtZGV2aWNlLXdpZHRoOiA2NjdweCkgCiAgYW5kICgtd2Via2l0LW1pbi1kZXZpY2UtcGl4ZWwtcmF0aW86IDIpCiAgYW5kIChvcmllbnRhdGlvbjogcG9ydHJhaXQpIHsgCgp9CgovKiBMYW5kc2NhcGUgKi8KQG1lZGlhIG9ubHkgc2NyZWVuIAogIGFuZCAobWluLWRldmljZS13aWR0aDogMzc1cHgpIAogIGFuZCAobWF4LWRldmljZS13aWR0aDogNjY3cHgpIAogIGFuZCAoLXdlYmtpdC1taW4tZGV2aWNlLXBpeGVsLXJhdGlvOiAyKQogIGFuZCAob3JpZW50YXRpb246IGxhbmRzY2FwZSkgeyAKICAgICAgICAKICAgICNjdGwwMF9jdE1haW5fc2VhcmNoX3R4dFNlYXJjaCB7CiAgICAgICAgd2lkdGg6MjgwcHggIWltcG9ydGFudDsKICAgICAgICAKICAgIH0KCn0KCi8qIC0tLS0tLS0tLS0tIGlQaG9uZSA2KywgNysgYW5kIDgrIC0tLS0tLS0tLS0tICovCgovKiBQb3J0cmFpdCBhbmQgTGFuZHNjYXBlICovCkBtZWRpYSBvbmx5IHNjcmVlbiAKICBhbmQgKG1pbi1kZXZpY2Utd2lkdGg6IDQxNHB4KSAKICBhbmQgKG1heC1kZXZpY2Utd2lkdGg6IDczNnB4KSAKICBhbmQgKC13ZWJraXQtbWluLWRldmljZS1waXhlbC1yYXRpbzogMykgeyAKICAgIC5Qb3J0YWwtTWVudSwKICAgIC5MaW5rc1RpdGxlLAogICAgLkxpbmtzU2VjdGlvbj5hLkxpbmtzIHsKICAgICAgICBjb2xvcjp3aGl0ZTsKICAgICAgICBwYWRkaW5nOiA0cHg7CiAgICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNmYWZhZmE7CiAgICAgICAgCiAgICB9CgogICAgLm1haW4tbmF2IHsKICAgICAgICBkaXNwbGF5Om5vbmU7CiAgICAgICAgCiAgICB9CiAgICAgICAgCiAgICAjY3RsMDBfY3RNYWluX3NlYXJjaF90eHRTZWFyY2ggewogICAgICAgIHdpZHRoOjI4MHB4ICFpbXBvcnRhbnQ7CiAgICAgICAgCiAgICB9CiAgICAKICAgIHVsLnNwYXRpYWxTdWI+bGksCiAgICB1bC5zcGF0aWFsRGV0PmxpLAogICAgdWwuc3BhdGlhbFN1Yj5saS5zcGF0aWFsU3ViLAogICAgdWwuc3BhdGlhbERldD5saS5zcGF0aWFsRGV0LAogICAgdWwuc3BhdGlhbFN1Yj5saS5zcGF0aWFsU3ViOm5vdCguaW5pdCksCiAgICB1bC5zcGF0aWFsRGV0PmxpLnNwYXRpYWxEZXQ6bm90KC5pbml0KSB7IAogICAgICAgIHdpZHRoOjgwcHg7CiAgICB9ICAgCiAgICAKfQoKLyogUG9ydHJhaXQgKi8KQG1lZGlhIG9ubHkgc2NyZWVuIAogIGFuZCAobWluLWRldmljZS13aWR0aDogNDE0cHgpIAogIGFuZCAobWF4LWRldmljZS13aWR0aDogNzM2cHgpIAogIGFuZCAoLXdlYmtpdC1taW4tZGV2aWNlLXBpeGVsLXJhdGlvOiAzKQogIGFuZCAob3JpZW50YXRpb246IHBvcnRyYWl0KSB7IAoKfQoKLyogTGFuZHNjYXBlICovCkBtZWRpYSBvbmx5IHNjcmVlbiAKICBhbmQgKG1pbi1kZXZpY2Utd2lkdGg6IDQxNHB4KSAKICBhbmQgKG1heC1kZXZpY2Utd2lkdGg6IDczNnB4KSAKICBhbmQgKC13ZWJraXQtbWluLWRldmljZS1waXhlbC1yYXRpbzogMykKICBhbmQgKG9yaWVudGF0aW9uOiBsYW5kc2NhcGUpIHsgCiAgICAgICAgCiAgICAjY3RsMDBfY3RNYWluX3NlYXJjaF90eHRTZWFyY2ggewogICAgICAgIHdpZHRoOjMyMHB4ICFpbXBvcnRhbnQ7CiAgICAgICAgCiAgICB9Cgp9CgovKiAtLS0tLS0tLS0tLSBpUGhvbmUgWCAtLS0tLS0tLS0tLSAqLwoKLyogUG9ydHJhaXQgYW5kIExhbmRzY2FwZSAqLwpAbWVkaWEgb25seSBzY3JlZW4gCiAgYW5kIChtaW4tZGV2aWNlLXdpZHRoOiAzNzVweCkgCiAgYW5kIChtYXgtZGV2aWNlLXdpZHRoOiA4MTJweCkgCiAgYW5kICgtd2Via2l0LW1pbi1kZXZpY2UtcGl4ZWwtcmF0aW86IDMpIHsgCiAgICAuUG9ydGFsLU1lbnUsCiAgICAuTGlua3NUaXRsZSwKICAgIC5MaW5rc1NlY3Rpb24+YS5MaW5rcyB7CiAgICAgICAgY29sb3I6d2hpdGU7CiAgICAgICAgcGFkZGluZzogNHB4OwogICAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjZmFmYWZhOwogICAgICAgIAogICAgfQoKICAgIC5tYWluLW5hdiB7CiAgICAgICAgZGlzcGxheTpub25lOwogICAgICAgIAogICAgfQogICAgICAgIAogICAgI2N0bDAwX2N0TWFpbl9zZWFyY2hfdHh0U2VhcmNoIHsKICAgICAgICB3aWR0aDoxNjBweCAhaW1wb3J0YW50OwogICAgICAgIAogICAgfQogICAgCiAgICB1bC5zcGF0aWFsU3ViPmxpLAogICAgdWwuc3BhdGlhbERldD5saSwKICAgIHVsLnNwYXRpYWxTdWI+bGkuc3BhdGlhbFN1YiwKICAgIHVsLnNwYXRpYWxEZXQ+bGkuc3BhdGlhbERldCwKICAgIHVsLnNwYXRpYWxTdWI+bGkuc3BhdGlhbFN1Yjpub3QoLmluaXQpLAogICAgdWwuc3BhdGlhbERldD5saS5zcGF0aWFsRGV0Om5vdCguaW5pdCkgeyAKICAgICAgICB3aWR0aDo4MHB4OwogICAgfSAgIAoKfQoKLyogUG9ydHJhaXQgKi8KQG1lZGlhIG9ubHkgc2NyZWVuIAogIGFuZCAobWluLWRldmljZS13aWR0aDogMzc1cHgpIAogIGFuZCAobWF4LWRldmljZS13aWR0aDogODEycHgpIAogIGFuZCAoLXdlYmtpdC1taW4tZGV2aWNlLXBpeGVsLXJhdGlvOiAzKQogIGFuZCAob3JpZW50YXRpb246IHBvcnRyYWl0KSB7IAoKfQoKLyogTGFuZHNjYXBlICovCkBtZWRpYSBvbmx5IHNjcmVlbiAKICBhbmQgKG1pbi1kZXZpY2Utd2lkdGg6IDM3NXB4KSAKICBhbmQgKG1heC1kZXZpY2Utd2lkdGg6IDgxMnB4KSAKICBhbmQgKC13ZWJraXQtbWluLWRldmljZS1waXhlbC1yYXRpbzogMykKICBhbmQgKG9yaWVudGF0aW9uOiBsYW5kc2NhcGUpIHsKICAgICAgICAKICAgICNjdGwwMF9jdE1haW5fc2VhcmNoX3R4dFNlYXJjaCB7CiAgICAgICAgd2lkdGg6MjgwcHggIWltcG9ydGFudDsKICAgICAgICAKICAgIH0gCgp9Ci8qIC0tLS0tLS0tLS0tIGlQYWQgMSwgMiwgTWluaSBhbmQgQWlyIC0tLS0tLS0tLS0tICovCgovKiBQb3J0cmFpdCBhbmQgTGFuZHNjYXBlICovCkBtZWRpYSBvbmx5IHNjcmVlbiAKICBhbmQgKG1pbi1kZXZpY2Utd2lkdGg6IDc2OHB4KSAKICBhbmQgKG1heC1kZXZpY2Utd2lkdGg6IDEwMjRweCkgCiAgYW5kICgtd2Via2l0LW1pbi1kZXZpY2UtcGl4ZWwtcmF0aW86IDEpIHsKICAgIC5tYWluLWhlYWRlcl9fd3JhcHBlciBjbGVhcmZpeCB7CiAgICAgICAgbWFyZ2luLWxlZnQ6bm9uZSAhaW1wb3J0YW50OyAKICAgICAgICBtYXJnaW4tcmlnaHQ6bm9uZSAhaW1wb3J0YW50OzsgCiAgICAgICAgd2lkdGg6NzY4cHggIWltcG9ydGFudDsKICAgICAgICAKICAgIH0KCiAgICAubWFpbi1uYXYgewogICAgICAgIGZsb2F0OmxlZnQ7CiAgICAgICAgZGlzcGxheTpibG9jazsKICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiNGRkY7CiAgICAgICAgcGFkZGluZy1yaWdodDowOwogICAgICAgIHBhZGRpbmctbGVmdDoycmVtOwogICAgICAgIAogICAgfQogICAgCiAgICAubWFpbi1uYXZfX2xpc3QgewogICAgICAgIHBhZGRpbmctdG9wOjM1cHg7CiAgICAgICAgCiAgICB9CiAgICAKICAgIC5tYWluLW5hdl9faXRlbSB7CiAgICAgICAgbWFyZ2luLWxlZnQ6LjE1cmVtOwogICAgICAgIAogICAgfQogICAgCiAgICBhLm1haW4tbmF2X19saW5rIHsKICAgICAgICBwYWRkaW5nOjFyZW0gMC41cmVtOwogICAgfQogICAgCiAgICAubWFpbi1jdXN0b21NYXN0ZXItQm9keSB7CiAgICAgICAgcGFkZGluZy1sZWZ0OjA7IAogICAgICAgIHBhZGRpbmctcmlnaHQ6MDsKICAgICAgICAKICAgIH0KICAgIAogICAgLm1haW4tY3VzdG9tTWFzdGVyLUJvZHkgewogICAgICAgIG1hcmdpbi1sZWZ0OmF1dG8gIWltcG9ydGFudDsgCiAgICAgICAgbWFyZ2luLXJpZ2h0OmF1dG8gIWltcG9ydGFudDs7IAogICAgICAgIHdpZHRoOjk1JSAhaW1wb3J0YW50OwogICAgICAgIAogICAgfQogICAgCiAgICAuU3dpdGNoVG9Nb2JpbGUgewogICAgICAgIGRpc3BsYXk6bm9uZTsKICAgIH0KfQoKLyogUG9ydHJhaXQgKi8KQG1lZGlhIG9ubHkgc2NyZWVuIAogIGFuZCAobWluLWRldmljZS13aWR0aDogNzY4cHgpIAogIGFuZCAobWF4LWRldmljZS13aWR0aDogMTAyNHB4KSAKICBhbmQgKG9yaWVudGF0aW9uOiBwb3J0cmFpdCkgCiAgYW5kICgtd2Via2l0LW1pbi1kZXZpY2UtcGl4ZWwtcmF0aW86IDEpIHsKICAgIAogICAgLm1haW4tbmF2X19saXN0IHsKICAgICAgICBwYWRkaW5nLXRvcDo1cHg7CiAgICAgICAgd2lkdGg6IDcwJTsKICAgICAgICAKICAgIH0KICAgIAogICAgYS5tYWluLW5hdl9fbGluayB7CiAgICAgICAgcGFkZGluZzowLjVyZW0gMC41cmVtOwogICAgfQogICAgICAgIAogICAgI2N0bDAwX2N0TWFpbl9zZWFyY2hfdHh0U2VhcmNoIHsKICAgICAgICB3aWR0aDozMjBweCAhaW1wb3J0YW50OwogICAgICAgIAogICAgfQp9CgovKiBMYW5kc2NhcGUgKi8KQG1lZGlhIG9ubHkgc2NyZWVuIAogIGFuZCAobWluLWRldmljZS13aWR0aDogNzY4cHgpIAogIGFuZCAobWF4LWRldmljZS13aWR0aDogMTAyNHB4KSAKICBhbmQgKG9yaWVudGF0aW9uOiBsYW5kc2NhcGUpIAogIGFuZCAoLXdlYmtpdC1taW4tZGV2aWNlLXBpeGVsLXJhdGlvOiAxKSB7CiAgICAubWFpbi1oZWFkZXJfX3dyYXBwZXIgY2xlYXJmaXggewogICAgICAgIG1hcmdpbi1sZWZ0Om5vbmUgIWltcG9ydGFudDsgCiAgICAgICAgbWFyZ2luLXJpZ2h0Om5vbmUgIWltcG9ydGFudDsgCiAgICAgICAgd2lkdGg6MTAyNHB4ICFpbXBvcnRhbnQ7CiAgICAgICAgCiAgICB9CiAgICAgICAgCiAgICAjY3RsMDBfY3RNYWluX3NlYXJjaF90eHRTZWFyY2ggewogICAgICAgIG1heC13aWR0aDo1MDBweCAhaW1wb3J0YW50OwogICAgICAgIAogICAgfQoKfQoKLyogLS0tLS0tLS0tLS0gaVBhZCAzLCA0IGFuZCBQcm8gOS43IiAtLS0tLS0tLS0tLSAqLwoKLyogUG9ydHJhaXQgYW5kIExhbmRzY2FwZSAqLwpAbWVkaWEgb25seSBzY3JlZW4gCiAgYW5kIChtaW4tZGV2aWNlLXdpZHRoOiA3NjhweCkgCiAgYW5kIChtYXgtZGV2aWNlLXdpZHRoOiAxMDI0cHgpIAogIGFuZCAoLXdlYmtpdC1taW4tZGV2aWNlLXBpeGVsLXJhdGlvOiAyKSB7CiAgICAubWFpbi1oZWFkZXJfX3dyYXBwZXIgY2xlYXJmaXggewogICAgICAgIG1hcmdpbi1sZWZ0Om5vbmUgIWltcG9ydGFudDsgCiAgICAgICAgbWFyZ2luLXJpZ2h0Om5vbmUgIWltcG9ydGFudDs7IAogICAgICAgIHdpZHRoOjc2OHB4ICFpbXBvcnRhbnQ7CiAgICAgICAgCiAgICB9CgogICAgLm1haW4tbmF2IHsKICAgICAgICBmbG9hdDpsZWZ0OwogICAgICAgIGRpc3BsYXk6YmxvY2s7CiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjojRkZGOwogICAgICAgIHBhZGRpbmctcmlnaHQ6MDsKICAgICAgICBwYWRkaW5nLWxlZnQ6MnJlbTsKICAgICAgICAKICAgIH0KICAgIAogICAgLm1haW4tbmF2X19saXN0IHsKICAgICAgICBwYWRkaW5nLXRvcDozNXB4OwogICAgICAgIAogICAgfQogICAgCiAgICAubWFpbi1uYXZfX2l0ZW0gewogICAgICAgIG1hcmdpbi1sZWZ0Oi4xNXJlbTsKICAgICAgICAKICAgIH0KICAgIAogICAgYS5tYWluLW5hdl9fbGluayB7CiAgICAgICAgcGFkZGluZzoxcmVtIDAuNXJlbTsKICAgIH0KICAgIAogICAgLm1haW4tY3VzdG9tTWFzdGVyLUJvZHkgewogICAgICAgIHBhZGRpbmctbGVmdDowOyAKICAgICAgICBwYWRkaW5nLXJpZ2h0OjA7CiAgICAgICAgCiAgICB9CiAgICAKICAgIC5tYWluLWN1c3RvbU1hc3Rlci1Cb2R5IHsKICAgICAgICBtYXJnaW4tbGVmdDphdXRvICFpbXBvcnRhbnQ7IAogICAgICAgIG1hcmdpbi1yaWdodDphdXRvICFpbXBvcnRhbnQ7OyAKICAgICAgICB3aWR0aDo5NSUgIWltcG9ydGFudDsKICAgICAgICAKICAgIH0KICAgIAogICAgLlN3aXRjaFRvTW9iaWxlIHsKICAgICAgICBkaXNwbGF5Om5vbmU7CiAgICB9Cgp9CgovKiBQb3J0cmFpdCAqLwpAbWVkaWEgb25seSBzY3JlZW4gCiAgYW5kIChtaW4tZGV2aWNlLXdpZHRoOiA3NjhweCkgCiAgYW5kIChtYXgtZGV2aWNlLXdpZHRoOiAxMDI0cHgpIAogIGFuZCAob3JpZW50YXRpb246IHBvcnRyYWl0KSAKICBhbmQgKC13ZWJraXQtbWluLWRldmljZS1waXhlbC1yYXRpbzogMikgewogICAgCiAgICAubWFpbi1uYXZfX2xpc3QgewogICAgICAgIHBhZGRpbmctdG9wOjVweDsKICAgICAgICB3aWR0aDogNzAlOwogICAgICAgIAogICAgfQogICAgCiAgICBhLm1haW4tbmF2X19saW5rIHsKICAgICAgICBwYWRkaW5nOjAuNXJlbSAwLjVyZW07CiAgICB9CiAgICAgICAgCiAgICAjY3RsMDBfY3RNYWluX3NlYXJjaF90eHRTZWFyY2ggewogICAgICAgIHdpZHRoOjMyMHB4ICFpbXBvcnRhbnQ7CiAgICAgICAgCiAgICB9Cgp9CgovKiBMYW5kc2NhcGUgKi8KQG1lZGlhIG9ubHkgc2NyZWVuIAogIGFuZCAobWluLWRldmljZS13aWR0aDogNzY4cHgpIAogIGFuZCAobWF4LWRldmljZS13aWR0aDogMTAyNHB4KSAKICBhbmQgKG9yaWVudGF0aW9uOiBsYW5kc2NhcGUpIAogIGFuZCAoLXdlYmtpdC1taW4tZGV2aWNlLXBpeGVsLXJhdGlvOiAyKSB7CiAgICAubWFpbi1oZWFkZXJfX3dyYXBwZXIgY2xlYXJmaXggewogICAgICAgIG1hcmdpbi1sZWZ0Om5vbmUgIWltcG9ydGFudDsgCiAgICAgICAgbWFyZ2luLXJpZ2h0Om5vbmUgIWltcG9ydGFudDsgCiAgICAgICAgd2lkdGg6MTAyNHB4ICFpbXBvcnRhbnQ7CiAgICAgICAgCiAgICB9CiAgICAgICAgCiAgICAjY3RsMDBfY3RNYWluX3NlYXJjaF90eHRTZWFyY2ggewogICAgICAgIG1heC13aWR0aDo1MDBweCAhaW1wb3J0YW50OwogICAgICAgIAogICAgfQoKfQoKLyogLS0tLS0tLS0tLS0gaVBhZCBQcm8gMTAuNSIgLS0tLS0tLS0tLS0gKi8KCi8qIFBvcnRyYWl0IGFuZCBMYW5kc2NhcGUgKi8KQG1lZGlhIG9ubHkgc2NyZWVuIAogIGFuZCAobWluLWRldmljZS13aWR0aDogODM0cHgpIAogIGFuZCAobWF4LWRldmljZS13aWR0aDogMTExMnB4KQogIGFuZCAoLXdlYmtpdC1taW4tZGV2aWNlLXBpeGVsLXJhdGlvOiAyKSB7CiAgICAKICAgIC5Td2l0Y2hUb01vYmlsZSB7CiAgICAgICAgZGlzcGxheTpub25lOwogICAgfQoKfQoKLyogUG9ydHJhaXQgKi8KLyogRGVjbGFyZSB0aGUgc2FtZSB2YWx1ZSBmb3IgbWluLSBhbmQgbWF4LXdpZHRoIHRvIGF2b2lkIGNvbGxpZGluZyB3aXRoIGRlc2t0b3BzICovCi8qIFNvdXJjZTogaHR0cHM6Ly9tZWRpdW0uY29tL2Nvbm5lY3QtdGhlLWRvdHMvY3NzLW1lZGlhLXF1ZXJpZXMtZm9yLWlwYWQtcHJvLThjYWQxMGUxNzEwNiovCkBtZWRpYSBvbmx5IHNjcmVlbiAKICBhbmQgKG1pbi1kZXZpY2Utd2lkdGg6IDgzNHB4KSAKICBhbmQgKG1heC1kZXZpY2Utd2lkdGg6IDgzNHB4KSAKICBhbmQgKG9yaWVudGF0aW9uOiBwb3J0cmFpdCkgCiAgYW5kICgtd2Via2l0LW1pbi1kZXZpY2UtcGl4ZWwtcmF0aW86IDIpIHsKCn0KCi8qIExhbmRzY2FwZSAqLwovKiBEZWNsYXJlIHRoZSBzYW1lIHZhbHVlIGZvciBtaW4tIGFuZCBtYXgtd2lkdGggdG8gYXZvaWQgY29sbGlkaW5nIHdpdGggZGVza3RvcHMgKi8KLyogU291cmNlOiBodHRwczovL21lZGl1bS5jb20vY29ubmVjdC10aGUtZG90cy9jc3MtbWVkaWEtcXVlcmllcy1mb3ItaXBhZC1wcm8tOGNhZDEwZTE3MTA2Ki8KQG1lZGlhIG9ubHkgc2NyZWVuIAogIGFuZCAobWluLWRldmljZS13aWR0aDogMTExMnB4KSAKICBhbmQgKG1heC1kZXZpY2Utd2lkdGg6IDExMTJweCkgCiAgYW5kIChvcmllbnRhdGlvbjogbGFuZHNjYXBlKSAKICBhbmQgKC13ZWJraXQtbWluLWRldmljZS1waXhlbC1yYXRpbzogMikgewoKfQoKLyogLS0tLS0tLS0tLS0gaVBhZCBQcm8gMTIuOSIgLS0tLS0tLS0tLS0gKi8KCi8qIFBvcnRyYWl0IGFuZCBMYW5kc2NhcGUgKi8KQG1lZGlhIG9ubHkgc2NyZWVuIAogIGFuZCAobWluLWRldmljZS13aWR0aDogMTAyNHB4KSAKICBhbmQgKG1heC1kZXZpY2Utd2lkdGg6IDEzNjZweCkKICBhbmQgKC13ZWJraXQtbWluLWRldmljZS1waXhlbC1yYXRpbzogMikgewogICAgCiAgICAuU3dpdGNoVG9Nb2JpbGUgewogICAgICAgIGRpc3BsYXk6bm9uZTsKICAgIH0KCn0KCi8qIFBvcnRyYWl0ICovCi8qIERlY2xhcmUgdGhlIHNhbWUgdmFsdWUgZm9yIG1pbi0gYW5kIG1heC13aWR0aCB0byBhdm9pZCBjb2xsaWRpbmcgd2l0aCBkZXNrdG9wcyAqLwovKiBTb3VyY2U6IGh0dHBzOi8vbWVkaXVtLmNvbS9jb25uZWN0LXRoZS1kb3RzL2Nzcy1tZWRpYS1xdWVyaWVzLWZvci1pcGFkLXByby04Y2FkMTBlMTcxMDYqLwpAbWVkaWEgb25seSBzY3JlZW4gCiAgYW5kIChtaW4tZGV2aWNlLXdpZHRoOiAxMDI0cHgpIAogIGFuZCAobWF4LWRldmljZS13aWR0aDogMTAyNHB4KSAKICBhbmQgKG9yaWVudGF0aW9uOiBwb3J0cmFpdCkgCiAgYW5kICgtd2Via2l0LW1pbi1kZXZpY2UtcGl4ZWwtcmF0aW86IDIpIHsKCn0KCi8qIExhbmRzY2FwZSAqLwovKiBEZWNsYXJlIHRoZSBzYW1lIHZhbHVlIGZvciBtaW4tIGFuZCBtYXgtd2lkdGggdG8gYXZvaWQgY29sbGlkaW5nIHdpdGggZGVza3RvcHMgKi8KLyogU291cmNlOiBodHRwczovL21lZGl1bS5jb20vY29ubmVjdC10aGUtZG90cy9jc3MtbWVkaWEtcXVlcmllcy1mb3ItaXBhZC1wcm8tOGNhZDEwZTE3MTA2Ki8KQG1lZGlhIG9ubHkgc2NyZWVuIAogIGFuZCAobWluLWRldmljZS13aWR0aDogMTM2NnB4KSAKICBhbmQgKG1heC1kZXZpY2Utd2lkdGg6IDEzNjZweCkgCiAgYW5kIChvcmllbnRhdGlvbjogbGFuZHNjYXBlKSAKICBhbmQgKC13ZWJraXQtbWluLWRldmljZS1waXhlbC1yYXRpbzogMikgewoKfQoKLyogLS0tLS0tLS0tLS0gR2FsYXh5IFMzIC0tLS0tLS0tLS0tICovCgovKiBQb3J0cmFpdCBhbmQgTGFuZHNjYXBlICovCkBtZWRpYSBzY3JlZW4gCiAgYW5kIChkZXZpY2Utd2lkdGg6IDMyMHB4KSAKICBhbmQgKGRldmljZS1oZWlnaHQ6IDY0MHB4KSAKICBhbmQgKC13ZWJraXQtZGV2aWNlLXBpeGVsLXJhdGlvOiAyKSB7CiAgICAuUG9ydGFsLU1lbnUsCiAgICAuTGlua3NUaXRsZSwKICAgIC5MaW5rc1NlY3Rpb24+YS5MaW5rcyB7CiAgICAgICAgY29sb3I6d2hpdGU7CiAgICAgICAgcGFkZGluZzogNHB4OwogICAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjZmFmYWZhOwogICAgICAgIAogICAgfQoKICAgIC5tYWluLW5hdiB7CiAgICAgICAgZGlzcGxheTpub25lOwogICAgICAgIAogICAgfQogICAgICAgIAogICAgI2N0bDAwX2N0TWFpbl9zZWFyY2hfdHh0U2VhcmNoIHsKICAgICAgICB3aWR0aDoxNjBweCAhaW1wb3J0YW50OwogICAgICAgIAogICAgfQogICAgCiAgICB1bC5zcGF0aWFsU3ViPmxpLAogICAgdWwuc3BhdGlhbERldD5saSwKICAgIHVsLnNwYXRpYWxTdWI+bGkuc3BhdGlhbFN1YiwKICAgIHVsLnNwYXRpYWxEZXQ+bGkuc3BhdGlhbERldCwKICAgIHVsLnNwYXRpYWxTdWI+bGkuc3BhdGlhbFN1Yjpub3QoLmluaXQpLAogICAgdWwuc3BhdGlhbERldD5saS5zcGF0aWFsRGV0Om5vdCguaW5pdCkgeyAKICAgICAgICB3aWR0aDo4MHB4OwogICAgfSAgIAoKfQoKLyogUG9ydHJhaXQgKi8KQG1lZGlhIHNjcmVlbiAKICBhbmQgKGRldmljZS13aWR0aDogMzIwcHgpIAogIGFuZCAoZGV2aWNlLWhlaWdodDogNjQwcHgpIAogIGFuZCAoLXdlYmtpdC1kZXZpY2UtcGl4ZWwtcmF0aW86IDIpIAogIGFuZCAob3JpZW50YXRpb246IHBvcnRyYWl0KSB7Cgp9CgovKiBMYW5kc2NhcGUgKi8KQG1lZGlhIHNjcmVlbiAKICBhbmQgKGRldmljZS13aWR0aDogMzIwcHgpIAogIGFuZCAoZGV2aWNlLWhlaWdodDogNjQwcHgpIAogIGFuZCAoLXdlYmtpdC1kZXZpY2UtcGl4ZWwtcmF0aW86IDIpIAogIGFuZCAob3JpZW50YXRpb246IGxhbmRzY2FwZSkgewogICAgICAgIAogICAgI2N0bDAwX2N0TWFpbl9zZWFyY2hfdHh0U2VhcmNoIHsKICAgICAgICB3aWR0aDoyODBweCAhaW1wb3J0YW50OwogICAgICAgIAogICAgfQoKfQoKLyogLS0tLS0tLS0tLS0gR2FsYXh5IFM0LCBTNSBhbmQgTm90ZSAzIC0tLS0tLS0tLS0tICovCgovKiBQb3J0cmFpdCBhbmQgTGFuZHNjYXBlICovCkBtZWRpYSBzY3JlZW4gCiAgYW5kIChkZXZpY2Utd2lkdGg6IDMyMHB4KSAKICBhbmQgKGRldmljZS1oZWlnaHQ6IDY0MHB4KSAKICBhbmQgKC13ZWJraXQtZGV2aWNlLXBpeGVsLXJhdGlvOiAzKSB7CiAgICAuUG9ydGFsLU1lbnUsCiAgICAuTGlua3NUaXRsZSwKICAgIC5MaW5rc1NlY3Rpb24+YS5MaW5rcyB7CiAgICAgICAgY29sb3I6d2hpdGU7CiAgICAgICAgcGFkZGluZzogNHB4OwogICAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjZmFmYWZhOwogICAgICAgIAogICAgfQoKICAgIC5tYWluLW5hdiB7CiAgICAgICAgZGlzcGxheTpub25lOwogICAgICAgIAogICAgfQogICAgICAgIAogICAgI2N0bDAwX2N0TWFpbl9zZWFyY2hfdHh0U2VhcmNoIHsKICAgICAgICB3aWR0aDoxNjBweCAhaW1wb3J0YW50OwogICAgICAgIAogICAgfQogICAgCiAgICB1bC5zcGF0aWFsU3ViPmxpLAogICAgdWwuc3BhdGlhbERldD5saSwKICAgIHVsLnNwYXRpYWxTdWI+bGkuc3BhdGlhbFN1YiwKICAgIHVsLnNwYXRpYWxEZXQ+bGkuc3BhdGlhbERldCwKICAgIHVsLnNwYXRpYWxTdWI+bGkuc3BhdGlhbFN1Yjpub3QoLmluaXQpLAogICAgdWwuc3BhdGlhbERldD5saS5zcGF0aWFsRGV0Om5vdCguaW5pdCkgeyAKICAgICAgICB3aWR0aDo4MHB4OwogICAgfSAgIAoKfQoKLyogUG9ydHJhaXQgKi8KQG1lZGlhIHNjcmVlbiAKICBhbmQgKGRldmljZS13aWR0aDogMzIwcHgpIAogIGFuZCAoZGV2aWNlLWhlaWdodDogNjQwcHgpIAogIGFuZCAoLXdlYmtpdC1kZXZpY2UtcGl4ZWwtcmF0aW86IDMpIAogIGFuZCAob3JpZW50YXRpb246IHBvcnRyYWl0KSB7Cgp9CgovKiBMYW5kc2NhcGUgKi8KQG1lZGlhIHNjcmVlbiAKICBhbmQgKGRldmljZS13aWR0aDogMzIwcHgpIAogIGFuZCAoZGV2aWNlLWhlaWdodDogNjQwcHgpIAogIGFuZCAoLXdlYmtpdC1kZXZpY2UtcGl4ZWwtcmF0aW86IDMpIAogIGFuZCAob3JpZW50YXRpb246IGxhbmRzY2FwZSkgewogICAgICAgIAogICAgI2N0bDAwX2N0TWFpbl9zZWFyY2hfdHh0U2VhcmNoIHsKICAgICAgICB3aWR0aDoyODBweCAhaW1wb3J0YW50OwogICAgICAgIAogICAgfQoKfQoKLyogLS0tLS0tLS0tLS0gR2FsYXh5IFM2IC0tLS0tLS0tLS0tICovCgovKiBQb3J0cmFpdCBhbmQgTGFuZHNjYXBlICovCkBtZWRpYSBzY3JlZW4gCiAgYW5kIChkZXZpY2Utd2lkdGg6IDM2MHB4KSAKICBhbmQgKGRldmljZS1oZWlnaHQ6IDY0MHB4KSAKICBhbmQgKC13ZWJraXQtZGV2aWNlLXBpeGVsLXJhdGlvOiA0KSB7CiAgICAuUG9ydGFsLU1lbnUsCiAgICAuTGlua3NUaXRsZSwKICAgIC5MaW5rc1NlY3Rpb24+YS5MaW5rcyB7CiAgICAgICAgY29sb3I6d2hpdGU7CiAgICAgICAgcGFkZGluZzogNHB4OwogICAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjZmFmYWZhOwogICAgICAgIAogICAgfQoKICAgIC5tYWluLW5hdiB7CiAgICAgICAgZGlzcGxheTpub25lOwogICAgICAgIAogICAgfQogICAgICAgIAogICAgI2N0bDAwX2N0TWFpbl9zZWFyY2hfdHh0U2VhcmNoIHsKICAgICAgICB3aWR0aDoxNjBweCAhaW1wb3J0YW50OwogICAgICAgIAogICAgfQogICAgCiAgICB1bC5zcGF0aWFsU3ViPmxpLAogICAgdWwuc3BhdGlhbERldD5saSwKICAgIHVsLnNwYXRpYWxTdWI+bGkuc3BhdGlhbFN1YiwKICAgIHVsLnNwYXRpYWxEZXQ+bGkuc3BhdGlhbERldCwKICAgIHVsLnNwYXRpYWxTdWI+bGkuc3BhdGlhbFN1Yjpub3QoLmluaXQpLAogICAgdWwuc3BhdGlhbERldD5saS5zcGF0aWFsRGV0Om5vdCguaW5pdCkgeyAKICAgICAgICB3aWR0aDo4MHB4OwogICAgfSAgIAoKfQoKLyogUG9ydHJhaXQgKi8KQG1lZGlhIHNjcmVlbiAKICBhbmQgKGRldmljZS13aWR0aDogMzYwcHgpIAogIGFuZCAoZGV2aWNlLWhlaWdodDogNjQwcHgpIAogIGFuZCAoLXdlYmtpdC1kZXZpY2UtcGl4ZWwtcmF0aW86IDQpIAogIGFuZCAob3JpZW50YXRpb246IHBvcnRyYWl0KSB7Cgp9CgovKiBMYW5kc2NhcGUgKi8KQG1lZGlhIHNjcmVlbiAKICBhbmQgKGRldmljZS13aWR0aDogMzYwcHgpIAogIGFuZCAoZGV2aWNlLWhlaWdodDogNjQwcHgpIAogIGFuZCAoLXdlYmtpdC1kZXZpY2UtcGl4ZWwtcmF0aW86IDQpIAogIGFuZCAob3JpZW50YXRpb246IGxhbmRzY2FwZSkgewogICAgICAgIAogICAgI2N0bDAwX2N0TWFpbl9zZWFyY2hfdHh0U2VhcmNoIHsKICAgICAgICB3aWR0aDoyODBweCAhaW1wb3J0YW50OwogICAgICAgIAogICAgfQoKfQoKLyogLS0tLS0tLS0tLS0gR2FsYXh5IFRhYiAyIC0tLS0tLS0tLS0tICovCgovKiBQb3J0cmFpdCBhbmQgTGFuZHNjYXBlICovCkBtZWRpYSAKICAobWluLWRldmljZS13aWR0aDogODAwcHgpIAogIGFuZCAobWF4LWRldmljZS13aWR0aDogMTI4MHB4KSB7CiAgICAubWFpbi1oZWFkZXJfX3dyYXBwZXIgY2xlYXJmaXggewogICAgICAgIG1hcmdpbi1sZWZ0Om5vbmUgIWltcG9ydGFudDsgCiAgICAgICAgbWFyZ2luLXJpZ2h0Om5vbmUgIWltcG9ydGFudDs7IAogICAgICAgIHdpZHRoOjgwMHB4ICFpbXBvcnRhbnQ7CiAgICAgICAgCiAgICB9CgogICAgLm1haW4tbmF2IHsKICAgICAgICBmbG9hdDpsZWZ0OwogICAgICAgIGRpc3BsYXk6YmxvY2s7CiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjojRkZGOwogICAgICAgIHBhZGRpbmctcmlnaHQ6MDsKICAgICAgICBwYWRkaW5nLWxlZnQ6MnJlbTsKICAgICAgICAKICAgIH0KICAgIAogICAgLm1haW4tbmF2X19saXN0IHsKICAgICAgICBwYWRkaW5nLXRvcDozNXB4OwogICAgICAgIAogICAgfQogICAgCiAgICAubWFpbi1uYXZfX2l0ZW0gewogICAgICAgIG1hcmdpbi1sZWZ0Oi4xNXJlbTsKICAgICAgICAKICAgIH0KICAgIAogICAgYS5tYWluLW5hdl9fbGluayB7CiAgICAgICAgcGFkZGluZzoxcmVtIDAuNXJlbTsKICAgIH0KICAgIAogICAgLm1haW4tY3VzdG9tTWFzdGVyLUJvZHkgewogICAgICAgIHBhZGRpbmctbGVmdDowOyAKICAgICAgICBwYWRkaW5nLXJpZ2h0OjA7CiAgICAgICAgCiAgICB9CiAgICAKICAgIC5tYWluLWN1c3RvbU1hc3Rlci1Cb2R5IHsKICAgICAgICBtYXJnaW4tbGVmdDphdXRvICFpbXBvcnRhbnQ7IAogICAgICAgIG1hcmdpbi1yaWdodDphdXRvICFpbXBvcnRhbnQ7OyAKICAgICAgICB3aWR0aDo5NSUgIWltcG9ydGFudDsKICAgICAgICAKICAgIH0KICAgIAogICAgLlN3aXRjaFRvTW9iaWxlIHsKICAgICAgICBkaXNwbGF5Om5vbmU7CiAgICB9Cgp9CgovKiBQb3J0cmFpdCAqLwpAbWVkaWEgCiAgKG1heC1kZXZpY2Utd2lkdGg6IDgwMHB4KSAKICBhbmQgKG9yaWVudGF0aW9uOiBwb3J0cmFpdCkgeyAgCiAgICAKICAgIC5tYWluLW5hdl9fbGlzdCB7CiAgICAgICAgcGFkZGluZy10b3A6NXB4OwogICAgICAgIHdpZHRoOiA3MCU7CiAgICAgICAgCiAgICB9CiAgICAKICAgIGEubWFpbi1uYXZfX2xpbmsgewogICAgICAgIHBhZGRpbmc6MC41cmVtIDAuNXJlbTsKICAgIH0KICAgICAgICAKICAgICNjdGwwMF9jdE1haW5fc2VhcmNoX3R4dFNlYXJjaCB7CiAgICAgICAgd2lkdGg6MzIwcHggIWltcG9ydGFudDsKICAgICAgICAKICAgIH0KCn0KCi8qIExhbmRzY2FwZSAqLwpAbWVkaWEgCiAgKG1heC1kZXZpY2Utd2lkdGg6IDEyODBweCkgCiAgYW5kIChvcmllbnRhdGlvbjogbGFuZHNjYXBlKSB7IAogICAgLm1haW4taGVhZGVyX193cmFwcGVyIGNsZWFyZml4IHsKICAgICAgICBtYXJnaW4tbGVmdDpub25lICFpbXBvcnRhbnQ7IAogICAgICAgIG1hcmdpbi1yaWdodDpub25lICFpbXBvcnRhbnQ7IAogICAgICAgIHdpZHRoOjEwMjRweCAhaW1wb3J0YW50OwogICAgICAgIAogICAgfQogICAgICAgIAogICAgI2N0bDAwX2N0TWFpbl9zZWFyY2hfdHh0U2VhcmNoIHsKICAgICAgICBtYXgtd2lkdGg6NTUwcHggIWltcG9ydGFudDsKICAgICAgICAKICAgIH0KCn0KCi8qIC0tLS0tLS0tLS0tIEdhbGF4eSBUYWIgUyAtLS0tLS0tLS0tLSAqLwoKLyogUG9ydHJhaXQgYW5kIExhbmRzY2FwZSAqLwpAbWVkaWEgCiAgKG1pbi1kZXZpY2Utd2lkdGg6IDgwMHB4KSAKICBhbmQgKG1heC1kZXZpY2Utd2lkdGg6IDEyODBweCkKICBhbmQgKC13ZWJraXQtbWluLWRldmljZS1waXhlbC1yYXRpbzogMikgewogICAgLm1haW4taGVhZGVyX193cmFwcGVyIGNsZWFyZml4IHsKICAgICAgICBtYXJnaW4tbGVmdDpub25lICFpbXBvcnRhbnQ7IAogICAgICAgIG1hcmdpbi1yaWdodDpub25lICFpbXBvcnRhbnQ7OyAKICAgICAgICB3aWR0aDo4MDBweCAhaW1wb3J0YW50OwogICAgICAgIAogICAgfQoKICAgIC5tYWluLW5hdiB7CiAgICAgICAgZmxvYXQ6bGVmdDsKICAgICAgICBkaXNwbGF5OmJsb2NrOwogICAgICAgIGJhY2tncm91bmQtY29sb3I6I0ZGRjsKICAgICAgICBwYWRkaW5nLXJpZ2h0OjA7CiAgICAgICAgcGFkZGluZy1sZWZ0OjJyZW07CiAgICAgICAgCiAgICB9CiAgICAKICAgIC5tYWluLW5hdl9fbGlzdCB7CiAgICAgICAgcGFkZGluZy10b3A6MzVweDsKICAgICAgICAKICAgIH0KICAgIAogICAgLm1haW4tbmF2X19pdGVtIHsKICAgICAgICBtYXJnaW4tbGVmdDouMTVyZW07CiAgICAgICAgCiAgICB9CiAgICAKICAgIGEubWFpbi1uYXZfX2xpbmsgewogICAgICAgIHBhZGRpbmc6MXJlbSAwLjVyZW07CiAgICB9CiAgICAKICAgIC5tYWluLWN1c3RvbU1hc3Rlci1Cb2R5IHsKICAgICAgICBwYWRkaW5nLWxlZnQ6MDsgCiAgICAgICAgcGFkZGluZy1yaWdodDowOwogICAgICAgIAogICAgfQogICAgCiAgICAubWFpbi1jdXN0b21NYXN0ZXItQm9keSB7CiAgICAgICAgbWFyZ2luLWxlZnQ6YXV0byAhaW1wb3J0YW50OyAKICAgICAgICBtYXJnaW4tcmlnaHQ6YXV0byAhaW1wb3J0YW50OzsgCiAgICAgICAgd2lkdGg6OTUlICFpbXBvcnRhbnQ7CiAgICAgICAgCiAgICB9CiAgICAKICAgIC5Td2l0Y2hUb01vYmlsZSB7CiAgICAgICAgZGlzcGxheTpub25lOwogICAgfQp9CgovKiBQb3J0cmFpdCAqLwpAbWVkaWEgCiAgKG1heC1kZXZpY2Utd2lkdGg6IDgwMHB4KSAKICBhbmQgKG9yaWVudGF0aW9uOiBwb3J0cmFpdCkKICBhbmQgKC13ZWJraXQtbWluLWRldmljZS1waXhlbC1yYXRpbzogMikgeyAKICAgIAogICAgLm1haW4tbmF2X19saXN0IHsKICAgICAgICBwYWRkaW5nLXRvcDo1cHg7CiAgICAgICAgd2lkdGg6IDcwJTsKICAgICAgICAKICAgIH0KICAgIAogICAgYS5tYWluLW5hdl9fbGluayB7CiAgICAgICAgcGFkZGluZzowLjVyZW0gMC41cmVtOwogICAgfQogICAgICAgIAogICAgI2N0bDAwX2N0TWFpbl9zZWFyY2hfdHh0U2VhcmNoIHsKICAgICAgICB3aWR0aDozMjBweCAhaW1wb3J0YW50OwogICAgICAgIAogICAgfQoKfQoKLyogTGFuZHNjYXBlICovCkBtZWRpYSAKICAobWF4LWRldmljZS13aWR0aDogMTI4MHB4KSAKICBhbmQgKG9yaWVudGF0aW9uOiBsYW5kc2NhcGUpCiAgYW5kICgtd2Via2l0LW1pbi1kZXZpY2UtcGl4ZWwtcmF0aW86IDIpIHsgCiAgICAubWFpbi1oZWFkZXJfX3dyYXBwZXIgY2xlYXJmaXggewogICAgICAgIG1hcmdpbi1sZWZ0Om5vbmUgIWltcG9ydGFudDsgCiAgICAgICAgbWFyZ2luLXJpZ2h0Om5vbmUgIWltcG9ydGFudDsgCiAgICAgICAgd2lkdGg6MTAyNHB4ICFpbXBvcnRhbnQ7CiAgICAgICAgCiAgICB9CiAgICAgICAgCiAgICAjY3RsMDBfY3RNYWluX3NlYXJjaF90eHRTZWFyY2ggewogICAgICAgIG1heC13aWR0aDo1NTBweCAhaW1wb3J0YW50OwogICAgICAgIAogICAgfQoKfSAuZGVmYXVsdC1uYXZpZ2F0aW9uIHtkaXNwbGF5OmlubGluZS1ibG9jayAhaW1wb3J0YW50fSAuZGVmYXVsdC1mb290ZXIge2Rpc3BsYXk6YmxvY2sgIWltcG9ydGFudH0gPC9zdHlsZT5kAgMPZBYSAgIPDxYCHgdWaXNpYmxlaGRkAgMPFgQfAAV5PGRpdiBpZD0nbmF2JyBjbGFzcz0nZmxvYXRSaWdodCBhZG1pbm5hdic+PGEgaHJlZj0nLi4vLi4vUGFnZXMvU2VjdXJpdHkvTG9nb3V0LmFzcHgnPkxvZ291dCwgR2VuZXJhbCBTdGFmZiBVc2VyPC9hPjwvZGl2Ph8BZ2QCBA8PFgIfAWhkZAIFDxYCHwAF/Qo8aGVhZGVyIGNsYXNzPSJtYWluLWhlYWRlciI+CjxkaXYgY2xhc3M9Im1haW4taGVhZGVyX193cmFwcGVyIGNsZWFyZml4Ij4KPGEgaHJlZj0iaHR0cDovL3d3dy5ob3Juc2J5Lm5zdy5nb3YuYXUiIGNsYXNzPSJsb2dvX19saW5rIj4KPGltZyBzcmM9Ii4uLy4uL2ltYWdlcy9IU0NfQ09MT1VSX0E0LmpwZyIgYWx0PSJIb3Juc2J5IFNoaXJlIENvdW5jaWwiIGNsYXNzPSJsb2dvX19pbWFnZSIgc3R5bGU9IndpZHRoOiAxMzBweDsiIC8+CjwvYT4KPG5hdiBjbGFzcz0ibWFpbi1uYXYiPgo8dWwgY2xhc3M9Im1haW4tbmF2X19saXN0Ij4KICAgIDxsaSBjbGFzcz0ibWFpbi1uYXZfX2l0ZW0iPgogICAgPGEgaHJlZj0iaHR0cDovL3d3dy5ob3Juc2J5Lm5zdy5nb3YuYXUvY291bmNpbCIgY2xhc3M9Im1haW4tbmF2X19saW5rIj5Db3VuY2lsPC9hPgogICAgPC9saT4KICAgIDxsaSBjbGFzcz0ibWFpbi1uYXZfX2l0ZW0iPgogICAgPGEgaHJlZj0iaHR0cDovL3d3dy5ob3Juc2J5Lm5zdy5nb3YuYXUvY29tbXVuaXR5IiBjbGFzcz0ibWFpbi1uYXZfX2xpbmsiPkNvbW11bml0eTwvYT4KICAgIDwvbGk+CiAgICA8bGkgY2xhc3M9Im1haW4tbmF2X19pdGVtIj4KICAgIDxhIGhyZWY9Imh0dHA6Ly93d3cuaG9ybnNieS5uc3cuZ292LmF1L3Byb3BlcnR5IiBjbGFzcz0ibWFpbi1uYXZfX2xpbmsiPlByb3BlcnR5PC9hPgogICAgPC9saT4KICAgIDxsaSBjbGFzcz0ibWFpbi1uYXZfX2l0ZW0iPgogICAgPGEgaHJlZj0iaHR0cDovL3d3dy5ob3Juc2J5Lm5zdy5nb3YuYXUvbXktbGlmZXN0eWxlIiBjbGFzcz0ibWFpbi1uYXZfX2xpbmsiPkxpZmVzdHlsZTwvYT4KICAgIDwvbGk+CiAgICA8bGkgY2xhc3M9Im1haW4tbmF2X19pdGVtIj4KICAgIDxhIGhyZWY9Imh0dHA6Ly93d3cuaG9ybnNieS5uc3cuZ292LmF1L2Vudmlyb25tZW50IiBjbGFzcz0ibWFpbi1uYXZfX2xpbmsiPkVudmlyb25tZW50PC9hPgogICAgPC9saT4KICAgIDxsaSBjbGFzcz0ibWFpbi1uYXZfX2l0ZW0iPgogICAgPGEgaHJlZj0iaHR0cDovL3d3dy5ob3Juc2J5Lm5zdy5nb3YuYXUvYnVzaW5lc3MiIGNsYXNzPSJtYWluLW5hdl9fbGluayI+QnVzaW5lc3M8L2E+CiAgICA8L2xpPgogICAgPGxpIGNsYXNzPSJtYWluLW5hdl9faXRlbSI+CiAgICA8YSBocmVmPSJodHRwOi8vd3d3Lmhvcm5zYnkubnN3Lmdvdi5hdS9saWJyYXJ5IiBjbGFzcz0ibWFpbi1uYXZfX2xpbmsiPkxpYnJhcnk8L2E+CiAgICA8L2xpPgo8L3VsPgo8L25hdj4KPC9kaXY+CjwvaGVhZGVyPgo8ZGl2IGNsYXNzPSJsYW5kaW5nLXBhZ2UtaW1hZ2UiPgo8aW1nIHNyYz0iLi4vLi4vaW1hZ2VzL01pc2MvSFNDSGVyaXRhZ2UtRGV2ZWxvcC5qcGciIGFsdD0iIiBjbGFzcz0ibGFuZGluZy1pbWFnZSIgc3R5bGU9IndpZHRoOiAxMDAlOyIgLz4KPC9kaXY+ZAIGDw8WAh8BaGRkAggPFgIfAGVkAgsPZBYEAgMPZBYCAgEPFgIfAAWvBGltZy5sYW5kaW5nLWltYWdlIHsKICAgIGNvbnRlbnQ6dXJsKCIuLi8uLi9pbWFnZXMvTWlzYy9IU0MtREEtUGxhbnMuanBnIik7Cn0KCi8qaW1nLmxhbmRpbmctaW1hZ2Uge2Rpc3BsYXk6bm9uZTt9Ki8KCi5sYW5kaW5nLXBhZ2UtaW1hZ2UgewogICAgYmFja2dyb3VuZDogdXJsKCIuLi8uLi9pbWFnZXMvTWlzYy9IU0MtREEtUGxhbnMuanBnIik7CiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyOwogICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDsKICAgIG1pbi1oZWlnaHQ6IDdyZW07Cn0KCkBtZWRpYSAobWluLXdpZHRoOjQ4ZW0pIHsKICAgIC5sYW5kaW5nLXBhZ2UtaW1hZ2UgewogICAgICAgIG1pbi1oZWlnaHQ6IDZyZW07CiAgICB9CiAgICAKfQpoZWFkZXIubWFpbi1oZWFkZXIgewogICAgbWluLWhlaWdodDogNi45Mzc1cmVtOwogICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7CiAgICBiYWNrZ3JvdW5kOiB1cmwoaHR0cDovL2hzY2VucXVpcnkuaG9ybnNieS5uc3cuZ292LmF1L0ltYWdlcy9zbGl2ZXIuanBnKTsKICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7Cn1kAgcPFgIfAAWaATxkaXYgaWQ9J3VzckFnZW50JyBzdHlsZT0nZm9udC1zaXplOjhweDtjb2xvcjpsaWdodGdyYXk7bGluZS1oZWlnaHQ6OXB4Oyc+bWVjaGFuaXplLzIuNy42IHJ1YnkvMi41LjFwNTcgKGh0dHA6Ly9naXRodWIuY29tL3NwYXJrbGVtb3Rpb24vbWVjaGFuaXplLyk8L2Rpdj5kAgwPZBYEAgEPZBYCAgEPDxYCHwFnZBYEZg9kFgICAw8PFgQeBVdpZHRoGwAAAAAAMIFAAQAAAB4EXyFTQgKAAmRkAgIPFgIfAGVkAgMPZBYCAgEPZBYCZg9kFgICGQ8PFgIfAWhkFgJmD2QWBAIBD2QWAgIDDw8WAh8ABQNNYXBkZAIDD2QWBAIDD2QWAmYPFgIfAAX3BzxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Imh0dHA6Ly9tYXBzLmdvb2dsZS5jb20vbWFwcy9hcGkvanM/c2Vuc29yPXRydWUmbGlicmFyaWVzPWdlb21ldHJ5Ij48L3NjcmlwdD48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSJodHRwczovL3d3dy5nb29nbGUuY29tL2pzYXBpIj48L3NjcmlwdD48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSIvY2xpZW50L3NjcmlwdHMvbWFwLy9pY29uLW1hcC5qcyI+PC9zY3JpcHQ+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iLi4vLi4vUGFnZXMvWEMuU3BhdGlhbC9KYXZhc2NyaXB0L1NwYXRpYWwuanMiPjwvc2NyaXB0PjxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0iL2NsaWVudC9zY3JpcHRzL21hcC8vaWNvbi1tYXAuY3NzIiBtZWRpYT0ic2NyZWVuIj48L2xpbms+PGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSIuLi8uLi9BcHBfVGhlbWVzL0ljb24vU3BhdGlhbC5jc3MiIG1lZGlhPSJzY3JlZW4iPjwvbGluaz48ZGl2IGlkPSJtYXAiIGNsYXNzPSJlbWJlZGRlZCIgc3R5bGU9IiI+IDwvZGl2Pg0KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KdmFyIG1hcDskKGRvY3VtZW50KS5yZWFkeShmdW5jdGlvbiAoKSB7dmFyIG9wdGlvbnMgPSB7YWNjb3VudDoiIixjb250ZXh0OiIiLHpvb21Ub0JvdW5kczogZmFsc2UsdG9vbGJhcjogdHJ1ZSx0b29sYmFyT3B0aW9uczoge3pvb21JbjogdHJ1ZSx6b29tT3V0OiB0cnVlLHN0cmVldFZpZXc6IHRydWUsbGF5ZXJzOiBmYWxzZSxsZWdlbmQ6IGZhbHNlLGNsZWFyOiBmYWxzZSxzZWFyY2g6IGZhbHNlfSxpZGVudGlmeTogZmFsc2UsbXVsdGlTZWxlY3Q6IGZhbHNlLHpvb21GYWN0b3I6IDE2fTsNCm1hcCA9IG5ldyBtYWNyb2dpcy5tYXBzLkljb25NYXAoIm1hcCIsIG9wdGlvbnMsIGZ1bmN0aW9uKCkgeyBtYXAuem9vbVRvRnVsbEV4dGVudCgpOw0KIA0KfSk7fSk7DQokKCcjJykuaGlkZSgpOw0KPC9zY3JpcHQ+DQpkAgUPFgIfAGVkAg0PFgIfAGVkZN/8EtB/g9p/RmzbjqiXQrHj1Fjo\"
+        />\r\n\r\n\r\n<script src=\"/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl00_script_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen%3ab7585254-495e-4311-9545-1f910247aca5%3aea597d4b\"
+        type=\"text/javascript\"></script>\r\n<script type=\"text/javascript\">\r\n//<![CDATA[\r\nif
+        (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework
+        failed to load.');\r\n//]]>\r\n</script>\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\"
+        id=\"__VIEWSTATEGENERATOR\" value=\"FD370D2E\" />\r\n<input type=\"hidden\"
+        name=\"__EVENTVALIDATION\" id=\"__EVENTVALIDATION\" value=\"/wEdAANcxG770cDLprWTSWt3cmLenexQA0tUWxhXiF1Lx87GyZtWKg6RvYaBd0w/zXbzv0kYUYpBHOoyj4GMzrtbc9ZeIEGPKw==\"
+        />\r\n        \r\n        <script type=\"text/javascript\" src=\"../../HttpCombiner.ashx?s=IconJs&t=text/javascript\"></script>\r\n
+        \       <script type=\"text/javascript\">\r\n            jGrowlPosition =
+        \"top-right\";\r\n        </script>\r\n        <div id=\"ctl00_throbber_throbber\"
+        class=\"globalThrobber\">\r\n    <img class=\"throbber\" src=\"../../Common/Common/Image.aspx?rid=throbber.gif\"
+        alt=\"Loading...\" />\r\n</div>\r\n\r\n<script type=\"text/javascript\">\r\n
+        \   $(document).ready(function(){        \r\n        $('.globalThrobber')\r\n
+        \           .ajaxStart(function() {\r\n                if ($('.throbber:visible').length
+        == 0) {\r\n                    $(this).show();\r\n                }\r\n            })
+        \ \r\n            .ajaxStop(function() {\r\n                $(this).hide();\r\n
+        \           })\r\n        ;\r\n    });\r\n</script>\r\n        \r\n        <div
+        id=\"docf\">\r\n            <div id=\"hd\" class=\"hd-customMaster-Header
+        environmentPROD\" role=\"banner\">\r\n                <div id=\"navwrap\"
+        role=\"navigation\">\r\n                    <div id='nav' class='floatRight
+        adminnav'><a href='../../Pages/Security/Logout.aspx'>Logout, General Staff
+        User</a></div>\r\n                    <div id=\"menuline\" class=\"customMaster-TopMenu
+        floatLeft\">\r\n                        \r\n                    </div>\r\n
+        \               </div>\r\n                <div id=\"headline\" class=\"customMaster-Header\">\r\n
+        \                   <header class=\"main-header\">\n<div class=\"main-header__wrapper
+        clearfix\">\n<a href=\"http://www.hornsby.nsw.gov.au\" class=\"logo__link\">\n<img
+        src=\"../../images/HSC_COLOUR_A4.jpg\" alt=\"Hornsby Shire Council\" class=\"logo__image\"
+        style=\"width: 130px;\" />\n</a>\n<nav class=\"main-nav\">\n<ul class=\"main-nav__list\">\n
+        \   <li class=\"main-nav__item\">\n    <a href=\"http://www.hornsby.nsw.gov.au/council\"
+        class=\"main-nav__link\">Council</a>\n    </li>\n    <li class=\"main-nav__item\">\n
+        \   <a href=\"http://www.hornsby.nsw.gov.au/community\" class=\"main-nav__link\">Community</a>\n
+        \   </li>\n    <li class=\"main-nav__item\">\n    <a href=\"http://www.hornsby.nsw.gov.au/property\"
+        class=\"main-nav__link\">Property</a>\n    </li>\n    <li class=\"main-nav__item\">\n
+        \   <a href=\"http://www.hornsby.nsw.gov.au/my-lifestyle\" class=\"main-nav__link\">Lifestyle</a>\n
+        \   </li>\n    <li class=\"main-nav__item\">\n    <a href=\"http://www.hornsby.nsw.gov.au/environment\"
+        class=\"main-nav__link\">Environment</a>\n    </li>\n    <li class=\"main-nav__item\">\n
+        \   <a href=\"http://www.hornsby.nsw.gov.au/business\" class=\"main-nav__link\">Business</a>\n
+        \   </li>\n    <li class=\"main-nav__item\">\n    <a href=\"http://www.hornsby.nsw.gov.au/library\"
+        class=\"main-nav__link\">Library</a>\n    </li>\n</ul>\n</nav>\n</div>\n</header>\n<div
+        class=\"landing-page-image\">\n<img src=\"../../images/Misc/HSCHeritage-Develop.jpg\"
+        alt=\"\" class=\"landing-image\" style=\"width: 100%;\" />\n</div>\r\n                </div>\r\n
+        \               <!-- div class=\"clear adminclear\"></div -->\r\n                <div
+        id=\"mainline\" class=\"customMaster-Header\">\r\n                    <div
+        id=\"midmenuline\" class=\"customMaster-MidMenu floatLeft\">\r\n                        \r\n
+        \                   </div>\r\n                    <div class=\"containerLeft
+        adminbanner splitterLeftMaster noOverflow\">\r\n                        \r\n
+        \                       <div style=\"margin-top: 5px; padding: 3px; padding-left:
+        12px;\" id=\"adminpage\">\r\n                            \r\n                        </div>\r\n
+        \                   </div>\r\n                    <div class=\"containerRight
+        adminbanner splitterRightMaster noOverflow\">\r\n                        \r\n
+        \                   </div>\r\n                </div>\r\n                <div
+        class=\"clear\"></div>\r\n            </div>\r\n            <!-- div class=\"clear\"></div
+        -->\r\n            <div id=\"bd\" class=\"customMaster-Body\" role=\"main\">\r\n\t
+        \   \t<div id=\"breadcrumbs\">\r\n                    \r\n\t\t</div>\r\n                <div
+        id=\"main\" class=\"main-customMaster-Body\">\r\n                    <div
+        class=\"containerLeft customMaster-Body main-containerLeft-customMaster-Body\">\r\n
+        \                       <div class=\"containerInner main-containerInner-containerLeft-customMaster-Body\">\r\n
+        \                           <div class=\"main-containerInner-padded-containerLeft-customMaster-Body\">\r\n
+        \                               \r\n    <div class=\"menuPadding\">\r\n  <div
+        class=\"Links LinksGroup\">\r\n    <div id=\"m10023\" class=\"LinksTitle\"
+        onclick=\"toggleMenu('10023');\">\r\n      <img src=\"../../Image/bullet_arrow_down.aspx\"
+        alt=\"show\" id=\"g10023\" style=\"float:left;\" />Application Search</div>\r\n
+        \   <div id=\"i10023\" class=\"LinksSection\">\r\n      <div class=\"Portal-Menu\">\r\n
+        \       <a href=\"../../Pages/XC.Track/SearchApplication.aspx\" class=\"Links\"
+        target=\"\">Find an Application</a>\r\n      </div>\r\n      <div class=\"Portal-Menu\">\r\n
+        \       <a href=\"../../Pages/XC.Track/SearchProperty.aspx\" class=\"Links\"
+        target=\"\">Property Enquiry</a>\r\n      </div>\r\n      <div class=\"Portal-Menu\">\r\n
+        \       <a href=\"http://www.hornsby.nsw.gov.au/property/development-applications/hornsby-local-environment-plan\"
+        class=\"Links\" target=\"_blank\">Planning Controls</a>\r\n      </div>\r\n
+        \   </div>\r\n  </div>\r\n  <div class=\"Links LinksGroup\">\r\n    <div id=\"m10024\"
+        class=\"LinksTitle\" onclick=\"toggleMenu('10024');\">\r\n      <img src=\"../../Image/bullet_arrow_down.aspx\"
+        alt=\"show\" id=\"g10024\" style=\"float:left;\" />Popular Searches</div>\r\n
+        \   <div id=\"i10024\" class=\"LinksSection\">\r\n      <div class=\"Portal-Menu\">\r\n
+        \       <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=thisweek&amp;k=LodgementDate&amp;t=DA\"
+        class=\"Links\" target=\"\">DAs submitted this week</a>\r\n      </div>\r\n
+        \     <div class=\"Portal-Menu\">\r\n        <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=lastweek&amp;k=LodgementDate&amp;t=DA\"
+        class=\"Links\" target=\"\">DAs submitted last week</a>\r\n      </div>\r\n
+        \     <div class=\"Portal-Menu\">\r\n        <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=thisweek&amp;k=DeterminationDate&amp;t=DA\"
+        class=\"Links\" target=\"\">DAs determined this week</a>\r\n      </div>\r\n
+        \     <div class=\"Portal-Menu\">\r\n        <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=lastweek&amp;k=DeterminationDate&amp;t=DA\"
+        class=\"Links\" target=\"\">DAs determined last week</a>\r\n      </div>\r\n
+        \   </div>\r\n  </div>\r\n</div>\r\n<script type=\"text/javascript\">\r\n
+        \   \t\t\t\tif ($.cookie(\"menu_10023\")==null) {\r\n    \t\t\t\t\t$.cookie(\"menu_10023\",'show',{expires:28,path:'/'});}\r\n
+        \   \t\t\t\tif ($.cookie(\"menu_10023\")=='hide') {\r\n    \t\t\t\t\t$('#i10023').hide();$('#g10023').attr(\"src\",
+        \"../../Image/bullet_arrow_right.aspx\");}\r\n    \t\t\t\r\n    \t\t\t\tif
+        ($.cookie(\"menu_10024\")==null) {\r\n    \t\t\t\t\t$.cookie(\"menu_10024\",'show',{expires:28,path:'/'});}\r\n
+        \   \t\t\t\tif ($.cookie(\"menu_10024\")=='hide') {\r\n    \t\t\t\t\t$('#i10024').hide();$('#g10024').attr(\"src\",
+        \"../../Image/bullet_arrow_right.aspx\");}\r\n    \t\t\t\r\n    \t\t\tfunction
+        toggleMenu(id) {\r\n    \t\t\tif ($.cookie('menu_' + id)=='hide') {\r\n    \t\t\t\t$.cookie('menu_'
+        + id,'show',{expires:28,path:'/'});\r\n    \t\t\t\t$('#i' + id).slideDown('slow');\r\n\t\t\t
+        \       $('#g' + id).attr(\"src\", \"../../Image/bullet_arrow_down.aspx\");\r\n
+        \   \t\t\t\t} else {\r\n    \t\t\t\t$.cookie('menu_' + id,'hide',{expires:28,path:'/'});\r\n
+        \   \t\t\t\t$('#i' + id).slideUp('slow');\r\n\t\t\t        $('#g' + id).attr(\"src\",
+        \"../../Image/bullet_arrow_right.aspx\");\r\n    \t\t\t\t}\r\n    \t\t\t}\r\n
+        \   \t\t\t </script> \r\n<style type=\"text/css\">\r\n\t        ul.spatialSub
+        { height:30px; width: 80%; list-style-type:none;}\r\n\t        ul.spatialSub
+        li { padding: 5px 10px; z-index:2;  list-style-type:none; margin-left:1em;
+        }\r\n\t        ul.spatialSub li:not(.init) { float: left; display: none; width:
+        80%; }\r\n\t        ul.spatialSub li:not(.init):hover, ul.spatialSub li.selected:not(.init)
+        { background: #bbb; }\r\n\t        ul.spatialDet { height:30px; width: 80%;
+        list-style-type:none;}\r\n\t        ul.spatialDet li { padding: 5px 10px;
+        z-index:2;  list-style-type:none; margin-left:1em; }\r\n\t        ul.spatialDet
+        li:not(.init) { float: left; display: none; width: 80%; }\r\n\t        ul.spatialDet
+        li:not(.init):hover, ul.spatialDet li.selected:not(.init) { background: #bbb;
+        }\r\n\t        li.init {cursor:pointer;}\r\n\t    </style>\r\n<div class=\"menuPadding\">\r\n
+        \ <div class=\"Links LinksGroup\">\r\n    <div id=\"mSub\" class=\"LinksTitle\"
+        onclick=\"toggleMenu('Sub');\">\r\n      <img src=\"../../Image/bullet_arrow_down.aspx\"
+        alt=\"show\" id=\"gSub\" style=\"float:left;\" />\r\n    \t\t\t\t\tDAs Under
+        Assessment By Suburb\r\n    \t\t\t\t</div>\r\n    <div id=\"iSub\" style=\"max-height:160px;
+        overflow-y:auto; width: 180px; border: 1px #ddd solid; margin-left: 17px;\">\r\n
+        \     <ul class=\"spatialSub\">\r\n        <li class=\"init\">Select..</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Arcadia\">Arcadia</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Asquith\">Asquith</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Beecroft\">Beecroft</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Berowra\">Berowra</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Berowra
+        Creek\">Berowra Creek</li>\r\n        <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Berowra
+        Heights\">Berowra Heights</li>\r\n        <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Berowra
+        Waters\">Berowra Waters</li>\r\n        <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Berrilee\">Berrilee</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Brooklyn\">Brooklyn</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Canoelands\">Canoelands</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Carlingford\">Carlingford</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Castle
+        Hill\">Castle Hill</li>\r\n        <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Cheltenham\">Cheltenham</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Cherrybrook\">Cherrybrook</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Cowan\">Cowan</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Dangar
+        Island\">Dangar Island</li>\r\n        <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Dural\">Dural</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Eastwood\">Eastwood</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Epping\">Epping</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Fiddletown\">Fiddletown</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Forest
+        Glen\">Forest Glen</li>\r\n        <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Galston\">Galston</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Glenhaven\">Glenhaven</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Glenorie\">Glenorie</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Hawkesbury
+        River\">Hawkesbury River</li>\r\n        <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Hornsby\">Hornsby</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Hornsby
+        Heights\">Hornsby Heights</li>\r\n        <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Laughtondale\">Laughtondale</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Lower
+        Hawkesbury\">Lower Hawkesbury</li>\r\n        <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Maroota\">Maroota</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Middle
+        Dural\">Middle Dural</li>\r\n        <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Milsons
+        Passage\">Milsons Passage</li>\r\n        <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Mount
+        Colah\">Mount Colah</li>\r\n        <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Mount
+        Kuring-gai\">Mount Kuring-gai</li>\r\n        <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Normanhurst\">Normanhurst</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=North
+        Epping\">North Epping</li>\r\n        <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Pennant
+        Hills\">Pennant Hills</li>\r\n        <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Singletons
+        Mill\">Singletons Mill</li>\r\n        <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Thornleigh\">Thornleigh</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Wahroonga\">Wahroonga</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Waitara\">Waitara</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=West
+        Pennant Hills\">West Pennant Hills</li>\r\n        <li class=\"spatialSub\"
+        data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Westleigh\">Westleigh</li>\r\n
+        \       <li class=\"spatialSub\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=Wisemans
+        Ferry\">Wisemans Ferry</li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n  <div
+        class=\"Links LinksGroup\">\r\n    <div id=\"mDet\" class=\"LinksTitle\" onclick=\"toggleMenu('Det');\">\r\n
+        \     <img src=\"../../Image/bullet_arrow_down.aspx\" alt=\"show\" id=\"gDet\"
+        style=\"float:left;\" />\r\n      <div style=\"margin-left:16px;\">DAs Determined
+        in Last 6 Months By Suburb</div>\r\n    </div>\r\n    <div id=\"iDet\" style=\"max-height:160px;
+        overflow-y:auto; width: 180px; border: 1px #ddd solid; margin-left: 17px;\">\r\n
+        \     <ul class=\"spatialDet\">\r\n        <li class=\"init\">Select..</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Arcadia&amp;k=DeterminationDate&amp;d=last180days\">Arcadia</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Asquith&amp;k=DeterminationDate&amp;d=last180days\">Asquith</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Beecroft&amp;k=DeterminationDate&amp;d=last180days\">Beecroft</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Berowra&amp;k=DeterminationDate&amp;d=last180days\">Berowra</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Berowra
+        Creek&amp;k=DeterminationDate&amp;d=last180days\">Berowra Creek</li>\r\n        <li
+        class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Berowra
+        Heights&amp;k=DeterminationDate&amp;d=last180days\">Berowra Heights</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Berowra
+        Waters&amp;k=DeterminationDate&amp;d=last180days\">Berowra Waters</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Berrilee&amp;k=DeterminationDate&amp;d=last180days\">Berrilee</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Brooklyn&amp;k=DeterminationDate&amp;d=last180days\">Brooklyn</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Canoelands&amp;k=DeterminationDate&amp;d=last180days\">Canoelands</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Carlingford&amp;k=DeterminationDate&amp;d=last180days\">Carlingford</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Castle
+        Hill&amp;k=DeterminationDate&amp;d=last180days\">Castle Hill</li>\r\n        <li
+        class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Cheltenham&amp;k=DeterminationDate&amp;d=last180days\">Cheltenham</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Cherrybrook&amp;k=DeterminationDate&amp;d=last180days\">Cherrybrook</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Cowan&amp;k=DeterminationDate&amp;d=last180days\">Cowan</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Dangar
+        Island&amp;k=DeterminationDate&amp;d=last180days\">Dangar Island</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Dural&amp;k=DeterminationDate&amp;d=last180days\">Dural</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Eastwood&amp;k=DeterminationDate&amp;d=last180days\">Eastwood</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Epping&amp;k=DeterminationDate&amp;d=last180days\">Epping</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Fiddletown&amp;k=DeterminationDate&amp;d=last180days\">Fiddletown</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Forest
+        Glen&amp;k=DeterminationDate&amp;d=last180days\">Forest Glen</li>\r\n        <li
+        class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Galston&amp;k=DeterminationDate&amp;d=last180days\">Galston</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Glenhaven&amp;k=DeterminationDate&amp;d=last180days\">Glenhaven</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Glenorie&amp;k=DeterminationDate&amp;d=last180days\">Glenorie</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Hawkesbury
+        River&amp;k=DeterminationDate&amp;d=last180days\">Hawkesbury River</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Hornsby&amp;k=DeterminationDate&amp;d=last180days\">Hornsby</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Hornsby
+        Heights&amp;k=DeterminationDate&amp;d=last180days\">Hornsby Heights</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Laughtondale&amp;k=DeterminationDate&amp;d=last180days\">Laughtondale</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Lower
+        Hawkesbury&amp;k=DeterminationDate&amp;d=last180days\">Lower Hawkesbury</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Maroota&amp;k=DeterminationDate&amp;d=last180days\">Maroota</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Middle
+        Dural&amp;k=DeterminationDate&amp;d=last180days\">Middle Dural</li>\r\n        <li
+        class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Milsons
+        Passage&amp;k=DeterminationDate&amp;d=last180days\">Milsons Passage</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Mount
+        Colah&amp;k=DeterminationDate&amp;d=last180days\">Mount Colah</li>\r\n        <li
+        class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Mount
+        Kuring-gai&amp;k=DeterminationDate&amp;d=last180days\">Mount Kuring-gai</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Normanhurst&amp;k=DeterminationDate&amp;d=last180days\">Normanhurst</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=North
+        Epping&amp;k=DeterminationDate&amp;d=last180days\">North Epping</li>\r\n        <li
+        class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Pennant
+        Hills&amp;k=DeterminationDate&amp;d=last180days\">Pennant Hills</li>\r\n        <li
+        class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Singletons
+        Mill&amp;k=DeterminationDate&amp;d=last180days\">Singletons Mill</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Thornleigh&amp;k=DeterminationDate&amp;d=last180days\">Thornleigh</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Wahroonga&amp;k=DeterminationDate&amp;d=last180days\">Wahroonga</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Waitara&amp;k=DeterminationDate&amp;d=last180days\">Waitara</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=West
+        Pennant Hills&amp;k=DeterminationDate&amp;d=last180days\">West Pennant Hills</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Westleigh&amp;k=DeterminationDate&amp;d=last180days\">Westleigh</li>\r\n
+        \       <li class=\"spatialDet\" data-value=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=&amp;sb=Wisemans
+        Ferry&amp;k=DeterminationDate&amp;d=last180days\">Wisemans Ferry</li>\r\n
+        \     </ul>\r\n    </div>\r\n  </div>\r\n</div>\r\n<script type=\"text/javascript\">\r\n
+        \               $(\"ul.spatialSub\").on(\"click\", \".init\", function() {\r\n
+        \                   $(this).closest(\"ul.spatialSub\").children('li:not(.init)').toggle();\r\n
+        \               });\r\n                $(\"ul.spatialDet\").on(\"click\",
+        \".init\", function() {\r\n                    $(this).closest(\"ul.spatialDet\").children('li:not(.init)').toggle();\r\n
+        \               });\r\n                \r\n                var allOptionsU
+        = $(\"ul.spatialSub\").children('li:not(.init)');\r\n                $(\"ul.spatialSub\").on(\"click\",
+        \"li:not(.init)\", function() {\r\n                    allOptionsU.removeClass('selected');\r\n
+        \                   $(this).addClass('selected');\r\n                    $(\"ul.spatialSub\").children('.init').html($(this).html());\r\n
+        \                   window.open($(this).attr('data-value'),'_self');\r\n                    allOptionsU.toggle();\r\n
+        \               });\r\n                \r\n                var allOptionsD
+        = $(\"ul.spatialDet\").children('li:not(.init)');\r\n                $(\"ul.spatialDet\").on(\"click\",
+        \"li:not(.init)\", function() {\r\n                    allOptionsD.removeClass('selected');\r\n
+        \                   $(this).addClass('selected');\r\n                    $(\"ul.spatialDet\").children('.init').html($(this).html());\r\n
+        \                   window.open($(this).attr('data-value'),'_self');\r\n                    allOptionsD.toggle();\r\n
+        \               });\r\n    \t\t</script> \r\n\r\n\t\r\n\r\n<style>\r\n    img.landing-image
+        {\n    content:url(\"../../images/Misc/HSC-DA-Plans.jpg\");\n}\n\n/*img.landing-image
+        {display:none;}*/\n\n.landing-page-image {\n    background: url(\"../../images/Misc/HSC-DA-Plans.jpg\");\n
+        \   background-size: cover;\n    background-repeat: no-repeat;\n    min-height:
+        7rem;\n}\n\n@media (min-width:48em) {\n    .landing-page-image {\n        min-height:
+        6rem;\n    }\n    \n}\nheader.main-header {\n    min-height: 6.9375rem;\n
+        \   background-color: white;\n    background: url(http://hscenquiry.hornsby.nsw.gov.au/Images/sliver.jpg);\n
+        \   background-size: cover;\n}\r\n</style>\r\n\r\n\r\n\t\r\n\t<div id='usrAgent'
+        style='font-size:8px;color:lightgray;line-height:9px;'>mechanize/2.7.6 ruby/2.5.1p57
+        (http://github.com/sparklemotion/mechanize/)</div>\r\n\r\n                            </div>\r\n
+        \                       </div>\r\n                    </div>\r\n                    <div
+        class=\"containerRight customMaster-Body main-containerRight-customMaster-Body\">\r\n
+        \                       <div class=\"containerInner main-containerInner-containerRight-customMaster-Body\">\r\n
+        \                           <div class=\"main-containerInner-padded-containerRight-customMaster-Body\">\r\n
+        \                               \r\n    <div class=\"padded\">\r\n        <div
+        id=\"ctl00_ctMain_pnlMain\">\r\n\t\r\n            \r\n<script type=\"text/javascript\">\r\n
+        \   $(document).ready(function(){\r\n        $(\".application\").autocomplete({\r\n
+        \           delay:300,\r\n            minLength:3,\r\n\t\t    source: function(request,
+        response){\r\n                $.ajax({\r\n                    type:'POST',\r\n
+        \                   url:'../../Common/Services/AutoComplete.aspx/GetAutoCompletePairList',\r\n
+        \                   data: '{\"sql\":\"~/Pages/XC.Track/Sql/ApplicationSearchXService.sql\",\"conn\":\"'
+        + 'Pathway' + '\",\"term\":\"' + request.term.toUpperCase() + '\"}',\r\n                    contentType:
+        \"application/json; charset=utf-8\",\r\n                    dataType: \"json\",\r\n
+        \                   success: function (data) {\r\n                        data
+        = data.d;\r\n                        response(data);\r\n                    }\r\n
+        \               });},\r\n            select: function (event, ui){\r\n                $('#loading').show();\r\n
+        \               $('.application').val(ui.item.label);\r\n                switch
+        (ui.item.value.substr(0,3)) {\r\n                    case 'aid': window.location
+        = 'SearchApplication.aspx?id=' + ui.item.value.substr(4); break;\r\n                    case
+        'pid': window.location = 'SearchApplication.aspx?pid=' + ui.item.value.substr(4)
+        + '&a=' + ui.item.label; break;\r\n                    default:window.location
+        = 'SearchApplication.aspx';\r\n                }\r\n                return
+        false;\r\n            },\r\n            focus: function (event, ui) {\r\n
+        \               $('.application').val(ui.item.label);\r\n                return
+        false;\r\n            }\r\n\t    });\r\n    });\r\n</script>\r\n\r\n<div id=\"ctl00_ctMain_search_pnlSearch\"
+        class=\"MainPanel\">\r\n\t\t\r\n    <h2>Application Search</h2>\r\n\t<div
+        class=\"hscAppSearch\">\r\n\t    <br />\nYou can search for an application
+        in a number of ways:\n<br />\n<br />\n<strong>1.\tBy typing the application
+        number</strong>\n<br />\ne.g. &nbsp;for DA/100/2015 you can just enter 100/2015
+        and a list of all applications matching this number will be displayed.&nbsp;
+        Select an application number from this list to display the application.<br
+        />\nor<br />\n<br />\n<strong>\n2.\tBy typing the property address</strong>\n<br
+        />\ne.g. for a property address you can just enter 296 Peats Ferry (or even
+        Peats Ferry) and a list of all addresses&nbsp;matching the address will be
+        displayed.&nbsp; Select an address from this list and a list of applications
+        for the address will be displayed.&nbsp;\n<br />\nor<br />\n<br />\n<strong>\n3.</strong>\tIf
+        you don&rsquo;t know the street or application number, simply <strong>select
+        the suburb from the list on the left hand side</strong> of this page\nwhich
+        will display the undetermined applications for that suburb.<br><br>\r\n\t
+        \   <input name=\"ctl00$ctMain$search$txtSearch\" type=\"text\" id=\"ctl00_ctMain_search_txtSearch\"
+        class=\"application clearable\" />\r\n\t    <input type=\"submit\" name=\"ctl00$ctMain$search$btnSearch\"
+        value=\"Search\" id=\"ctl00_ctMain_search_btnSearch\" class=\"buttonText buttonModify\"
+        />\r\n\t    <img id=\"loading\" src=\"../../Common/Common/Image.aspx?rid=loading03.gif\"
+        alt=\"loading\" style=\"display:none;\" />\r\n\t    <br />\r\n\t</div>\r\n\t<br
+        />By using this service you are agreeing to the <a href=\"TermsApplication.aspx\"
+        target=\"_blank\">terms and conditions</a>.  Note:  Maps and images shown
+        are sourced from Google and Council does not guarantee their accuracy.\r\n\t<br
+        />\r\n\r\n\t</div>\r\n<div id=\"showMap\" style=\"display:none;\" class=\"hscShowMap\">
+        \r\n    <br />   \r\n\t\r\n</div>\r\n\r\n\r\n\r\n        \r\n</div>\r\n        <div
+        id=\"ctl00_ctMain_d1\" class=\"shift\">\r\n            \r\n        </div>\r\n
+        \   </div>    \r\n\r\n                            </div>\r\n                        </div>\r\n
+        \                   </div>\r\n                </div>\r\n            </div>\r\n
+        \           <div class=\"footer customMaster-Footer\">\r\n                \r\n
+        \           </div>\r\n        </div>\r\n        \r\n        <script type=\"text/javascript\"
+        src=\"../../Common/Javascript/final.js\"></script>\r\n        <script type=\"text/javascript\"
+        src=\"../../Common/User/User.js\"></script>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?d=last14days&k=LodgementDate&o=xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=exdc4l5wnjmo3drbph5oinss
+      Host:
+      - hscenquiry.hornsby.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/xml; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Sun, 09 Jun 2019 15:36:37 GMT
       Content-Length:
       - '78764'
     body:
