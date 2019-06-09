@@ -1,10 +1,4 @@
 ---
-- council_reference: DA/102/2018/A
-  description: SECTION 4.55 (2) - ALTERATIONS & ADDITIONS TO A DWELLING HOUSE
-  date_received: '2019-05-24'
-  address: 104 Quarter Sessions Road WESTLEIGH NSW 2120
-  date_scraped: '2019-05-15'
-  info_url: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=910641
 - council_reference: DA/1046/2018/B
   description: SECTION 4.55 (1A) - CONSTRUCTION OF A TWO STOREY DWELLING HOUSE
   date_received: '2019-05-30'
@@ -38,12 +32,6 @@
   address: 95-97 Copeland Road BEECROFT NSW 2119
   date_scraped: '2019-05-15'
   info_url: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=912805
-- council_reference: DA/144/2019/A
-  description: SECTION 4.55 (1) - DWELLING HOUSE
-  date_received: '2019-05-24'
-  address: 124 Francis Greenway Drive CHERRYBROOK NSW 2126
-  date_scraped: '2019-05-15'
-  info_url: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=910671
 - council_reference: DA/1567/2014/A
   description: SECTION 4.55 (2) - ERECTION OF A NEW PRINCIPAL AND SECONDARY DWELLING
   date_received: '2019-05-27'
@@ -57,48 +45,6 @@
   address: 247 New Line Road DURAL NSW 2158
   date_scraped: '2019-05-15'
   info_url: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=907341
-- council_reference: DA/396/2019
-  description: DEMOLITION OF EXISTING DWELLING
-  date_received: '2019-05-24'
-  address: 6 Bancroft Avenue WEST PENNANT HILLS NSW 2125
-  date_scraped: '2019-05-15'
-  info_url: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=910661
-- council_reference: DA/397/2019
-  description: INCORRECTLY LODGED
-  date_received: '2019-05-24'
-  address: 156 Copeland Road BEECROFT NSW 2119
-  date_scraped: '2019-05-15'
-  info_url: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=910681
-- council_reference: DA/399/2019
-  description: CONSTRUCTION OF A NEW DWELLING HOUSE
-  date_received: '2019-05-24'
-  address: 3 Bridgeview Crescent THORNLEIGH NSW 2120
-  date_scraped: '2019-05-15'
-  info_url: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=910721
-- council_reference: DA/400/2019
-  description: SHOP FIT OUT
-  date_received: '2019-05-24'
-  address: 511 Pacific Highway MOUNT COLAH NSW 2079
-  date_scraped: '2019-05-15'
-  info_url: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=910733
-- council_reference: DA/402/2019
-  description: RESIDENTIAL ALTERATIONS & ADDITIONS
-  date_received: '2019-05-24'
-  address: 79 Old Berowra Road HORNSBY NSW 2077
-  date_scraped: '2019-05-15'
-  info_url: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=910853
-- council_reference: DA/403/2019
-  description: RESIDENTIAL ALTERATIONS & ADDITIONS - SWIMMING POOL - HERITAGE
-  date_received: '2019-05-24'
-  address: 51 Bundarra Avenue WAHROONGA NSW 2076
-  date_scraped: '2019-05-15'
-  info_url: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=910874
-- council_reference: DA/404/2019
-  description: CONSTRUCTION OF A SECONDARY DWELLING AND ANCILLARY STRUCTURES
-  date_received: '2019-05-24'
-  address: 83 Cheltenham Road CHELTENHAM NSW 2119
-  date_scraped: '2019-05-15'
-  info_url: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=910897
 - council_reference: DA/406/2019
   description: RESIDENTIAL ALTERATIONS & ADDITIONS - SWIMMING POOL
   date_received: '2019-05-27'
@@ -296,6 +242,25 @@
   address: 23 Berkeley Close BEROWRA HEIGHTS NSW 2082
   date_scraped: '2019-05-15'
   info_url: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=913189
+- council_reference: DA/461/2019
+  description: COMMERCIAL / RETAIL / OFFICE - SHADE SAILS x 4 IN CHILD CARE CENTRE
+  date_received: '2019-06-07'
+  address: 22 Quarry Road DURAL NSW 2158
+  date_scraped: '2019-05-15'
+  info_url: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=913414
+- council_reference: DA/462/2019
+  description: RESIDENTIAL - NEW SECOND OCCUPANCY - SECONDARY DWELLING - GRANNY FLAT
+  date_received: '2019-06-07'
+  address: 34 Dudley Street ASQUITH NSW 2077
+  date_scraped: '2019-05-15'
+  info_url: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=913454
+- council_reference: DA/463/2019
+  description: RESIDENTIAL - DEMOLITION OF EXISTING STRUCTURES - CONSTRUCTION OF 8
+    TOWNHOUSES
+  date_received: '2019-06-07'
+  address: 8 Galston Road HORNSBY NSW 2077
+  date_scraped: '2019-05-15'
+  info_url: http://hscenquiry.hornsby.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=913464
 - council_reference: DA/68/2019/A
   description: SECTION 4.55 (1A) - RESIDENTIAL ALTERATIONS & ADDITIONS - AWNING, ROOF
     & DECK
